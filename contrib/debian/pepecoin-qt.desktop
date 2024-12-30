@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Bonkcoin Core
+Comment=Connect to the Bonkcoin P2P Network
+Comment[de]=Verbinde mit dem Bonkcoin peer-to-peer Netzwerk
+Comment[fr]=Bonkcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bonkcoin, eşten eşe kriptografik sanal para birimi
+Exec=bonkcoin-qt %u
+Terminal=false
+Type=Application
+Icon=bonkcoin128
+MimeType=x-scheme-handler/bonkcoin;
+Categories=Office;Finance;

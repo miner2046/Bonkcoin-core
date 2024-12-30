@@ -1,0 +1,33 @@
+# /etc/conf.d/bonkcoind: config file for /etc/init.d/bonkcoind
+
+# Config file location
+#BONKCOIND_CONFIGFILE="/etc/bonkcoin/bonkcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BONKCOIND_USER)
+#BONKCOIND_PIDDIR="/var/run/bonkcoind"
+
+# What filename to give the pidfile
+#BONKCOIND_PIDFILE="${BONKCOIND_PIDDIR}/bonkcoind.pid"
+
+# Where to write bonkcoind data (be mindful that the blockchain is large)
+#BONKCOIND_DATADIR="/var/lib/bonkcoind"
+
+# User and group to own bonkcoind process
+#BONKCOIND_USER="bonkcoin"
+#BONKCOIND_GROUP="bonkcoin"
+
+# Path to bonkcoind executable
+#BONKCOIND_BIN="/usr/bin/bonkcoind"
+
+# Nice value to run bonkcoind under
+#BONKCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BONKCOIND_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for bonkcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BONKCOIND_SIGTERM_TIMEOUT=60

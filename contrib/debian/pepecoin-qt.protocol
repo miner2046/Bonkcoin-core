@@ -1,0 +1,11 @@
+[Protocol]
+exec=bonkcoin-qt '%u'
+protocol=bonkcoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

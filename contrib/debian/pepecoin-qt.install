@@ -1,0 +1,6 @@
+usr/local/bin/bonkcoin-qt usr/bin
+share/pixmaps/bonkcoin32.xpm usr/share/pixmaps
+share/pixmaps/bonkcoin16.xpm usr/share/pixmaps
+share/pixmaps/bonkcoin128.png usr/share/pixmaps
+debian/bonkcoin-qt.desktop usr/share/applications
+debian/bonkcoin-qt.protocol usr/share/kde4/services/
