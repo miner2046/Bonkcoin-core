@@ -15,7 +15,7 @@ The Bonkcoin Core software allows anyone to operate a node in the Bonkcoin block
 For information about the default fees used on the Bonkcoin network, please
 refer to the [fee recommendation](doc/fee-recommendation.md).
 
-**Website:** [bonkcoin.org](https://bonkcoin.org)
+**Website:** [bonkscoin.io](https://bonkscoin.io/)
 
 ## Dogecoin Differences
 
