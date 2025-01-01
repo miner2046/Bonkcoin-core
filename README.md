@@ -1,7 +1,7 @@
 <h1 align="center">
-<img src="https://i.imgur.com/DDkfI9i.png" alt="Bonkcoin" width="300"/>
+<img src="https://i.imgur.com/Dux97vT.png" alt="Bonkcoin" width="300"/>
 <br/><br/>
-Bonkcoin Core [BONC, Ᵽ]
+Bonkcoin Core [BONC]
 </h1>
 
 
