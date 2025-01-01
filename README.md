@@ -55,12 +55,12 @@ software.
 
 Main development resources:
 
-* [GitHub Projects](https://github.com/bonkcoinppc/bonkcoin/projects) is used to
+* [GitHub Projects](https://github.com/Bonkcoin/Bonkcoin-core/projects) is used to
   follow planned and in-progress work for upcoming releases.
-* [GitHub Discussion](https://github.com/bonkcoinppc/bonkcoin/discussions) is used
+* [GitHub Discussion](https://github.com/Bonkcoin/Bonkcoin-core/discussions) is used
   to discuss features, planned and unplanned, related to both the development of
   the Bonkcoin Core software, the underlying protocols and the BONC asset.
-* [BonkcoinDev subreddit](https://www.reddit.com/r/bonkcoindev/)
+
 
 ### Version strategy
 Version numbers are following ```major.minor.patch``` semantics.
@@ -80,11 +80,11 @@ There are 3 types of branches in this repository:
 ## Contributing 🤝
 
 If you find a bug or experience issues with this software, please report it
-using the [issue system](https://github.com/bonkcoinppc/bonkcoin/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5Bbug%5D+).
+using the [issue system](https://github.com/Bonkcoin/Bonkcoin-core/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5Bbug%5D+).
 
 Please see [the contribution guide](CONTRIBUTING.md) to see how you can
 participate in the development of Bonkcoin Core. There are often
-[topics seeking help](https://github.com/bonkcoinppc/bonkcoin/labels/help%20wanted)
+[topics seeking help](https://github.com/Bonkcoin/Bonkcoin-core/labels/help%20wanted)
 where your contributions will have high impact and get very appreciation.
 
 ## Communities 🐸
@@ -95,14 +95,14 @@ about Bonkcoin, give or ask for help, to share your project.
 
 Here are some places to visit:
 
-* [r/Bonkcoin](https://www.reddit.com/r/bonkcoin/)
-* [Discord](https://bonkcoin.org/discord)
-* [Telegram](https://t.me/BonkcoinGroup)
-* [Twitter/X](https://twitter.com/BonkcoinNetwork)
+
+* [Discord](https://discord.gg/ynMKvKc5)
+* [Website](https://bonkscoin.io/)
+
 
 ## Frequently Asked Questions ❓
 
-Do you have a question regarding Bonkcoin? An answer is perhaps already in the [FAQ](doc/FAQ.md) or the [Q&A section](https://github.com/bonkcoinppc/bonkcoin/discussions/categories/q-a) of the discussion board!
+Do you have a question regarding Bonkcoin? An answer is perhaps already in the [FAQ](doc/FAQ.md) or the [Q&A section](https://github.com/Bonkcoin/Bonkcoin-core/discussions/categories/q-a) of the discussion board!
 
 ## License ⚖️
 Bonkcoin Core is released under the terms of the MIT license. See
