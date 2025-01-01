@@ -23,7 +23,7 @@ Bonkcoin is a fork of Dogecoin. For the sake of familiarity, we will attempt to 
 
 Changes:
 
-* Addresses start with `P` instead of `D`
+* Addresses start with `B` instead of `D`
 * BIPS features will start block 1000
 * AuxPow starts at block 42,000 (Chain ID: 63)
 * GUI themed for Bonkcoin
