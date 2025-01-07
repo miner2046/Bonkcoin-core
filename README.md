@@ -5,8 +5,7 @@ Bonkcoin Core [BONC]
 </h1>
 
 
-
-Bonkcoin is a community focused cryptocurrency created by one of the original Dogecoin shibes from 2013. It was created for one purpose, to create a new and fun community just like the original Dogecoin community.
+BonkCoin introduces an innovative world of meme-inspired cryptocurrency, blending humor with blockchain technology. It is created to bring joy, entertainment, and interaction to the crypto community. Operating on a decentralized, community-focused ecosystem, BonkCoin seeks to merge the excitement of memes with the advancements of blockchain.
 
 Unlike all iterations before it, Bonkcoin is a layer 1 coin. This means there are no liquidity pools to drain, no blacklisting wallets, and no confusing smart contracts. Bonkcoin is a simple blockchain.
 
@@ -28,11 +27,69 @@ Changes:
 * AuxPow starts at block 42,000 (Chain ID: 63)
 * GUI themed for Bonkcoin
 
+* Coin Name    : BonkCoin
+* Coin ticker  : BONC
+* Algorithm    : Scrypt
+* Block Time   : 60 seconds
+* Explorer 1   : https://explorer.bonkscoin.io/
+* Explorer 2   : https://bonkscan.net/ 
+* github       : https://github.com/Bonkcoin/Bonkcoin-core/
+* Wallet       : https://github.com/Bonkcoin/Bonkcoin-core/releases/tag/wallet
+
+
 ## Usage 💻
 
 To start your journey with Bonkcoin Core, see the [installation guide](INSTALL.md) and the [getting started](doc/getting-started.md) tutorial.
 
 The JSON-RPC API provided by Bonkcoin Core is self-documenting and can be browsed with `bonkcoin-cli help`, while detailed information for each command can be viewed with `bonkcoin-cli help <command>`. Alternatively, see the [Bitcoin Core documentation](https://developer.bitcoin.org/reference/rpc/) - which implement a similar protocol - to get a browsable version.
+
+
+
+<font face="Verdana"><b>### Block Rewards Distribution</b></font><br>
+&nbsp;</p>
+<table border="1" width="46%">
+	<tr>
+		<td width="230"><b>Starting Block</b></td>
+		<td width="270"><b>End Block</b></td>
+		<td><b>Rewards</b></td>
+	</tr>
+	<tr>
+		<td width="230">1</td>
+		<td width="270">99,999</td>
+		<td>500,000</td>
+	</tr>
+	<tr>
+		<td width="230">100,000</td>
+		<td width="270">199,999</td>
+		<td>250,000</td>
+	</tr>
+	<tr>
+		<td width="230">200,000</td>
+		<td width="270">299,999</td>
+		<td>125,000</td>
+	</tr>
+	<tr>
+		<td width="230">300,000</td>
+		<td width="270">399,999</td>
+		<td>62,500</td>
+	</tr>
+	<tr>
+		<td width="230">400,000</td>
+		<td width="270">499,999</td>
+		<td>31,250</td>
+	</tr>
+	<tr>
+		<td width="230">500,000</td>
+		<td width="270">599,999</td>
+		<td>15,625</td>
+	</tr>
+	<tr>
+		<td width="230">600,000</td>
+		<td width="270">unlimited supply</td>
+		<td>10,000</td>
+	</tr>
+</table>
+
 
 ### Ports
 
@@ -101,6 +158,11 @@ Here are some places to visit:
 * [Telegram](https://t.me/bonkscoin)
 * [X](https://x.com/bonkcoinpow)
 
+## Future Plan
+
+- More marketing
+- More development
+- Everything need to make BonkCoin to the moon
 
 
 ## Frequently Asked Questions ❓
