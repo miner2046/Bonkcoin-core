@@ -80,15 +80,15 @@ parts:
   bonkcoin:
     plugin: nil
     override-build: |
-      echo "This script is viewable at https://github.com/bonkcoinppc/bonkcoin/blob/master/contrib/snap/snapcraft.yaml"
+      echo "This script is viewable at https://github.com/Bonkcoin/bonkcoin/blob/master/contrib/snap/snapcraft.yaml"
       echo "Downloading files..."
       if [ "$CRAFT_ARCH_TRIPLET" = "i386-linux-gnu" ]; then # snap designates 32-bit as i386, but bonkcoin designates it as i686
         BUILD_ARCH_TRIPLET=i686-pc-linux-gnu
       else
         BUILD_ARCH_TRIPLET=$CRAFT_ARCH_TRIPLET
       fi
-      wget https://github.com/bonkcoinppc/bonkcoin/releases/download/v${SNAPCRAFT_PROJECT_VERSION}/bonkcoin-${SNAPCRAFT_PROJECT_VERSION}-${BUILD_ARCH_TRIPLET}.tar.gz
-      wget https://github.com/bonkcoinppc/gitian.sigs/archive/refs/heads/master.tar.gz
+      wget https://github.com/Bonkcoin/bonkcoin/releases/download/v${SNAPCRAFT_PROJECT_VERSION}/bonkcoin-${SNAPCRAFT_PROJECT_VERSION}-${BUILD_ARCH_TRIPLET}.tar.gz
+      wget https://github.com/Bonkcoin/gitian.sigs/archive/refs/heads/master.tar.gz
       tar -xvf master.tar.gz
       echo "Verifying secure hash matches signed values..."
       checksum=$(sha256sum bonkcoin-${SNAPCRAFT_PROJECT_VERSION}-${BUILD_ARCH_TRIPLET}.tar.gz)
@@ -106,7 +106,7 @@ parts:
       else
         echo "Bonkcoin tests passed."
       fi
-      wget https://raw.githubusercontent.com/bonkcoinppc/bonkcoin/v${SNAPCRAFT_PROJECT_VERSION}/doc/release-notes.md
+      wget https://raw.githubusercontent.com/Bonkcoin/bonkcoin/v${SNAPCRAFT_PROJECT_VERSION}/doc/release-notes.md
       cat release-notes.md
       echo "Installing Bonkcoin Core..."
       echo "Version ${SNAPCRAFT_PROJECT_VERSION}"
@@ -117,7 +117,7 @@ parts:
       install -m 0755 -D -t $CRAFT_PART_INSTALL/bin bonkcoin-${SNAPCRAFT_PROJECT_VERSION}/bin/bonkcoin-cli
       install -m 0755 -D -t $CRAFT_PART_INSTALL/bin bonkcoin-${SNAPCRAFT_PROJECT_VERSION}/bin/bonkcoin-tx
       install -m 0755 -D -t $CRAFT_PART_INSTALL/bin bonkcoin-${SNAPCRAFT_PROJECT_VERSION}/bin/test_bonkcoin
-      wget https://raw.githubusercontent.com/bonkcoinppc/bonkcoin/master/share/pixmaps/bonkcoin128.png
+      wget https://raw.githubusercontent.com/Bonkcoin/bonkcoin/master/share/pixmaps/bonkcoin128.png
       install -m 0644 -D -t $CRAFT_PART_INSTALL/share/pixmaps bonkcoin128.png
     build-packages:
       - wget

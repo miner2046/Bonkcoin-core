@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/bonkcoinppc/bonkcoin-detached-sigs.git"
+- "url": "https://github.com/Bonkcoin/bonkcoin-detached-sigs.git"
   "dir": "signature"
 files:
 - "bonkcoin-osx-unsigned.tar.gz"

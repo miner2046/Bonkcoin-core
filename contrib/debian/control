@@ -26,9 +26,9 @@ Build-Depends: debhelper,
  python,
  libzmq3-dev
 Standards-Version: 3.9.2
-Homepage: https://bonkcoin.org/
-Vcs-Git: git://github.com/bonkcoinppc/bonkcoin.git
-Vcs-Browser: http://github.com/bonkcoinppc/bonkcoin
+Homepage: https://bonkscoin.io/
+Vcs-Git: git://github.com/Bonkcoin/bonkcoin.git
+Vcs-Browser: http://github.com/Bonkcoin/bonkcoin
 
 Package: bonkcoind
 Architecture: any

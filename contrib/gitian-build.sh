@@ -13,7 +13,7 @@ SIGN_DESCRIPTORS=('win-signer' 'osx-signer')
 export USE_DOCKER=0
 export USE_LXC=0
 
-# BONC TODO Change these urls to bonkcoin.org and add a depends subdomain which will do what this does
+# BONC TODO Change these urls to bonkscoin.io and add a depends subdomain which will do what this does
 # Dependencies
 ossPatchUrl="https://depends.dogecoincore.org/osslsigncode-Backports-to-1.7.1.patch"
 ossPatchHash="a8c4e9cafba922f89de0df1f2152e7be286aba73f78505169bc351a7938dd911"
@@ -37,7 +37,7 @@ test=false
 # Other Basic variables
 SIGNER=
 VERSION=
-url=https://github.com/bonkcoinppc/bonkcoin
+url=https://github.com/Bonkcoin/Bonkcoin-core
 proc=2
 mem=2000
 scriptName=$(basename -- "$0")
@@ -70,7 +70,7 @@ Options:
 -j proc             Number of processes to use. Default $proc
 -m n                Memory to allocate in MiB. Default $mem
 -c|--commit         Indicate that the version argument is for a commit or branch
--u|--url repo       Specify the URL of the repository. Default is https://github.com/bonkcoinppc/bonkcoin
+-u|--url repo       Specify the URL of the repository. Default is https://github.com/Bonkcoin/bonkcoin
 --test              CI TEST. Uses Docker
 -h|--help           Print this help message
 EOF
@@ -258,8 +258,8 @@ fi
 ### Setup ###
 
 if [[ $setup == true ]]; then
-    git clone https://github.com/bonkcoinppc/gitian.sigs.git
-    git clone https://github.com/bonkcoinppc/bonkcoin-detached-sigs.git
+    git clone https://github.com/Bonkcoin/gitian.sigs.git
+    git clone https://github.com/Bonkcoin/bonkcoin-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
 
     pushd ./gitian-builder

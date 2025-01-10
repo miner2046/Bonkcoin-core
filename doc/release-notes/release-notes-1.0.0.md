@@ -51,7 +51,7 @@
 
 * Generate Bonkcoin man pages
 * Add `--with-gui` to `build-windows.md` instructions
-* Change website url to bonkcoin.org
+* Change website url to bonkscoin.io
 * Change ticker symbol from `PPC` to `BONC` in `readme.md`, man pages, and `amount.cpp`
 * Update `assets-attribution.md`
 * Update `gen-manpages.sh` to target the bash shell

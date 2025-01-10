@@ -82,7 +82,7 @@ public:
         consensus.nMajorityWindow = 2000;
         // BIP34 is never enforced in bonk v2 blocks, so we enforce from v3
         consensus.BIP34Height = 1000;
-        consensus.BIP34Hash = uint256S("0x00"); //BONC TODO: Replace this with block 1000 hash after mainnet launches
+        consensus.BIP34Hash = uint256S("0xd6c923ba1b096044c36b4510167f3be116c2c92cdf1200020568eb69521f4364"); //BONC TODO: Replace this with block 1000 hash after mainnet launches
         consensus.BIP65Height = 1000;
         consensus.BIP66Height = 1000;
         consensus.powLimit = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
@@ -111,10 +111,9 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 0; // Disabled
 
         // The best chain should have at least this much work.
-        //consensus.nMinimumChainWork = uint256S("0000000000000000000000000000000000000000000000014c0089faf46fdf69"); // 40477
-	    consensus.nMinimumChainWork = uint256S("0000000000000000000000000000000000000000000000000000000000010001");// Start
+	    consensus.nMinimumChainWork = uint256S("0000000000000000000000000000000000000000000000000566dfa0f9595b01");// block 10000
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0bb0f2e668c363e321c208d756d3a4bde76e82e45e76d00538c3e9b05389f5ed"); // 300
+        consensus.defaultAssumeValid = uint256S("0xefa7a5149e3de58893dd9a13d591b9a0f05fe612ef13475b5f18b599bcddea31"); // block 10000
 
         // AuxPoW parameters
         consensus.nAuxpowChainId = 0x0094; // 148
@@ -162,7 +161,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x3ea754d80173ccb0f19377e9a98d41e7d597dd77ce827b121f655a421216592b"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        // vSeeds.push_back(CDNSSeedData("bonkinucoin.net", "seeds.bonkinucoin.net"));
+        vSeeds.push_back(CDNSSeedData("bonkscoin.io", "dnsseed.bonkscoin.io"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,25); // Addresses start with S
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,28);
@@ -180,6 +179,11 @@ public:
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
             ( 0, uint256S("0x0bb0f2e668c363e321c208d756d3a4bde76e82e45e76d00538c3e9b05389f5ed"))
+            ( 1000, uint256S("0xd6c923ba1b096044c36b4510167f3be116c2c92cdf1200020568eb69521f4364"))
+            ( 3000, uint256S("0x1ffb4edd1aa7ef0082bff3fc728c1df35db83ace7987ac88263c5e345c86c76b"))
+            ( 5000, uint256S("0x6e65e4c06e91ee5d14b7dc28d28dffe61e0772e6321119383c4451807092463a"))
+            ( 9000, uint256S("0x59fdc654f62621f57ee9ab47050cab604c6e88da5f755ce87304763a71d217e1"))
+            ( 10000, uint256S("0xefa7a5149e3de58893dd9a13d591b9a0f05fe612ef13475b5f18b599bcddea31"))
         };
 
         chainTxData = ChainTxData{ };
@@ -311,7 +315,7 @@ public:
 
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        // vSeeds.push_back(CDNSSeedData("bonkcoin.org", "seeds-testnet.bonkcoin.org"));
+        // vSeeds.push_back(CDNSSeedData("bonkscoin.io", "seeds-testnet.bonkscoin.io"));
         // vSeeds.push_back(CDNSSeedData("bonkblocks.com", "seeds-testnet.bonkblocks.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,113); // 0x71
