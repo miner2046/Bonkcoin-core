@@ -82,7 +82,7 @@ public:
         consensus.nMajorityWindow = 2000;
         // BIP34 is never enforced in bonk v2 blocks, so we enforce from v3
         consensus.BIP34Height = 1000;
-        consensus.BIP34Hash = uint256S("0xd6c923ba1b096044c36b4510167f3be116c2c92cdf1200020568eb69521f4364"); //BONC TODO: Replace this with block 1000 hash after mainnet launches
+        consensus.BIP34Hash = uint256S("0xd6c923ba1b096044c36b4510167f3be116c2c92cdf1200020568eb69521f4364"); // block 1000
         consensus.BIP65Height = 1000;
         consensus.BIP66Height = 1000;
         consensus.powLimit = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
