@@ -5,6 +5,7 @@ This is a new minor release which includes improvements from recent Dogecoin rel
 #### Technical Changes
 
 * Fixed wrong explorer in windows qt
+* Fixed typo
 
 #### Design Changes
 
