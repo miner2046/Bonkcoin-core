@@ -45,7 +45,7 @@
 * Create new `about.png` with a Bonkcoin logo
 * Add new design for `paper_wallet.png`
 * Remove Dogecoin explorer urls
-* Update tx urls in gui to point to the Bonkcoin blockchain explorer PepeExplorer.com
+* Update tx urls in gui to point to the Bonkcoin blockchain explorer explorer.bonkscoin.io
 
 ####Documentation
 
