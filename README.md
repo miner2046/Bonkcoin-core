@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://i.imgur.com/Dux97vT.png" alt="Bonkcoin" width="300"/>
+<img src="https://i.imgur.com/d9a8NfA.png" alt="Bonkcoin" width="300"/>
 <br/><br/>
 Bonkcoin Core [BONC]
 </h1>
