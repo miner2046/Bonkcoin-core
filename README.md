@@ -153,7 +153,7 @@ about Bonkcoin, give or ask for help, to share your project.
 Here are some places to visit:
 
 
-* [Discord](https://discord.gg/7rauZW3EWV)
+* [Discord](https://discord.gg/rqtkgwsk6j)
 * [Website](https://bonkscoin.io/)
 * [Telegram](https://t.me/bonkscoin)
 * [X](https://x.com/bonkcoinpow)
