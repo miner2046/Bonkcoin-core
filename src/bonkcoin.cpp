@@ -1,4 +1,5 @@
 // Copyright (c) 2015-2021 The Dogecoin Core developers
+// Copyright (c) 2024-2025 The Bonkcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -141,20 +142,20 @@ CAmount GetBonkcoinBlockSubsidy(int nHeight, const Consensus::Params& consensusP
     else 
     {
         // New-style constant rewards based on block height
-        if (nHeight < 100000)
+        if (nHeight < 50000)
             return 500000 * COIN;
-        else if (nHeight < 200000)
+        else if (nHeight < 100000)
             return 250000 * COIN;
-        else if (nHeight < 300000)
+        else if (nHeight < 150000)
             return 125000 * COIN;
-        else if (nHeight < 400000)
+        else if (nHeight < 200000)
             return 62500 * COIN;
-        else if (nHeight < 500000)
+        else if (nHeight < 250000)
             return 31250 * COIN;
-        else if (nHeight < 600000)
+        else if (nHeight < 300000)
             return 15625 * COIN;
         else
-            return 10000 * COIN; // Constant inflation for blocks >= 600,000
+            return 10000 * COIN; // Constant inflation for blocks >= 300,000
     }
 }
 

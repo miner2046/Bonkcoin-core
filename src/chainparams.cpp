@@ -1,6 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2016 The Bitcoin Core developers
 // Copyright (c) 2022 The Dogecoin Core developers
+// Copyright (c) 2024-2025 The Bonkcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -76,7 +77,7 @@ public:
     CMainParams() {
         strNetworkID = "main";
 
-        consensus.nSubsidyHalvingInterval = 100000;
+        consensus.nSubsidyHalvingInterval = 50000;
         consensus.nMajorityEnforceBlockUpgrade = 1500;
         consensus.nMajorityRejectBlockOutdated = 1900;
         consensus.nMajorityWindow = 2000;
@@ -111,9 +112,9 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 0; // Disabled
 
         // The best chain should have at least this much work.
-	    consensus.nMinimumChainWork = uint256S("000000000000000000000000000000000000000000000000a677f6b48ae8a657");// block 20000
+	    consensus.nMinimumChainWork = uint256S("00000000000000000000000000000000000000000000000122335cfbccdc9b8b"); // 30000
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x5a06ceffe745f7d75723801dfe25ccf15584ccd34c9a6169119f9808e870359a"); // block 20000
+        consensus.defaultAssumeValid = uint256S("0xa65abe66fa44d375f71bc80fe2d98024261d4e2c1e61f40d6ce627c7971523b5"); // 30000
 
         // AuxPoW parameters
         consensus.nAuxpowChainId = 0x0094; // 148
@@ -185,6 +186,7 @@ public:
             ( 9000, uint256S("0x59fdc654f62621f57ee9ab47050cab604c6e88da5f755ce87304763a71d217e1"))
             ( 10000, uint256S("0xefa7a5149e3de58893dd9a13d591b9a0f05fe612ef13475b5f18b599bcddea31"))
             ( 20000, uint256S("0x5a06ceffe745f7d75723801dfe25ccf15584ccd34c9a6169119f9808e870359a"))
+            ( 30000, uint256S("0xa65abe66fa44d375f71bc80fe2d98024261d4e2c1e61f40d6ce627c7971523b5"))
         };
 
         chainTxData = ChainTxData{ };
