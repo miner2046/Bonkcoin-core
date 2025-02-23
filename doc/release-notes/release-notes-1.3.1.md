@@ -4,22 +4,22 @@ This is a new minor release which includes improvements Various security fixes r
 
 All users on all platforms, are **strongly recommended** to upgrade.
 
-####Technical Changes
+#### Technical Changes
 * Various security fixes
 * Resolving test-build error (currently disable it for now), will eventually fix it in the next release
 * Add halving change to block 50k from block 100k into protocol, will later kick the old node out in the next release
 * New checkpoint
 
-####Design Changes
+#### Design Changes
 * Add German, Persian, French, Portuguese, Vietnamese, Chinese and Japanese translations for README.md
 
-####Other changes
+#### Other changes
 * We have merged our pepe + doge history, this is how transparency we are
 
-####Improve dialogues
+#### Improve dialogues
 * Minor UI update
 
-####Credits
+#### Credits
 * Mamafunny
 * Everyone on Pepeteam
 * Denz8ty
