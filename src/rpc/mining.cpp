@@ -718,14 +718,37 @@ UniValue getblocktemplate(const JSONRPCRequest& request)
     result.pushKV("coinbaseaux", aux);
     result.pushKV("coinbasevalue", (int64_t)pblock->vtx[0]->vout[0].nValue);
 
+    UniValue developerObj(UniValue::VOBJ); // Create a nested JSON object for developer fee details
     CAmount nDeveloperFeeStart = Params().DeveloperFeeStart();
-    if(pindexPrev->nHeight+1 >= nDeveloperFeeStart) {
-    result.pushKV("DeveloperFeeAddress", Params().DeveloperFeeAddress());
-    result.pushKV("DeveloperFeeAmount", (int64_t)pblock->vtx[0]->vout[1].nValue);
+
+    // Check if developer fees are activated
+    if (pindexPrev->nHeight + 1 >= nDeveloperFeeStart) {
+        // Extract developer fee details from the coinbase transaction
+        if (pblock->vtx[0]->vout.size() > 1) { // Ensure the developer output exists
+            CTxDestination address;
+            ExtractDestination(pblock->vtx[0]->vout[1].scriptPubKey, address);
+            CBitcoinAddress address2(address);
+
+            // Add developer fee details to the nested JSON object
+            developerObj.pushKV("payee", address2.ToString());
+            developerObj.pushKV("script", HexStr(pblock->vtx[0]->vout[1].scriptPubKey.begin(), pblock->vtx[0]->vout[1].scriptPubKey.end()));
+            developerObj.pushKV("amount", (int64_t)pblock->vtx[0]->vout[1].nValue);
+        } else {
+            // If the developer output is missing, add placeholder values
+            developerObj.pushKV("payee", "Developer Fee Not Found");
+            developerObj.pushKV("script", "");
+            developerObj.pushKV("amount", 0);
+        }
     } else {
-        result.pushKV("DeveloperFeeAddress", "Developer Fee Not Activated");
-        result.pushKV("DeveloperFeeAmount", "Developer Fee Not Activated");
+        // If developer fees are not activated, add placeholder values
+        developerObj.pushKV("payee", "Developer Fee Not Activated");
+        developerObj.pushKV("script", "");
+        developerObj.pushKV("amount", 0);
     }
+
+    // Add the developer object to the result
+    result.pushKV("developer", developerObj);
+    result.pushKV("developer_fees_started", pindexPrev->nHeight + 1 >= nDeveloperFeeStart);
 
     result.pushKV("longpollid", chainActive.Tip()->GetBlockHash().GetHex() + i64tostr(nTransactionsUpdatedLast));
     result.pushKV("target", hashTarget.GetHex());
