@@ -6,7 +6,7 @@ Bonkcoin Core [BONC, B]
 
 Select language: EN | [CN](./README_zh_CN.md) | [PT](./README_pt_BR.md) | [FA](./README_fa_IR.md) | [VI](./README_vi_VN.md) | [FR](./README_fr_FR.md) | [JA](./README_ja_JP.md) | [DE](./README_de_DE.md)
 
-Bonkcoin is a community focused cryptocurrency created by one of the original Dogecoin shibes from 2013. It was created for one purpose, to create a new and fun community just like the original Dogecoin community.
+Bonkcoin is a community focused cryptocurrency. It was created for one purpose, to create a new and fun community just like the original Dogecoin community.
 
 Unlike all iterations before it, Bonkcoin is a layer 1 coin. This means there are no liquidity pools to drain, no blacklisting wallets, and no confusing smart contracts. Bonkcoin is a simple blockchain.
 
