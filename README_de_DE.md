@@ -9,7 +9,7 @@ Sprache ändern: [EN](./README.md) | [CN](./README_zh_CN.md) | [PT](./README_pt_
 
 
 
-Bonkcoin, erstellt von einem der ursprünglichen Dogecoin-Shibes, ist eine Community-fokussierte Kryptowährung, mit dem Ziel, eine neue und spaßige Community, ähnlich der ursprünglichen Dogecoin-Community, zu schaffen.
+Bonkcoin ist eine Community-orientierte Kryptowährung. Sie wurde mit einem einzigen Ziel geschaffen: eine neue, spaßige Community wie die ursprüngliche Dogecoin-Community aufzubauen.
 
 Im Gegensatz zu allen vorherigen Iterationen ist Bonkcoin ein Layer-1 Coin. 
 Das bedeutet, es gibt keine Liquiditätspools, keine Sperrung von Wallets und keine verwirrenden Smart Contracts. 
