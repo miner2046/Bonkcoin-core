@@ -6,7 +6,7 @@ Bonkcoin Core [BONC, B]
 
 选择语言: [EN](./README.md) | CN | [PT](./README_pt_BR.md) | [FA](./README_fa_IR.md) | [VI](./README_vi_VN.md) | [FR](./README_fr_FR.md) | [JA](./README_ja_JP.md) | [DE](./README_ger_DE.md)
 
-Bonkcoin是由2013年原始Dogecoin shibes之一创建的社区关注的加密货币。它被创建出于一个目的，就是创建一个像原始Dogecoin社区一样新奇有趣的社区。
+Bonkcoin 是一个以社区为核心的加密货币。它的诞生只有一个目的：打造一个像最初的 Dogecoin 社区那样新奇又有趣的社区。
 
 与之前的所有版本不同，Bonkcoin是一个第一层的硬币。这意味着没有流动性池可以耗尽，没有列入黑名单的钱包，也没有令人困惑的智能合约。Bonkcoin是一个简单的区块链。
 
