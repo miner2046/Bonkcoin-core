@@ -6,7 +6,7 @@ Nhân Tố Bonkcoin [BONC, B]
 
 Chọn ngôn ngữ: [EN](./README.md)| [CN](./README_zh_CN.md) | [PT](./README_pt_BR.md) | [FA](./README_fa_IR.md) | VI | [FR](./README_fr_FR.md) | [JA](./README_ja_JP.md) | [DE](./README_de_DE.md)
 
-Bonkcoin là một loại tiền điện tử tập trung vào cộng đồng được tạo ra bởi một trong những người sáng tạo Dogecoin ban đầu từ năm 2013. Nó được tạo ra với một mục đích, để tạo ra một cộng đồng mới và vui vẻ giống như cộng đồng Dogecoin ban đầu.
+Bonkcoin là một loại tiền điện tử tập trung vào cộng đồng. Nó được tạo ra với một mục tiêu duy nhất: xây dựng một cộng đồng mới và vui vẻ giống như cộng đồng Dogecoin ban đầu.
 
 Không giống như các phiên bản trước đó, Bonkcoin là một loại tiền tệ tầng 1. Điều này có nghĩa là không có hồ bơi thanh khoản để tiêu tốn, không có ví tiền bị đen danh sách và không có hợp đồng thông minh phức tạp. Bonkcoin là một chuỗi khối đơn giản.
 
