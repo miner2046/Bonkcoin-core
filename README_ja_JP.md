@@ -6,7 +6,7 @@ Bonkcoin Core [BONC, B]
 
 言語を選択: [EN](./README.md) | [CN](./README_zh_CN.md) | [PT](./README_pt_BR.md) | [FA](./README_fa_IR.md) | [VI](./README_vi_VN.md) | [FR](./README_fr_FR.md) | JA | [DE](./README_de_DE.md)
 
-Bonkcoinは、2013年のオリジナルのDogecoin shibesの1人によって作成されたコミュニティに焦点を当てた暗号通貨です。これは、オリジナルのDogecoinコミュニティと同じように、新しくて楽しいコミュニティを作成するために作成されました。
+Bonkcoinは、コミュニティに焦点を当てた暗号通貨です。オリジナルのDogecoinコミュニティのように、新しくて楽しいコミュニティを作ることを目的として作られました。
 
 以前のすべてのバージョンとは異なり、Bonkcoinはレイヤー1のコインです。これは、排水する流動性プールがなく、ブラックリストに登録されたウォレットがなく、混乱するスマートコントラクトがないことを意味します。Bonkcoinはシンプルなブロックチェーンです。
 
