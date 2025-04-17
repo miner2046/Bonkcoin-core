@@ -88,7 +88,7 @@ public:
         consensus.BIP65Height = 1000;
         consensus.BIP66Height = 1000;
         consensus.powLimit = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
-        consensus.nPowTargetTimespan = 60; // 1 minute
+        consensus.nPowTargetTimespan = 600; // 1 minute
         consensus.nPowTargetSpacing = 60; // 1 minute
         consensus.fDigishieldDifficultyCalculation = true;
         consensus.nCoinbaseMaturity = 10;
@@ -172,7 +172,8 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x3ea754d80173ccb0f19377e9a98d41e7d597dd77ce827b121f655a421216592b")); // markle hash of the network genesis block mainnet
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.push_back(CDNSSeedData("seed.friccoin.org", "seed.friccoin.org"));
+        vSeeds.push_back(CDNSSeedData("seed1.friccoin.org", "seed1.friccoin.org"));
+        vSeeds.push_back(CDNSSeedData("seed2.friccoin.org", "seed2.friccoin.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,35); // Addresses start with B
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,28);
