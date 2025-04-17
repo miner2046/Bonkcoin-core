@@ -118,7 +118,7 @@ public:
         consensus.defaultAssumeValid = uint256S("0x284490be01e1d2f531baee3d7b84ae716f6f83aed21a35d2cbdd066a0a24ce4b"); // 60000
 
         // AuxPoW parameters
-        consensus.nAuxpowChainId = 0x0094; // 148
+        consensus.nAuxpowChainId = 0x0074; // 148
         consensus.fStrictChainId = true;
         consensus.fAllowLegacyBlocks = true;
         consensus.nHeightEffective = 0;
@@ -130,7 +130,7 @@ public:
         digishieldConsensus.fSimplifiedRewards = true;
         digishieldConsensus.fDigishieldDifficultyCalculation = true;
         digishieldConsensus.nPowTargetTimespan = 60; // post-digishield: 1 minute
-        digishieldConsensus.nCoinbaseMaturity = 240;
+        digishieldConsensus.nCoinbaseMaturity = 10;
 
         // Blocks 42,000+ are AuxPoW
         // Some tests from Dogecoin expect non-auxpow blocks. This allows those tests to pass.
@@ -139,7 +139,7 @@ public:
         auxpowConsensus.fAllowLegacyBlocks = false;
 
         // 15% of Block reward to operations wallet
-        nDeveloperFee = 15;
+        nDeveloperFee = 0;
 
         // This is the block height when the devfee starts working
         nDeveloperFeeStart = 100500;
