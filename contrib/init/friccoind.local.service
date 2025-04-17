@@ -7,7 +7,7 @@
 #/var/local/friccoin/
 
 [Unit]
-Description=Bonkcoin's distributed currency daemon
+Description=Friccoin's distributed currency daemon
 After=network.target
 
 [Service]

@@ -1,10 +1,10 @@
-# Installing Bonkcoin Core
+# Installing Friccoin Core
 
 ### Pre-compiled binaries
 
-The easiest way to install the latest version of the Bonkcoin Core software is
+The easiest way to install the latest version of the Friccoin Core software is
 by to download the latest precompiled binaries for your platform from the
-[release page](https://github.com/Bonkcoin/Bonkcoin-core/releases). Currently,
+[release page](https://github.com/Friccoin/Friccoin-core/releases). Currently,
 binaries are released for the following platforms:
 
 - Windows, 64-bit and 32-bit
@@ -38,15 +38,15 @@ compiling from source, see the chapters below for more information.
 
 ### Compiling using packaged dependencies
 
-It is possible to build your own copy of Bonkcoin Core with the exact, tested,
+It is possible to build your own copy of Friccoin Core with the exact, tested,
 dependencies, as used for the binary releases, by using the
 [depends system](depends/description.md). Please refer to the
-[depends README](depends/README.md) for instructions to build Bonkcoin using
+[depends README](depends/README.md) for instructions to build Friccoin using
 these dependencies.
 
 ### Compiling using system-provided libraries
 
-  The following are developer notes on how to build Bonkcoin on your native
+  The following are developer notes on how to build Friccoin on your native
   platform, using the dependencies as provided by your system's package manager.
   Before starting, ensure your system is updated and has the latest security patches.
   Outdated libraries can render the entire system, including Dogecoin Core, vulnerable.
@@ -55,7 +55,7 @@ these dependencies.
 
   - [Unix Build Notes](doc/build-unix.md)
   - [Windows Build Notes](doc/build-windows.md)
-  - [macOS Build Notes](doc/Building-Bonkcoin-1.14-for-Mac.md)
+  - [macOS Build Notes](doc/Building-Friccoin-1.14-for-Mac.md)
 
 ### Testing
 
@@ -95,7 +95,7 @@ that run in `-regtest` mode.
 
 **DEBUG_LOCKORDER**
 
-Bonkcoin Core is a multithreaded application, and deadlocks or other multithreading bugs
+Friccoin Core is a multithreaded application, and deadlocks or other multithreading bugs
 can be very difficult to track down. Compiling with `-DDEBUG_LOCKORDER` (`configure
 CXXFLAGS="-DDEBUG_LOCKORDER -g"`) inserts run-time checks to keep track of which locks
 are held, and adds warnings to the debug.log file if inconsistencies are detected.

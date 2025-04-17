@@ -1,4 +1,4 @@
-## Bonkcoin Core 1.2 Release Notes
+## Friccoin Core 1.2 Release Notes
 
 This is a new minor release which includes improvements from recent Dogecoin releases. All users are **strongly recommended** to upgrade.
 
@@ -9,7 +9,7 @@ This is a new minor release which includes improvements from recent Dogecoin rel
 
 #### Design Changes
 
-* Update P logo for "About Bonkcoin Core" in the help menu
+* Update P logo for "About Friccoin Core" in the help menu
 
 #### Credits
 

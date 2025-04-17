@@ -1,17 +1,17 @@
-Bonkcoin-Gebührenempfehlung
+Friccoin-Gebührenempfehlung
 ----------------------------
 
 _zuletzt aktualisiert für 1.0.0_
 
-Die Bonkcoin-Kette hat ein relativ niedrigen Blockintervall, 1 Megabyte Blockspace
+Die Friccoin-Kette hat ein relativ niedrigen Blockintervall, 1 Megabyte Blockspace
 und zielt darauf ab, den Leuten eine kostengünstige Möglichkeit für Transaktionen zu bieten. Daher ist Spam die größte
-Bedrohung für die Bonkcoin-Kette als Ganzes. Bonkcoin verwendet eine Transaktionsgebühr
+Bedrohung für die Friccoin-Kette als Ganzes. Friccoin verwendet eine Transaktionsgebühr
 und einen Dust-Abschreckungseffekt, um On-Chain-Spam zu bekämpfen.
 
-Bonkcoin Core implementiert eine Reihe von Standardeinstellungen in die Software, die die
+Friccoin Core implementiert eine Reihe von Standardeinstellungen in die Software, die die
 Empfehlungen der Entwickler zu Gebühren- und Dust-Grenzen widerspiegeln, die zum Zeitpunkt der
 Veröffentlichung die beste Einschätzung der Entwickler darstellen, wie diese Grenzen
-parametrisiert werden sollten. Die empfohlenen Standardwerte, wie sie in der Bonkcoin Core-Wallet implementiert sind, sind:
+parametrisiert werden sollten. Die empfohlenen Standardwerte, wie sie in der Friccoin Core-Wallet implementiert sind, sind:
 
 - **0,01 FRC pro Kilobyte** Transaktionsgebühr
 - **0,01 FRC** Staubgrenze (Verwerfungsschwelle)

@@ -1,4 +1,4 @@
-Source: Bonkcoin
+Source: Friccoin
 Section: utils
 Priority: optional
 Maintainer:
@@ -27,14 +27,14 @@ Build-Depends: debhelper,
  libzmq3-dev
 Standards-Version: 3.9.2
 Homepage: https://friccoin.org/
-Vcs-Git: git://github.com/Bonkcoin/friccoin.git
-Vcs-Browser: http://github.com/Bonkcoin/friccoin
+Vcs-Git: git://github.com/Friccoin/friccoin.git
+Vcs-Browser: http://github.com/Friccoin/friccoin
 
 Package: friccoind
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- Bonkcoin is a free open source peer-to-peer electronic cash system that
+ Friccoin is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
@@ -50,19 +50,19 @@ Package: friccoin-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- Bonkcoin is a free open source peer-to-peer electronic cash system that
+ Friccoin is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
  check for double-spending.
  .
- This package provides Bonkcoin-Qt, a GUI for Bonkcoin based on Qt.
+ This package provides Friccoin-Qt, a GUI for Friccoin based on Qt.
 
 Package: friccoin-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
- Bonkcoin is a free open source peer-to-peer electronic cash system that
+ Friccoin is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to

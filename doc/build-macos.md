@@ -5,7 +5,7 @@ Tested on MacOs Ventura and Sonoma on Intel (x86_64) and Apple Silicon (arm64) m
 ### Clone friccoin locally, or check it out, etc. ###
 
 ```sh
-git clone https://github.com/Bonkcoin/friccoin.git
+git clone https://github.com/Friccoin/friccoin.git
 ```
 
 ### Set up OSX basic build dependencies. ##
@@ -40,7 +40,7 @@ brew install autoconf automake libtool miniupnpc openssl pkg-config protobuf@21 
 brew link protobuf@21
 ```
 
-### Go back to your Bonkcoin repo ###
+### Go back to your Friccoin repo ###
 
 ```sh
 cd ~/friccoin

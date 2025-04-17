@@ -69,8 +69,8 @@ can then be controlled by group membership.
 
 Binary:              `/usr/local/bin/friccoind`  
 Configuration file:  `~/Library/Application Support/friccoin/friccoin.conf`  
-Data directory:      `~/Library/Application Support/Bonkcoin`
-Lock file:           `~/Library/Application Support/Bonkcoin/.lock`
+Data directory:      `~/Library/Application Support/Friccoin`
+Lock file:           `~/Library/Application Support/Friccoin/.lock`
 
 4. Installing Service Configuration
 -----------------------------------

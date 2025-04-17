@@ -4,11 +4,11 @@
 > *Gitian is a secure source-control oriented software distribution method. This means you can download trusted binaries that are verified by multiple builders.*  
 Source : [Gitian.org](https://gitian.org/)
 
-Gitian is a deterministic build process that is used to release Bonkcoin Core executables. It uses a virtualized environment and a predetermined set of dependencies and system libraries to build binaries. This lets many independent builders compare and publish their results before releasing executables, allowing for an end-to-end auditable release that can be verified by anyone.
+Gitian is a deterministic build process that is used to release Friccoin Core executables. It uses a virtualized environment and a predetermined set of dependencies and system libraries to build binaries. This lets many independent builders compare and publish their results before releasing executables, allowing for an end-to-end auditable release that can be verified by anyone.
 
 To reduce the probability of compromised releases, more independent gitian builders are needed!
 
-Anyone can participate and help to increase the security of Bonkcoin Core releases by following this guide.
+Anyone can participate and help to increase the security of Friccoin Core releases by following this guide.
 
 ### Table of contents
 
@@ -80,7 +80,7 @@ Then use `--lxc` option with `gitian-build.sh`.
 
 ## Usage
 
-`gitian-build.sh` is a standalone script, it can be downloaded and run outside of Bonkcoin Core repository.
+`gitian-build.sh` is a standalone script, it can be downloaded and run outside of Friccoin Core repository.
 
 It can download dependency files for the [Gitian](https://github.com/devrandom/gitian-builder), build and optionally sign binaries, or verify signatures.
 
@@ -136,8 +136,8 @@ This will create the `.sig` files that can be committed together with the `.asse
 
 ## Publish signatures
 
-Gitian signatures for each release are added to https://github.com/Bonkcoin/gitian.sigs.
+Gitian signatures for each release are added to https://github.com/Friccoin/gitian.sigs.
 
-`gitian-build.sh` will create signatures inside `gitian-output/sigs/` folder. Create a pull request to [friccoin/gitian.sigs](https://github.com/Bonkcoin/gitian.sigs) to publish your signatures, the `.assert` and `.assert.sig` files.
+`gitian-build.sh` will create signatures inside `gitian-output/sigs/` folder. Create a pull request to [friccoin/gitian.sigs](https://github.com/Friccoin/gitian.sigs) to publish your signatures, the `.assert` and `.assert.sig` files.
 
-**When your PR is merged, you will be recorded for all future history as a *Gitian Builder of Bonkcoin Core*!**
+**When your PR is merged, you will be recorded for all future history as a *Gitian Builder of Friccoin Core*!**

@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Bonkcoin-Qt</string>
+  <string>Friccoin-Qt</string>
 
   <key>CFBundleName</key>
-  <string>Bonkcoin-Qt</string>
+  <string>Friccoin-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>com.friccoin.Bonkcoin-Qt</string>
+  <string>com.friccoin.Friccoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>com.friccoin.BonkcoinPayment</string>
+      <string>com.friccoin.FriccoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>friccoin</string>
@@ -60,7 +60,7 @@
       <key>UTTypeIdentifier</key>
       <string>com.friccoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Bonkcoin payment request</string>
+      <string>Friccoin payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

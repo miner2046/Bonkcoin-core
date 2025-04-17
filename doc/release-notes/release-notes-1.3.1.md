@@ -1,4 +1,4 @@
-## Bonkcoin Core 1.3.1 Release Notes
+## Friccoin Core 1.3.1 Release Notes
 
 This is a new minor release which includes improvements Various security fixes releases.
 

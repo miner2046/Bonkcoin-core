@@ -99,12 +99,12 @@
         <translation>Prijímajúce adresy</translation>
     </message>
     <message>
-        <source>These are your Bonkcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú Vaše Bonkcoin adresy pre posielanie platieb. Vždy skontrolujte sumu a prijímaciu adresu pred poslaním mincí.</translation>
+        <source>These are your Friccoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú Vaše Friccoin adresy pre posielanie platieb. Vždy skontrolujte sumu a prijímaciu adresu pred poslaním mincí.</translation>
     </message>
     <message>
-        <source>These are your Bonkcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše Bonkcoin adresy pre prijímanie platieb. Odporúča sa použiť vždy novú prijímaciu adresu pre každú transakciu.</translation>
+        <source>These are your Friccoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše Friccoin adresy pre prijímanie platieb. Odporúča sa použiť vždy novú prijímaciu adresu pre každú transakciu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -375,7 +375,7 @@
         <translation>Preindexúvam bloky na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Bonkcoin address</source>
+        <source>Send coins to a Friccoin address</source>
         <translation>Poslať friccoins na adresu</translation>
     </message>
     <message>
@@ -399,8 +399,8 @@
         <translation>O&amp;veriť správu...</translation>
     </message>
     <message>
-        <source>Bonkcoin</source>
-        <translation>Bonkcoin</translation>
+        <source>Friccoin</source>
+        <translation>Friccoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -427,12 +427,12 @@
         <translation>Zašifruj súkromné kľúče ktoré patria do vašej peňaženky</translation>
     </message>
     <message>
-        <source>Sign messages with your Bonkcoin addresses to prove you own them</source>
-        <translation>Podpísať správu s vašou adresou Bonkcoin aby ste preukázali že ju vlastníte</translation>
+        <source>Sign messages with your Friccoin addresses to prove you own them</source>
+        <translation>Podpísať správu s vašou adresou Friccoin aby ste preukázali že ju vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bonkcoin addresses</source>
-        <translation>Overiť či správa bola podpísaná uvedenou Bonkcoin adresou</translation>
+        <source>Verify messages to ensure they were signed with specified Friccoin addresses</source>
+        <translation>Overiť či správa bola podpísaná uvedenou Friccoin adresou</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -471,11 +471,11 @@
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bonkcoin network</source>
+        <source>%n active connection(s) to Friccoin network</source>
         <translation>
-            <numerusform>%n aktívne pripojenie do siete Bonkcoin</numerusform>
-            <numerusform>%n aktívne pripojenia do siete Bonkcoin</numerusform>
-            <numerusform>%n aktívnych pripojení do siete Bonkcoin</numerusform>
+            <numerusform>%n aktívne pripojenie do siete Friccoin</numerusform>
+            <numerusform>%n aktívne pripojenia do siete Friccoin</numerusform>
+            <numerusform>%n aktívnych pripojení do siete Friccoin</numerusform>
         </translation>
     </message>
     <message>
@@ -523,8 +523,8 @@
         <translation>Aktualizovaný</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bonkcoin command-line options</source>
-        <translation>Ukáž %1 zoznam možných nastavení Bonkcoinu pomocou príkazového riadku</translation>
+        <source>Show the %1 help message to get a list with possible Friccoin command-line options</source>
+        <translation>Ukáž %1 zoznam možných nastavení Friccoinu pomocou príkazového riadku</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -585,8 +585,8 @@
         <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;zamknutá&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bonkcoin can no longer continue safely and will quit.</source>
-        <translation>Vyskytla sa kritická chyba. Bonkcoin nemôže ďalej bezpečne pokračovať a ukončí sa.</translation>
+        <source>A fatal error occurred. Friccoin can no longer continue safely and will quit.</source>
+        <translation>Vyskytla sa kritická chyba. Friccoin nemôže ďalej bezpečne pokračovať a ukončí sa.</translation>
     </message>
     <message>
         <source>&amp;Print paper wallets</source>
@@ -609,7 +609,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Import a Bonkcoin private key</source>
+        <source>Import a Friccoin private key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -819,8 +819,8 @@
         <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bonkcoin address.</source>
-        <translation>Vložená adresa &quot;%1&quot; nieje platnou adresou Bonkcoin.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Friccoin address.</source>
+        <translation>Vložená adresa &quot;%1&quot; nieje platnou adresou Friccoin.</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
@@ -991,8 +991,8 @@
         <translation>Keďže toto je prvé spustenie programu, môžete si vybrať, kam %1 bude ukladať vaše údaje.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bonkcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 stiahne a uloží kópiu Bonkcoin block chain. Minimálne %2GB dát bude uložených v tejto zložke, a bude sa zväčšovať postupom času. Peňaženka bude taktiež uložená v tejto zložke.</translation>
+        <source>%1 will download and store a copy of the Friccoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 stiahne a uloží kópiu Friccoin block chain. Minimálne %2GB dát bude uložených v tejto zložke, a bude sa zväčšovať postupom času. Peňaženka bude taktiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1200,16 +1200,16 @@
         <translation>Minúť nepotvrdený výdavok</translation>
     </message>
     <message>
-        <source>Automatically open the Bonkcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvorit port pre Bonkcoin na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
+        <source>Automatically open the Friccoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvorit port pre Friccoin na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapovať port pomocou &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Bonkcoin network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť do siete Bonkcoin cez proxy server SOCKS5.</translation>
+        <source>Connect to the Friccoin network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť do siete Friccoin cez proxy server SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1248,8 +1248,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bonkcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Pripojiť k Bonkcoinovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
+        <source>Connect to the Friccoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Pripojiť k Friccoinovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1363,8 +1363,8 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bonkcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou Bonkcoin po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Friccoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou Friccoin po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1471,7 +1471,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>To see ongoing development and contribute, check out the Bonkcoin Core repository on GitHub</source>
+        <source>To see ongoing development and contribute, check out the Friccoin Core repository on GitHub</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1673,8 +1673,8 @@ p, li { white-space: pre-wrap; }
         <translation>Neplatná adresa platby %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bonkcoin address or malformed URI parameters.</source>
-        <translation>URI sa nedá analyzovať! To môže byť spôsobené neplatnou Bonkcoin adresou alebo zle nastavenými vlastnosťami URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Friccoin address or malformed URI parameters.</source>
+        <translation>URI sa nedá analyzovať! To môže byť spôsobené neplatnou Friccoin adresou alebo zle nastavenými vlastnosťami URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1814,7 +1814,7 @@ p, li { white-space: pre-wrap; }
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a Bonkcoin address (e.g. %1)</source>
+        <source>Enter a Friccoin address (e.g. %1)</source>
         <translation>Zadajte friccoin adresu (napr. %1)</translation>
     </message>
     <message>
@@ -2307,8 +2307,8 @@ p, li { white-space: pre-wrap; }
         <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bonkcoin network.</source>
-        <translation>Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí keď bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť Bonkcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Friccoin network.</source>
+        <translation>Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí keď bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť Friccoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2461,7 +2461,7 @@ p, li { white-space: pre-wrap; }
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Poslať Bonkcoins</translation>
+        <translation>Poslať Friccoins</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2712,8 +2712,8 @@ p, li { white-space: pre-wrap; }
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bonkcoin address</source>
-        <translation>Varovanie: Neplatná Bonkcoin adresa</translation>
+        <source>Warning: Invalid Friccoin address</source>
+        <translation>Varovanie: Neplatná Friccoin adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2779,7 +2779,7 @@ p, li { white-space: pre-wrap; }
         <translation>Toto je normálna platba.</translation>
     </message>
     <message>
-        <source>The Bonkcoin address to send the payment to</source>
+        <source>The Friccoin address to send the payment to</source>
         <translation>Zvoľte adresu kam poslať platbu</translation>
     </message>
     <message>
@@ -2823,8 +2823,8 @@ p, li { white-space: pre-wrap; }
         <translation>Vložte popis pre túto adresu aby sa uložila do zoznamu použitých adries</translation>
     </message>
     <message>
-        <source>A message that was attached to the friccoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bonkcoin network.</source>
-        <translation>Správa ktorá bola pripojená k friccoin: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Bonkcoin.</translation>
+        <source>A message that was attached to the friccoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Friccoin network.</source>
+        <translation>Správa ktorá bola pripojená k friccoin: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Friccoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2872,8 +2872,8 @@ p, li { white-space: pre-wrap; }
         <translation>Môžete podpísať správy svojou adresou a dokázať, že viete prijímať mince zaslané na túto adresu. Buďte však opatrní a podpíšte len podrobné prehlásenia, s ktorými plne súhlasíte, nakoľko útoky typu &quot;phishing&quot; Vás môžu lákať k podpísaniu nejasných alebo príliš všeobecných tvrdení čím prevezmú vašu identitu.</translation>
     </message>
     <message>
-        <source>The Bonkcoin address to sign the message with</source>
-        <translation>Bonkcoin adresa pre podpísanie správy s</translation>
+        <source>The Friccoin address to sign the message with</source>
+        <translation>Friccoin adresa pre podpísanie správy s</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2904,7 +2904,7 @@ p, li { white-space: pre-wrap; }
         <translation>Kopírovať tento podpis do systémovej schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bonkcoin address</source>
+        <source>Sign the message to prove you own this Friccoin address</source>
         <translation>Podpíšte správu aby ste dokázali že vlastníte túto adresu</translation>
     </message>
     <message>
@@ -2928,12 +2928,12 @@ p, li { white-space: pre-wrap; }
         <translation>Vložte adresu príjemcu, správu (uistite sa, že presne kopírujete ukončenia riadkov, medzery, odrážky, atď.) a podpis pre potvrdenie správy. Buďte opatrní a nedomýšľajte si viac než je uvedené v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu MITM útokom. Toto len potvrdzuje, že podpisujúca strana môže prijímať na tejto adrese, nepotvrdzuje to vlastníctvo žiadnej transakcie!</translation>
     </message>
     <message>
-        <source>The Bonkcoin address the message was signed with</source>
-        <translation>Adresa Bonkcoin, ktorou bola podpísaná správa</translation>
+        <source>The Friccoin address the message was signed with</source>
+        <translation>Adresa Friccoin, ktorou bola podpísaná správa</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bonkcoin address</source>
-        <translation>Overím správy sa uistiť že bola podpísaná označenou Bonkcoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Friccoin address</source>
+        <translation>Overím správy sa uistiť že bola podpísaná označenou Friccoin adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3620,8 +3620,8 @@ p, li { white-space: pre-wrap; }
         <translation>Nepodarilo sa spustiť HTTP server. Pre viac detailov zobrazte debug log.</translation>
     </message>
     <message>
-        <source>Bonkcoin Core</source>
-        <translation>Bonkcoin Core</translation>
+        <source>Friccoin Core</source>
+        <translation>Friccoin Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -4308,7 +4308,7 @@ p, li { white-space: pre-wrap; }
         <translation>Chyba</translation>
     </message>
     <message>
-        <source>Bitcoin Core and Bonkcoin Core</source>
+        <source>Bitcoin Core and Friccoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

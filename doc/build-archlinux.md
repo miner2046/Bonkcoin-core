@@ -9,7 +9,7 @@ friccoind on archlinux:
 
 ```sh
 pacman -S git base-devel boost libevent python db
-git clone https://github.com/Bonkcoin/friccoin.git
+git clone https://github.com/Friccoin/friccoin.git
 cd friccoin/
 ./autogen.sh
 ./configure --without-gui --without-miniupnpc

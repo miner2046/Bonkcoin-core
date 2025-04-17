@@ -37,7 +37,7 @@ test=false
 # Other Basic variables
 SIGNER=
 VERSION=
-url=https://github.com/Bonkcoin/Bonkcoin-core
+url=https://github.com/Friccoin/Friccoin-core
 proc=2
 mem=2000
 scriptName=$(basename -- "$0")
@@ -47,7 +47,7 @@ outputDir=$(pwd)/gitian-output
 read -r -d '' usage <<-EOF
 Usage: $scriptName [options] version
 
-Standalone script to perform the gitian build of Bonkcoin Core. Perform
+Standalone script to perform the gitian build of Friccoin Core. Perform
 deterministic build for multiples Operating System, using Docker, LXC or
 KVM for virtualization. Sign binaries using PGP.
 
@@ -70,7 +70,7 @@ Options:
 -j proc             Number of processes to use. Default $proc
 -m n                Memory to allocate in MiB. Default $mem
 -c|--commit         Indicate that the version argument is for a commit or branch
--u|--url repo       Specify the URL of the repository. Default is https://github.com/Bonkcoin/friccoin
+-u|--url repo       Specify the URL of the repository. Default is https://github.com/Friccoin/friccoin
 --test              CI TEST. Uses Docker
 -h|--help           Print this help message
 EOF
@@ -258,8 +258,8 @@ fi
 ### Setup ###
 
 if [[ $setup == true ]]; then
-    git clone https://github.com/Bonkcoin/gitian.sigs.git
-    git clone https://github.com/Bonkcoin/friccoin-detached-sigs.git
+    git clone https://github.com/Friccoin/gitian.sigs.git
+    git clone https://github.com/Friccoin/friccoin-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
 
     pushd ./gitian-builder
@@ -317,7 +317,7 @@ if [[ $build == true ]]; then
 
     # Clean friccoin git directory because of old caching
     if [ -d inputs/friccoin/ ]; then
-        echo "Cleaning Bonkcoin directory..."
+        echo "Cleaning Friccoin directory..."
         rm -rf inputs/friccoin/
     fi
 

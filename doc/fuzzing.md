@@ -1,4 +1,4 @@
-Fuzz-testing Bonkcoin Core
+Fuzz-testing Friccoin Core
 ==========================
 
 A special test harness `test_friccoin_fuzzy` is provided to provide an easy
@@ -20,7 +20,7 @@ export AFLPATH=$PWD
 Instrumentation
 ----------------
 
-To build Bonkcoin Core using AFL instrumentation (this assumes that the
+To build Friccoin Core using AFL instrumentation (this assumes that the
 `AFLPATH` was set as above):
 ```
 ./configure --disable-ccache --disable-shared --enable-tests CC=${AFLPATH}/afl-gcc CXX=${AFLPATH}/afl-g++
@@ -51,7 +51,7 @@ Example inputs for Bitcoin Core are available from:
 - https://download.visucore.com/bitcoin/bitcoin_fuzzy_in.tar.xz
 - http://strateman.ninja/fuzzing.tar.xz
 
-Extract these (or other starting inputs) into the `inputs` directory before starting fuzzing. These will need adapting to Bonkcoin before use.
+Extract these (or other starting inputs) into the `inputs` directory before starting fuzzing. These will need adapting to Friccoin before use.
 
 Fuzzing
 --------

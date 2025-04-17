@@ -1,8 +1,8 @@
-## Bonkcoin Core 1.0.1 Release Notes
+## Friccoin Core 1.0.1 Release Notes
 
 This is a new minor release that activates AuxPow at block 42,000. This will cause a hard fork after the first AuxPow block is mined.
 
-***All users on Bonkcoin 1.0.0 must upgrade to 1.0.1***
+***All users on Friccoin 1.0.0 must upgrade to 1.0.1***
 
 #### Technical Changes
 

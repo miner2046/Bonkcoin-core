@@ -58,11 +58,11 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case MBTC: return QString("Mega-Bonkcoins (1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-    case kBTC: return QString("Kilo-Bonkcoins (1" THIN_SP_UTF8 "000)");
-    case BTC: return QString("Bonkcoins");
-    case mBTC: return QString("Milli-Bonkcoins (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("Micro-Bonkcoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case MBTC: return QString("Mega-Friccoins (1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case kBTC: return QString("Kilo-Friccoins (1" THIN_SP_UTF8 "000)");
+    case BTC: return QString("Friccoins");
+    case mBTC: return QString("Milli-Friccoins (1 / 1" THIN_SP_UTF8 "000)");
+    case uBTC: return QString("Micro-Friccoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
 }

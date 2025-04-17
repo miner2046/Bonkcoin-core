@@ -49,10 +49,10 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "Bonkcoin"
+#define QAPP_ORG_NAME "Friccoin"
 #define QAPP_ORG_DOMAIN "friccoin.org"
-#define QAPP_APP_NAME_DEFAULT "Bonkcoin-Qt"
-#define QAPP_APP_NAME_TESTNET "Bonkcoin-Qt-testnet"
+#define QAPP_APP_NAME_DEFAULT "Friccoin-Qt"
+#define QAPP_APP_NAME_TESTNET "Friccoin-Qt-testnet"
 
 /* One gigabyte (GB) in bytes */
 static constexpr uint64_t GB_BYTES{1000000000};

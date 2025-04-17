@@ -5,10 +5,10 @@ of the latest changes on NixOS.
 
 Clone and enter the repo:
 
-    $ git clone https://github.com/Bonkcoin/friccoin
+    $ git clone https://github.com/Friccoin/friccoin
     $ cd friccoin
 
-Enter the `nix-shell` environment with all the Bonkcoin dependencies present:
+Enter the `nix-shell` environment with all the Friccoin dependencies present:
 
     $ nix-shell ./contrib/nixos/shell.nix
 

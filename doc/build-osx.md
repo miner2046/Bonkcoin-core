@@ -25,12 +25,12 @@ If you want to build the disk image with `make deploy` (.dmg / optional), you ne
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
-Build Bonkcoin Core
+Build Friccoin Core
 ------------------------
 
 1. Clone the friccoin source code and cd into `friccoin`
 
-        git clone https://github.com/Bonkcoin/friccoin
+        git clone https://github.com/Friccoin/friccoin
         cd friccoin
 
 2.  Build friccoin:
@@ -54,7 +54,7 @@ Build Bonkcoin Core
 Running
 -------
 
-Bonkcoin Core is now available at `./src/friccoind`
+Friccoin Core is now available at `./src/friccoind`
 
 Before running, it's recommended you create an RPC configuration file.
 
@@ -66,7 +66,7 @@ The first time you run friccoind, it will start downloading the blockchain. This
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/Bonkcoin/debug.log
+    tail -f $HOME/Library/Application\ Support/Friccoin/debug.log
 
 Other commands:
 -------
@@ -97,4 +97,4 @@ Notes
 
 * Tested on OS X 10.8 through 10.12 on 64-bit Intel processors only.
 
-* Building with downloaded Qt binaries is not officially supported. See the notes in [#7714](https://github.com/Bonkcoin/friccoin/issues/7714)
+* Building with downloaded Qt binaries is not officially supported. See the notes in [#7714](https://github.com/Friccoin/friccoin/issues/7714)

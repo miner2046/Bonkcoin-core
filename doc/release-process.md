@@ -3,9 +3,9 @@ Release Process
 
 Before every release candidate:
 
-* Update translations (ping wumpus on IRC) see [translation_process.md](https://github.com/Bonkcoin/Bonkcoin-core/blob/master/doc/translation_process.md#synchronising-translations).
+* Update translations (ping wumpus on IRC) see [translation_process.md](https://github.com/Friccoin/Friccoin-core/blob/master/doc/translation_process.md#synchronising-translations).
 
-* Update manpages, see [gen-manpages.sh](https://github.com/Bonkcoin/Bonkcoin-core/blob/master/contrib/devtools/README.md#gen-manpagessh).
+* Update manpages, see [gen-manpages.sh](https://github.com/Friccoin/Friccoin-core/blob/master/contrib/devtools/README.md#gen-manpagessh).
 
 Before every minor and major release:
 
@@ -21,7 +21,7 @@ Before every minor and major release:
 
 Before every major release:
 
-* Update hardcoded [seeds](/contrib/seeds/README.md), see [this pull request](https://github.com/Bonkcoin/Bonkcoin-core/pull/7415) for an example.
+* Update hardcoded [seeds](/contrib/seeds/README.md), see [this pull request](https://github.com/Friccoin/Friccoin-core/pull/7415) for an example.
 * Update [`BLOCK_CHAIN_SIZE`](/src/qt/intro.cpp) to the current size plus some overhead.
 
 ### First time / New builders
@@ -31,12 +31,12 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/Bonkcoin/gitian.sigs.git
-    git clone https://github.com/Bonkcoin/Bonkcoin-core-detached-sigs.git
+    git clone https://github.com/Friccoin/gitian.sigs.git
+    git clone https://github.com/Friccoin/Friccoin-core-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/Bonkcoin/Bonkcoin-core.git
+    git clone https://github.com/Friccoin/Friccoin-core.git
 
-### Bonkcoin maintainers/release engineers, update version in sources
+### Friccoin maintainers/release engineers, update version in sources
 
 Update the following:
 
@@ -124,7 +124,7 @@ NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from 
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign Bonkcoin Core for Linux, Windows, and OS X:
+### Build and sign Friccoin Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
     ./bin/gbuild --memory 3000 --commit friccoin=v${VERSION} ../friccoin/contrib/gitian-descriptors/gitian-linux.yml
@@ -248,7 +248,7 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
 - Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the friccoin.org Github repo
 
-- Create a [new GitHub release](https://github.com/Bonkcoin/friccoin/releases/new) with a link to the archived release notes.
+- Create a [new GitHub release](https://github.com/Friccoin/friccoin/releases/new) with a link to the archived release notes.
 
 - Update friccoin.org version - Langerhans to do
 

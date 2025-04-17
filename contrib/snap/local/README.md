@@ -1,6 +1,6 @@
-# Bonkcoin Snap Packaging
+# Friccoin Snap Packaging
 
-Commands for building and uploading a Bonkcoin Core Snap to the Snap Store. Anyone on amd64 (x86_64), arm64 (aarch64), or i386 (i686) should be able to build it themselves with these instructions. This would pull the official Bonkcoin binaries from the releases page, verify them, and install them on a user's machine.
+Commands for building and uploading a Friccoin Core Snap to the Snap Store. Anyone on amd64 (x86_64), arm64 (aarch64), or i386 (i686) should be able to build it themselves with these instructions. This would pull the official Friccoin binaries from the releases page, verify them, and install them on a user's machine.
 
 ## Building Locally
 ```

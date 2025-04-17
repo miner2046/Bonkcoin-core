@@ -1,4 +1,4 @@
-# Bonkcoin Core file system
+# Friccoin Core file system
 
 **Contents**
 
@@ -10,15 +10,15 @@
 
 ## Data directory location
 
-The data directory is the default location where the Bonkcoin Core files are stored.
+The data directory is the default location where the Friccoin Core files are stored.
 
 1. The default data directory paths for supported platforms are:
 
 Platform | Data directory path
 ---------|--------------------
 Linux    | `$HOME/.friccoin/`
-macOS    | `$HOME/Library/Application Support/Bonkcoin/`
-Windows  | `%APPDATA%\Bonkcoin\` <sup>[\[1\]](#note1)</sup>
+macOS    | `$HOME/Library/Application Support/Friccoin/`
+Windows  | `%APPDATA%\Friccoin\` <sup>[\[1\]](#note1)</sup>
 
 2. A custom data directory path can be specified with the `-datadir` option.
 
@@ -60,7 +60,7 @@ Subdirectory       | File(s)               | Description
 
 ## Legacy subdirectories and files
 
-These subdirectories and files are no longer used by Bonkcoin Core:
+These subdirectories and files are no longer used by Friccoin Core:
 
 Path           | Description
 ---------------|-------------

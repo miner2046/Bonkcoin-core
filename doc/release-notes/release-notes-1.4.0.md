@@ -1,4 +1,4 @@
-## Bonkcoin Core 1.4.0 Release Notes
+## Friccoin Core 1.4.0 Release Notes
 
 This is a new MAJOR release.
 

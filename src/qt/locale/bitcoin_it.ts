@@ -80,11 +80,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Scegli l&apos;indirizzo a cui inviare Bonkcoin</translation>
+        <translation>Scegli l&apos;indirizzo a cui inviare Friccoin</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Scegli l&apos;indirizzo con cui ricevere Bonkcoin</translation>
+        <translation>Scegli l&apos;indirizzo con cui ricevere Friccoin</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -99,12 +99,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your Bonkcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questo è un elenco di indirizzi Bonkcoin a cui puoi inviare pagamenti. Controlla sempre l&apos;importo e l&apos;indirizzo del beneficiario prima di inviare Bonkcoin.</translation>
+        <source>These are your Friccoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questo è un elenco di indirizzi Friccoin a cui puoi inviare pagamenti. Controlla sempre l&apos;importo e l&apos;indirizzo del beneficiario prima di inviare Friccoin.</translation>
     </message>
     <message>
-        <source>These are your Bonkcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono i tuoi indirizzi Bonkcoin che puoi usare per ricevere pagamenti. Si raccomanda di generare un nuovo indirizzo per ogni transazione.</translation>
+        <source>These are your Friccoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono i tuoi indirizzi Friccoin che puoi usare per ricevere pagamenti. Si raccomanda di generare un nuovo indirizzo per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -351,8 +351,8 @@
         <translation>Re-indicizzazione blocchi su disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Bonkcoin address</source>
-        <translation>Invia monete ad un indirizzo Bonkcoin</translation>
+        <source>Send coins to a Friccoin address</source>
+        <translation>Invia monete ad un indirizzo Friccoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -375,8 +375,8 @@
         <translation>&amp;Verifica messaggio...</translation>
     </message>
     <message>
-        <source>Bonkcoin</source>
-        <translation>Bonkcoin</translation>
+        <source>Friccoin</source>
+        <translation>Friccoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -403,12 +403,12 @@
         <translation>Cripta le chiavi private del tuo portafoglio</translation>
     </message>
     <message>
-        <source>Sign messages with your Bonkcoin addresses to prove you own them</source>
-        <translation>Firma i messaggi con il tuo indirizzo Bonkcoin per dimostrarne il possesso</translation>
+        <source>Sign messages with your Friccoin addresses to prove you own them</source>
+        <translation>Firma i messaggi con il tuo indirizzo Friccoin per dimostrarne il possesso</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bonkcoin addresses</source>
-        <translation>Verifica i messaggi per accertare che siano stati firmati con gli indirizzi Bonkcoin specificati</translation>
+        <source>Verify messages to ensure they were signed with specified Friccoin addresses</source>
+        <translation>Verifica i messaggi per accertare che siano stati firmati con gli indirizzi Friccoin specificati</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -447,10 +447,10 @@
         <translation>Opzioni della riga di &amp;comando</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bonkcoin network</source>
+        <source>%n active connection(s) to Friccoin network</source>
         <translation>
-            <numerusform>%n connessione attiva alla rete Bonkcoin</numerusform>
-            <numerusform>%n connessioni attive alla rete Bonkcoin</numerusform>
+            <numerusform>%n connessione attiva alla rete Friccoin</numerusform>
+            <numerusform>%n connessioni attive alla rete Friccoin</numerusform>
         </translation>
     </message>
     <message>
@@ -497,8 +497,8 @@
         <translation>Aggiornato</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bonkcoin command-line options</source>
-        <translation>Mostra il messaggio di aiuto di %1 per ottenere una lista di opzioni di comando per Bonkcoin </translation>
+        <source>Show the %1 help message to get a list with possible Friccoin command-line options</source>
+        <translation>Mostra il messaggio di aiuto di %1 per ottenere una lista di opzioni di comando per Friccoin </translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -575,7 +575,7 @@
         <translation>&amp;Importa chiave privata</translation>
     </message>
     <message>
-        <source>Import a Bonkcoin private key</source>
+        <source>Import a Friccoin private key</source>
         <translation>Importa una chiave privata</translation>
     </message>
     <message>
@@ -611,8 +611,8 @@
         <translation>Eccezione runaway</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bonkcoin can no longer continue safely and will quit.</source>
-        <translation>Si è verificato un errore critico. Bonkcoin non può più continuare ad operare in sicurezza e verrà chiuso.</translation>
+        <source>A fatal error occurred. Friccoin can no longer continue safely and will quit.</source>
+        <translation>Si è verificato un errore critico. Friccoin non può più continuare ad operare in sicurezza e verrà chiuso.</translation>
     </message>
 </context>
 <context>
@@ -805,8 +805,8 @@
         <translation>Modifica indirizzo d&apos;invio</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bonkcoin address.</source>
-        <translation>L&apos;indirizzo inserito &quot;%1&quot; non è un indirizzo Bonkcoin valido.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Friccoin address.</source>
+        <translation>L&apos;indirizzo inserito &quot;%1&quot; non è un indirizzo Friccoin valido.</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
@@ -977,8 +977,8 @@
         <translation>Dato che questa è la prima volta che il programma viene lanciato, puoi scegliere dove %1 salverà i suoi dati.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bonkcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 scaricherà e salverà una copia della blockchain di Bonkcoin. Saranno salvati almeno %2GB di dati in questa directory e continueranno ad aumentare col tempo. Anche il portafoglio verrà salvato in questa directory.</translation>
+        <source>%1 will download and store a copy of the Friccoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 scaricherà e salverà una copia della blockchain di Friccoin. Saranno salvati almeno %2GB di dati in questa directory e continueranno ad aumentare col tempo. Anche il portafoglio verrà salvato in questa directory.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1185,16 +1185,16 @@ Per specificare più URL separarli con una barra verticale &quot;|&quot;.</trans
         <translation>&amp;Spendi resti non confermati</translation>
     </message>
     <message>
-        <source>Automatically open the Bonkcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Apri automaticamente la porta del client Bonkcoin sul router. Il protocollo UPnP deve essere supportato da parte del router ed attivo.</translation>
+        <source>Automatically open the Friccoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Apri automaticamente la porta del client Friccoin sul router. Il protocollo UPnP deve essere supportato da parte del router ed attivo.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mappa le porte tramite &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Bonkcoin network through a SOCKS5 proxy.</source>
-        <translation>Connessione alla rete Bonkcoin attraverso un proxy SOCKS5.</translation>
+        <source>Connect to the Friccoin network through a SOCKS5 proxy.</source>
+        <translation>Connessione alla rete Friccoin attraverso un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1233,8 +1233,8 @@ Per specificare più URL separarli con una barra verticale &quot;|&quot;.</trans
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bonkcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Connessione alla rete Bonkcoin attraverso un proxy SOCKS5 separato per Tor.</translation>
+        <source>Connect to the Friccoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Connessione alla rete Friccoin attraverso un proxy SOCKS5 separato per Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1348,8 +1348,8 @@ Per specificare più URL separarli con una barra verticale &quot;|&quot;.</trans
         <translation>Modulo</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bonkcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Le informazioni visualizzate potrebbero non essere aggiornate. Il portafoglio si sincronizza automaticamente con la rete Bonkcoin una volta stabilita una connessione, ma questo processo non è ancora stato completato.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Friccoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Le informazioni visualizzate potrebbero non essere aggiornate. Il portafoglio si sincronizza automaticamente con la rete Friccoin una volta stabilita una connessione, ma questo processo non è ancora stato completato.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1437,7 +1437,7 @@ Per specificare più URL separarli con una barra verticale &quot;|&quot;.</trans
     </message>
     <message>
         <source>Services that claim to double your friccoins are always ponzi schemes</source>
-        <translation>Tutti i servizi che promettono di moltiplicare i tuoi Bonkcoin sono delle truffe.</translation>
+        <translation>Tutti i servizi che promettono di moltiplicare i tuoi Friccoin sono delle truffe.</translation>
     </message>
     <message>
         <source>Never share your wallet.dat file with anyone</source>
@@ -1460,8 +1460,8 @@ Per specificare più URL separarli con una barra verticale &quot;|&quot;.</trans
         <translation>Chiunque abbia accesso alla chiave privata ha il controllo totale sul portafoglio.</translation>
     </message>
     <message>
-        <source>To see ongoing development and contribute, check out the Bonkcoin Core repository on GitHub</source>
-        <translation>Per essere aggiornato sullo sviluppo di Bonkcoin e contribuire, segui il repository su GitHub!</translation>
+        <source>To see ongoing development and contribute, check out the Friccoin Core repository on GitHub</source>
+        <translation>Per essere aggiornato sullo sviluppo di Friccoin e contribuire, segui il repository su GitHub!</translation>
     </message>
 </context>
 <context>
@@ -1588,7 +1588,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Send Coins</source>
-        <translation>Invia Bonkcoin</translation>
+        <translation>Invia Friccoin</translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
@@ -1608,7 +1608,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Indirizzo già inserito. Puoi inviare Bonkcoin allo stesso indirizzo solo una volta nella stessa operazione.</translation>
+        <translation>Indirizzo già inserito. Puoi inviare Friccoin allo stesso indirizzo solo una volta nella stessa operazione.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
@@ -1662,8 +1662,8 @@ p, li { white-space: pre-wrap; }
         <translation>Indirizzo di pagamento non valido %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bonkcoin address or malformed URI parameters.</source>
-        <translation>Impossibile interpretare l&apos;URI! I parametri dell&apos;URI o l&apos;indirizzo Bonkcoin potrebbero non essere corretti.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Friccoin address or malformed URI parameters.</source>
+        <translation>Impossibile interpretare l&apos;URI! I parametri dell&apos;URI o l&apos;indirizzo Friccoin potrebbero non essere corretti.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1795,8 +1795,8 @@ p, li { white-space: pre-wrap; }
         <translation>Importo</translation>
     </message>
     <message>
-        <source>Enter a Bonkcoin address (e.g. %1)</source>
-        <translation>Inserisci un indirizzo Bonkcoin (ad es. %1)</translation>
+        <source>Enter a Friccoin address (e.g. %1)</source>
+        <translation>Inserisci un indirizzo Friccoin (ad es. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2281,8 +2281,8 @@ p, li { white-space: pre-wrap; }
         <translation>R&amp;iusa un indirizzo di ricezione (non raccomandato)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bonkcoin network.</source>
-        <translation>Un messaggio opzionale da allegare alla richiesta di pagamento, il quale sarà mostrato all&apos;apertura della richiesta. Nota: Il messaggio non sarà inviato con il pagamento sulla rete Bonkcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Friccoin network.</source>
+        <translation>Un messaggio opzionale da allegare alla richiesta di pagamento, il quale sarà mostrato all&apos;apertura della richiesta. Nota: Il messaggio non sarà inviato con il pagamento sulla rete Friccoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2435,7 +2435,7 @@ p, li { white-space: pre-wrap; }
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Invia Bonkcoin</translation>
+        <translation>Invia Friccoin</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2614,8 +2614,8 @@ p, li { white-space: pre-wrap; }
         <translation>Richiesta di pagamento scaduta.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bonkcoin address</source>
-        <translation>Attenzione: Indirizzo Bonkcoin non valido</translation>
+        <source>Warning: Invalid Friccoin address</source>
+        <translation>Attenzione: Indirizzo Friccoin non valido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2717,8 +2717,8 @@ p, li { white-space: pre-wrap; }
         <translation>Questo è un normale pagamento.</translation>
     </message>
     <message>
-        <source>The Bonkcoin address to send the payment to</source>
-        <translation>L&apos;indirizzo Bonkcoin a cui vuoi inviare il pagamento</translation>
+        <source>The Friccoin address to send the payment to</source>
+        <translation>L&apos;indirizzo Friccoin a cui vuoi inviare il pagamento</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2761,8 +2761,8 @@ p, li { white-space: pre-wrap; }
         <translation>Inserisci un&apos;etichetta per questo indirizzo per aggiungerlo alla lista degli indirizzi utilizzati</translation>
     </message>
     <message>
-        <source>A message that was attached to the friccoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bonkcoin network.</source>
-        <translation>Messaggio incluso nell&apos;URI friccoin e che sarà memorizzato con la transazione. Nota: questo messaggio non sarà inviato attraverso la rete Bonkcoin.</translation>
+        <source>A message that was attached to the friccoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Friccoin network.</source>
+        <translation>Messaggio incluso nell&apos;URI friccoin e che sarà memorizzato con la transazione. Nota: questo messaggio non sarà inviato attraverso la rete Friccoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2807,11 +2807,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive friccoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Puoi firmare messaggi/accordi con i tuoi indirizzi per dimostrare di poterli utilizzare per ricevere Bonkcoin. Si consiglia di fare attenzione a non firmare dichiarazioni vaghe o casuali che potrebbero essere utilizzate in attacchi phishing. Si raccomanda di firmare esclusivamente dichiarazioni dettagliate e delle quali si condivide in pieno il contenuto.</translation>
+        <translation>Puoi firmare messaggi/accordi con i tuoi indirizzi per dimostrare di poterli utilizzare per ricevere Friccoin. Si consiglia di fare attenzione a non firmare dichiarazioni vaghe o casuali che potrebbero essere utilizzate in attacchi phishing. Si raccomanda di firmare esclusivamente dichiarazioni dettagliate e delle quali si condivide in pieno il contenuto.</translation>
     </message>
     <message>
-        <source>The Bonkcoin address to sign the message with</source>
-        <translation>L&apos;indirizzo Bonkcoin da utilizzare per firmare il messaggio</translation>
+        <source>The Friccoin address to sign the message with</source>
+        <translation>L&apos;indirizzo Friccoin da utilizzare per firmare il messaggio</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2842,7 +2842,7 @@ p, li { white-space: pre-wrap; }
         <translation>Copia la firma corrente nella clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bonkcoin address</source>
+        <source>Sign the message to prove you own this Friccoin address</source>
         <translation>Firma un messaggio per dimostrare di possedere questo indirizzo</translation>
     </message>
     <message>
@@ -2866,11 +2866,11 @@ p, li { white-space: pre-wrap; }
         <translation>Per verificare il messaggio inserire l&apos;indirizzo del firmatario, il messaggio e la firma nei campi sottostanti, assicurandosi di copiare esattamente anche ritorni a capo, spazi, tabulazioni, etc. Si raccomanda di non lasciarsi fuorviare dalla firma a leggere più di quanto non sia riportato nel testo del messaggio stesso, in modo da evitare di cadere vittima di attacchi di tipo man-in-the-middle. Si ricorda che la verifica della firma dimostra soltanto che il firmatario può ricevere pagamenti con l&apos;indirizzo corrispondente, non prova l&apos;invio di alcuna transazione.</translation>
     </message>
     <message>
-        <source>The Bonkcoin address the message was signed with</source>
-        <translation>L&apos;indirizzo Bonkcoin con cui è stato firmato il messaggio</translation>
+        <source>The Friccoin address the message was signed with</source>
+        <translation>L&apos;indirizzo Friccoin con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bonkcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Friccoin address</source>
         <translation>Verifica il messaggio per accertare che sia stato firmato con l&apos;indirizzo specificato</translation>
     </message>
     <message>
@@ -3450,7 +3450,7 @@ p, li { white-space: pre-wrap; }
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Invia Bonkcoin</translation>
+        <translation>Invia Friccoin</translation>
     </message>
 </context>
 <context>
@@ -3547,8 +3547,8 @@ p, li { white-space: pre-wrap; }
         <translation>Impossibile avviare il server HTTP. Dettagli nel log di debug.</translation>
     </message>
     <message>
-        <source>Bonkcoin Core</source>
-        <translation>Bonkcoin Core</translation>
+        <source>Friccoin Core</source>
+        <translation>Friccoin Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -4287,8 +4287,8 @@ p, li { white-space: pre-wrap; }
         <translation>Errore</translation>
     </message>
     <message>
-        <source>Bitcoin Core and Bonkcoin Core</source>
-        <translation>Bitcoin Core e Bonkcoin Core</translation>
+        <source>Bitcoin Core and Friccoin Core</source>
+        <translation>Bitcoin Core e Friccoin Core</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect/-noconnect)</source>

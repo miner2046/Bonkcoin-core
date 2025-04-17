@@ -1,4 +1,4 @@
-## Bonkcoin Core 1.2.1 Release Notes
+## Friccoin Core 1.2.1 Release Notes
 
 This is a new minor version release that added new checkpoint. 
 

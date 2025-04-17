@@ -1,7 +1,7 @@
 Benchmarking
 ============
 
-Bonkcoin Core has an internal benchmarking framework, with benchmarks
+Friccoin Core has an internal benchmarking framework, with benchmarks
 for cryptographic algorithms such as SHA1, SHA256, SHA512 and RIPEMD160. As well as the rolling bloom filter.
 
 After compiling friccoin-core, the benchmarks can be run with:

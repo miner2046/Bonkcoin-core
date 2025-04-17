@@ -1,4 +1,4 @@
-## Bonkcoin Core 1.1.0 Release Notes
+## Friccoin Core 1.1.0 Release Notes
 
 This is a new minor release which includes improvements from recent Dogecoin releases. All users are **strongly recommended** to upgrade.
 
@@ -11,8 +11,8 @@ This is a new minor release which includes improvements from recent Dogecoin rel
 
 #### Design Changes
 
-* Update P logo for "About Bonkcoin Core" in the help menu
-* Add Chinese translation fix in Bonkcoin Core
+* Update P logo for "About Friccoin Core" in the help menu
+* Add Chinese translation fix in Friccoin Core
 * Add German, Japanese, and French translations for README.md
 
 #### Credits

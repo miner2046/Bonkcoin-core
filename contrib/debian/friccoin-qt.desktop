@@ -1,9 +1,9 @@
 [Desktop Entry]
-Name=Bonkcoin Core
-Comment=Connect to the Bonkcoin P2P Network
-Comment[de]=Verbinde mit dem Bonkcoin peer-to-peer Netzwerk
-Comment[fr]=Bonkcoin, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Bonkcoin, eşten eşe kriptografik sanal para birimi
+Name=Friccoin Core
+Comment=Connect to the Friccoin P2P Network
+Comment[de]=Verbinde mit dem Friccoin peer-to-peer Netzwerk
+Comment[fr]=Friccoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Friccoin, eşten eşe kriptografik sanal para birimi
 Exec=friccoin-qt %u
 Terminal=false
 Type=Application

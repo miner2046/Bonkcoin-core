@@ -1,7 +1,7 @@
 Translation Strings Policy
 ===========================
 
-This document provides guidelines for internationalization of the Bonkcoin Core software.
+This document provides guidelines for internationalization of the Friccoin Core software.
 
 How to translate?
 ------------------

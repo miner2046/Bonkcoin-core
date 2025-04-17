@@ -195,7 +195,7 @@ std::unique_ptr<CBlockTemplate> BlockAssembler::CreateNewBlock(const CScript& sc
     coinbaseTx.vin[0].prevout.SetNull();
 
     // Assign subsidy and fees
-    CAmount nSubsidy = GetBonkcoinBlockSubsidy(nHeight, consensus, pindexPrev->GetBlockHash());
+    CAmount nSubsidy = GetFriccoinBlockSubsidy(nHeight, consensus, pindexPrev->GetBlockHash());
 
     CAmount nDeveloperFeeStart = Params().DeveloperFeeStart();
     CAmount nDeveloperFeeAmount = 0;

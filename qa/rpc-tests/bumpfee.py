@@ -196,7 +196,7 @@ def test_dust_to_fee(rbf_node, dest_address):
 
 
 def test_settxfee(rbf_node, dest_address):
-    # Bonkcoin: Increment is fixed, so this test tests for settxfee not making a difference
+    # Friccoin: Increment is fixed, so this test tests for settxfee not making a difference
     # check that bumpfee reacts correctly to the use of settxfee (paytxfee)
     # increase feerate by 2.5x, test that fee increased at least 2x
     rbf_node.settxfee(Decimal("2.00000000"))

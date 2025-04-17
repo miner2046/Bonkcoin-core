@@ -67,4 +67,4 @@ Other
 
 # credit to 
 # Pepe created by Matt Furie
-Bonc created by Bonkcoin Team
+Bonc created by Friccoin Team
