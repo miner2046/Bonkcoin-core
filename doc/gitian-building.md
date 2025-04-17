@@ -127,9 +127,9 @@ gpg: skipped "satoshi": secret key not available
 When you execute `gsign` you will get an error from GPG, which can be ignored. Copy the resulting `.assert` files in `gitian.sigs` to your signing machine and do
 
 ```bash
-gpg --detach-sign ${VERSION}-linux/${SIGNER}/bonkcoin-linux-build.assert
-gpg --detach-sign ${VERSION}-win/${SIGNER}/bonkcoin-win-build.assert
-gpg --detach-sign ${VERSION}-osx-unsigned/${SIGNER}/bonkcoin-osx-build.assert
+gpg --detach-sign ${VERSION}-linux/${SIGNER}/friccoin-linux-build.assert
+gpg --detach-sign ${VERSION}-win/${SIGNER}/friccoin-win-build.assert
+gpg --detach-sign ${VERSION}-osx-unsigned/${SIGNER}/friccoin-osx-build.assert
 ```
 
 This will create the `.sig` files that can be committed together with the `.assert` files to assert your Gitian build.
@@ -138,6 +138,6 @@ This will create the `.sig` files that can be committed together with the `.asse
 
 Gitian signatures for each release are added to https://github.com/Bonkcoin/gitian.sigs.
 
-`gitian-build.sh` will create signatures inside `gitian-output/sigs/` folder. Create a pull request to [bonkcoin/gitian.sigs](https://github.com/Bonkcoin/gitian.sigs) to publish your signatures, the `.assert` and `.assert.sig` files.
+`gitian-build.sh` will create signatures inside `gitian-output/sigs/` folder. Create a pull request to [friccoin/gitian.sigs](https://github.com/Bonkcoin/gitian.sigs) to publish your signatures, the `.assert` and `.assert.sig` files.
 
 **When your PR is merged, you will be recorded for all future history as a *Gitian Builder of Bonkcoin Core*!**

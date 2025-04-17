@@ -290,16 +290,16 @@
         <translation>Barre d'outils des onglets</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bonkcoin: URIs)</source>
-        <translation>Demander des paiements (générer QR codes et bonkcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and friccoin: URIs)</source>
+        <translation>Demander des paiements (générer QR codes et friccoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
         <translation>Montrer la liste des adresses d'envois utilisées et les étiquettes</translation>
     </message>
     <message>
-        <source>Open a bonkcoin: URI or payment request</source>
-        <translation>Ouvrir un bonkcoin: URI ou demande de paiement</translation>
+        <source>Open a friccoin: URI or payment request</source>
+        <translation>Ouvrir un friccoin: URI ou demande de paiement</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

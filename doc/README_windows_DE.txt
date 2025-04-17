@@ -11,7 +11,7 @@ mit Hilfe eines P2P-Netzwerks, um doppelte Ausgaben zu überprüfen.
 
 Setup
 -----
-Entpacken Sie die Dateien in ein Verzeichnis oder installieren Sie per Installer und führen die bonkcoin-qt.exe aus.
+Entpacken Sie die Dateien in ein Verzeichnis oder installieren Sie per Installer und führen die friccoin-qt.exe aus.
 Bonkcoin Core ist der ursprüngliche Bonkcoin-Client und bildet das Rückgrat des Netzwerks. 
 Es lädt jedoch die gesamte Geschichte der Bonkcoin-Transaktionen herunter und speichert sie. 
 Abhängig von der Geschwindigkeit deines Computers und der Netzwerkverbindung kann der Synchronisierungsprozess von einigen Stunden bis zu einem Tag oder länger dauern.

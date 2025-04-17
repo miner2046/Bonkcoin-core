@@ -31,7 +31,7 @@ BonkcoinはDogecoinのフォークです。親しみやすさのために、Bonk
 
 Bonkcoin Coreの旅を始めるには、[インストールガイド](INSTALL.md)と[入門](doc/getting-started.md)チュートリアルを参照してください。
 
-Bonkcoin Coreが提供するJSON-RPC APIは自己文書化されており、`bonkcoin-cli help`を使用して参照できます。各コマンドの詳細情報は、`bonkcoin-cli help <command>`を使用して表示できます。あるいは、[Bitcoin Coreのドキュメント](https://developer.bitcoin.org/reference/rpc/)を参照してください。これは同様のプロトコルを実装しており、参照可能なバージョンを取得できます。
+Bonkcoin Coreが提供するJSON-RPC APIは自己文書化されており、`friccoin-cli help`を使用して参照できます。各コマンドの詳細情報は、`friccoin-cli help <command>`を使用して表示できます。あるいは、[Bitcoin Coreのドキュメント](https://developer.bitcoin.org/reference/rpc/)を参照してください。これは同様のプロトコルを実装しており、参照可能なバージョンを取得できます。
 
 ### ポート
 
@@ -81,7 +81,7 @@ Bonkcoin Coreの開発に参加する方法については、[貢献ガイド](C
 
 * [Discord](https://discord.gg/rqtkgwsk6j)
 * [Telegram](https://t.me/bonkscoin)
-* [Twitter/X](https://x.com/bonkcoinpow)
+* [Twitter/X](https://x.com/friccoinpow)
 
 ## よくある質問 ❓
 

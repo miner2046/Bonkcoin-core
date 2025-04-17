@@ -258,7 +258,7 @@
         <translation>Thanh công cụ (toolbar)</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bonkcoin: URIs)</source>
+        <source>Request payments (generates QR codes and friccoin: URIs)</source>
         <translation>Yêu cầu thanh toán(tạo mã QR và địa chỉ Bonkcoin: URLs)</translation>
     </message>
     <message>
@@ -270,8 +270,8 @@
         <translation>Hiện thỉ danh sách các địa chỉ và nhãn đã dùng để nhận.</translation>
     </message>
     <message>
-        <source>Open a bonkcoin: URI or payment request</source>
-        <translation>Mở bonkcoin:URL hoặc yêu cầu thanh toán</translation>
+        <source>Open a friccoin: URI or payment request</source>
+        <translation>Mở friccoin:URL hoặc yêu cầu thanh toán</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

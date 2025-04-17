@@ -253,7 +253,7 @@
         <translation>Внимание: Бутонът за главни букви (Caps Lock) е включен!</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bonkcoins from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your friccoins from being stolen by malware infecting your computer.</source>
         <translation>%1 ще се затвори сега, за да довърши процеса на криптиране. Помнете, че криптирането на вашият портфейл не може напълно да предпази вашите Доджкойни в случаи на кражба чрез зловреден софтуер или вирус. </translation>
     </message>
 </context>
@@ -435,7 +435,7 @@
         <translation>Лента инструменти за раздели</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bonkcoin: URIs)</source>
+        <source>Request payments (generates QR codes and friccoin: URIs)</source>
         <translation>Изискване на плащания (генериране на QR кодове и Доджкойн: URIs)</translation>
     </message>
     <message>
@@ -447,7 +447,7 @@
         <translation>Показване на списъка с използваните адреси за получаване и етикети.</translation>
     </message>
     <message>
-        <source>Open a bonkcoin: URI or payment request</source>
+        <source>Open a friccoin: URI or payment request</source>
         <translation>Отворете Доджкойн: URI или заявка за плащане</translation>
     </message>
     <message>
@@ -1016,11 +1016,11 @@
         <translation>Скрий</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bonkcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the friccoin network, as detailed below.</source>
         <translation>Възможно е последните транзакции все още да не са видими, вследствие баланса на Вашия портфейл може да е временно неточен. Информацията ще е точна, когато Вашия портфейл приключи синхронизацията с Доджкойн мрежата. За подробности вижте долу.  </translation>
     </message>
     <message>
-        <source>Attempting to spend bonkcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend friccoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Опити за изпращане на Доджкойн монети, които са от транзакции със статус "непоказани" няма да бъдат приети от мрежата.</translation>
     </message>
     <message>
@@ -1445,7 +1445,7 @@
         <translation>За да видите как върви разработката или ако искате допринесете, моля посетете Доджкойн хранилището в GitHub</translation>
     </message>
     <message>
-        <source>Services that claim to double your bonkcoins are always ponzi schemes</source>
+        <source>Services that claim to double your friccoins are always ponzi schemes</source>
         <translation>Услуги, които обещават да удвоят вашите Доджкойни, винаги се оказват "Понзи" финансови пирамиди.</translation>
     </message>
 </context>
@@ -1635,7 +1635,7 @@ p, li { white-space: pre-wrap; }
         <translation>Възникна грешка при назаявката за плащане</translation>
     </message>
     <message>
-        <source>Cannot start bonkcoin: click-to-pay handler</source>
+        <source>Cannot start friccoin: click-to-pay handler</source>
         <translation>Доджкойн не можe да стартира: манипулатор кликни-да-платиш</translation>
     </message>
     <message>
@@ -2613,7 +2613,7 @@ p, li { white-space: pre-wrap; }
         <translation>Ако персонализираната такса е настроена за 1000 монети, а за транзакцията са необходими 250 байта, тогава  &quot;за килобайт&quot; се плащат само 250 монети такса, докато &quot;общо най-малко&quot; се плащат 1000 монети. За транзакции по-големи от килобайт, и двата метода плащат за килобайт.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bonkcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for friccoin transactions than the network can process.</source>
         <translation>Плащане само на минималната такса не е проблем, стига свободното място в блоковете да е повече от обема на транзакциитете. Обаче имайте предвид, че това може да доведе до транзакцията никога да не бъде потвърдена, ако има повече Доджкойн транзакции, отколкото мрежата може да обработи.</translation>
     </message>
     <message>
@@ -2732,7 +2732,7 @@ p, li { white-space: pre-wrap; }
         <translation>Добавете етикет за този адрес, за да го добавите в списъка от ползвани адреси</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bonkcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less friccoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Таксата ще бъде приспадната от изпращаната сумата. Получателя ще получи по-малко Доджкойни, от колкото вкарвате в полето сума. Ако са избрани повече от един получател, таксата ще бъде поделена по равно.</translation>
     </message>
     <message>
@@ -2740,7 +2740,7 @@ p, li { white-space: pre-wrap; }
         <translation>&amp;Изваждане на таксата от сумата</translation>
     </message>
     <message>
-        <source>A message that was attached to the bonkcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bonkcoin network.</source>
+        <source>A message that was attached to the friccoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bonkcoin network.</source>
         <translation>Беше добавено съобщение към Доджкойн: URI, което ще бъде запазено с транзакцията за Ваша справка. Бележка: Това съобщение няма да бъде изпратено чрез Доджкойн мрежата.</translation>
     </message>
     <message>
@@ -2885,7 +2885,7 @@ p, li { white-space: pre-wrap; }
         <translation>Съобщението беше потвърдено.</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bonkcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive friccoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Можете да подпишете съобщения/споразумения с Вашите адреси, като доказателство, че можете да получавате Доджкойни, които са пратени там. Внимавайте да не подписвате разни неясни или произволни запитвания, тъй като имамници могат да опитат да Ви подведат да подпишете Вашата самоличност на тях. Подписвайте само подробни, ясни заявления, с които сте напълно съгласни.</translation>
     </message>
     <message>

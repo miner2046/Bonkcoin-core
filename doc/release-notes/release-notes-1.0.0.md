@@ -25,7 +25,7 @@
 * Add seed nodes for main and test nets
 * Add DNS Seed nodes to `chainparams.cpp` and dnsseed-policy to point to generic seeder project on github
 * Update Dogecoin address strings to Bonkcoin addresses in `uritests.cpp`
-* Change magic numbers in `pow.cpp` and `bonkcoin.cpp` to the correct values which reflect the block height digishield min difficulty block activates
+* Change magic numbers in `pow.cpp` and `friccoin.cpp` to the correct values which reflect the block height digishield min difficulty block activates
 * Update `checkpointsData` to the genesis blocks
 * Update `nMinimumChainWork`. It was too high. 
 * Set client version to `1.0.0` in `clientversion.h`
@@ -41,7 +41,7 @@
 * Change `"Wow"` to `"Overview"`, `"Such Send"` to `"Send"`, `"Much Receive"` to `"Receive"`, and `"So Print"` to `"Print"`
 * Remove `"much"` and `"such"` strings in `README.md`
 * Change UI text `"Very new address"` to `"New address"`
-* Add `bonkcoin.icns` file
+* Add `friccoin.icns` file
 * Update fee strings in GUI from Dogecoin theme to Bonkcoin theme
 * Create new `about.png` with a Bonkcoin logo
 * Add new design for `paper_wallet.png`

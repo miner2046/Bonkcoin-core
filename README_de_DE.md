@@ -39,7 +39,7 @@ Bonkcoin ist eine Abspaltung von Dogecoin. Um die Vertrautheit zu wahren, werden
 
 Um Ihre Reise mit Bonkcoin Core zu beginnen, lesen Sie den [Quick Guide](doc/README_windows_DE.md), [Installationsanweisungen](INSTALL.md) und das [Einrichtungstutorial](doc/getting-started.md).
 
-Die JSON-RPC-API von Bonkcoin Core ist selbstdokumentierend und kann mit bonkcoin-cli help durchsucht werden, während detaillierte Informationen zu jedem Befehl mit bonkcoin-cli help <Befehl> angezeigt werden können. 
+Die JSON-RPC-API von Bonkcoin Core ist selbstdokumentierend und kann mit friccoin-cli help durchsucht werden, während detaillierte Informationen zu jedem Befehl mit friccoin-cli help <Befehl> angezeigt werden können. 
 Alternativ lesen Sie die [Bitcoin Core Dokumentation](https://developer.bitcoin.org/reference/rpc/) - die ein ähnliches Protokoll implementiert - um eine durchsuchbare Version zu erhalten.
 
 ### Ports
@@ -103,7 +103,7 @@ Hier sind einige Links:
 
 * [Discord](https://discord.gg/rqtkgwsk6j) Offizieller Bonkcoin Discord Server
 * [Telegram](https://t.me/bonkscoin)
-* [Twitter/X](https://x.com/bonkcoinpow)
+* [Twitter/X](https://x.com/friccoinpow)
 
 ## Häufig gestellte Fragen ❓
 

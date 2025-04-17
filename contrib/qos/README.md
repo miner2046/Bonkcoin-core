@@ -2,4 +2,4 @@
 
 This is a Linux bash script that will set up tc to limit the outgoing bandwidth for connections to the Bonkcoin network. It limits outbound TCP traffic with a source or destination port of 14327, but not if the destination IP is within a LAN.
 
-This means one can have an always-on bonkcoind instance running, and another local bonkcoind/bonkcoin-qt instance which connects to this node and receives blocks from it.
+This means one can have an always-on friccoind instance running, and another local friccoind/friccoin-qt instance which connects to this node and receives blocks from it.

@@ -31,7 +31,7 @@ Bonkcoin 是 Dogecoin 的一个分支。为了保持熟悉性，我们将尝试�
 
 要开始使用Bonkcoin Core，请参阅[安装指南](INSTALL.md)和[入门教程](doc/getting-started.md)。
 
-Bonkcoin Core提供的JSON-RPC API是自说明的，可以使用`bonkcoin-cli help`进行浏览，而每个命令的详细信息可以使用`bonkcoin-cli help <command>`查看。或者，参阅[比特币核心文档](https://developer.bitcoin.org/reference/rpc/) - 其实施了类似的协议 - 以获得可浏览的版本。
+Bonkcoin Core提供的JSON-RPC API是自说明的，可以使用`friccoin-cli help`进行浏览，而每个命令的详细信息可以使用`friccoin-cli help <command>`查看。或者，参阅[比特币核心文档](https://developer.bitcoin.org/reference/rpc/) - 其实施了类似的协议 - 以获得可浏览的版本。
 
 ### 端口
 
@@ -80,7 +80,7 @@ Bonkcoin Core是一个开源的、社区驱动的软件。开发过程是公开�
 
 * [Discord](https://discord.gg/rqtkgwsk6j)
 * [Telegram](https://t.me/bonkscoin)
-* [Twitter/X](https://x.com/bonkcoinpow)
+* [Twitter/X](https://x.com/friccoinpow)
 
 ## 常见问题解答 ❓
 

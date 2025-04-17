@@ -1,4 +1,4 @@
-The following is a list of assets used in the bonkcoin source and their proper attribution.
+The following is a list of assets used in the friccoin source and their proper attribution.
 
 [Typicons/Stephen Hutchings](http://typicons.com)
 -----------------------
@@ -47,7 +47,7 @@ Other
 ### Assets Used
     src/qt/res/icons/about.png
     src/qt/res/icons/about_qt.png,
-    src/qt/res/icons/bonkcoin.icns
+    src/qt/res/icons/friccoin.icns
     src/qt/res/icons/friccoin.ico,
     src/qt/res/icons/friccoin.png
     src/qt/res/icons/clock*.png,

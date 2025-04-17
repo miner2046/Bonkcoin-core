@@ -211,7 +211,7 @@
     </message>
     <message>
         <source>Send coins to a Bonkcoin address</source>
-        <translation>Στείλε νομίσματα σε μια διεύθυνση bonkcoin</translation>
+        <translation>Στείλε νομίσματα σε μια διεύθυνση friccoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -286,8 +286,8 @@
         <translation>Εργαλειοθήκη καρτελών</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bonkcoin: URIs)</source>
-        <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις bonkcoin: )</translation>
+        <source>Request payments (generates QR codes and friccoin: URIs)</source>
+        <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις friccoin: )</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -298,8 +298,8 @@
         <translation>Προβολή της λίστας των χρησιμοποιημένων διευθύνσεων και ετικετών λήψεως</translation>
     </message>
     <message>
-        <source>Open a bonkcoin: URI or payment request</source>
-        <translation>Άνοιγμα bonkcoin: URI αίτησης πληρωμής</translation>
+        <source>Open a friccoin: URI or payment request</source>
+        <translation>Άνοιγμα friccoin: URI αίτησης πληρωμής</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

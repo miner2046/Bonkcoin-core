@@ -24,23 +24,23 @@ BITCOIN_INCLUDES=-I$(builddir) -I$(builddir)/obj $(BDB_CPPFLAGS) $(BOOST_CPPFLAG
 BITCOIN_INCLUDES += -I$(srcdir)/secp256k1/include
 BITCOIN_INCLUDES += $(UNIVALUE_CFLAGS)
 
-LIBBONKCOIN_SERVER=libbonkcoin_server.a
-LIBBONKCOIN_COMMON=libbonkcoin_common.a
-LIBBONKCOIN_CONSENSUS=libbonkcoin_consensus.a
-LIBBONKCOIN_CLI=libbonkcoin_cli.a
-LIBBONKCOIN_UTIL=libbonkcoin_util.a
-LIBBONKCOIN_CRYPTO=crypto/libbonkcoin_crypto.a
-LIBBONKCOINQT=qt/libbonkcoinqt.a
+LIBBONKCOIN_SERVER=libfriccoin_server.a
+LIBBONKCOIN_COMMON=libfriccoin_common.a
+LIBBONKCOIN_CONSENSUS=libfriccoin_consensus.a
+LIBBONKCOIN_CLI=libfriccoin_cli.a
+LIBBONKCOIN_UTIL=libfriccoin_util.a
+LIBBONKCOIN_CRYPTO=crypto/libfriccoin_crypto.a
+LIBBONKCOINQT=qt/libfriccoinqt.a
 LIBSECP256K1=secp256k1/libsecp256k1.la
 
 if ENABLE_ZMQ
-LIBBONKCOIN_ZMQ=libbonkcoin_zmq.a
+LIBBONKCOIN_ZMQ=libfriccoin_zmq.a
 endif
 if BUILD_BITCOIN_LIBS
-LIBBONKCOINCONSENSUS=libbonkcoinconsensus.la
+LIBBONKCOINCONSENSUS=libfriccoinconsensus.la
 endif
 if ENABLE_WALLET
-LIBBONKCOIN_WALLET=libbonkcoin_wallet.a
+LIBBONKCOIN_WALLET=libfriccoin_wallet.a
 endif
 
 $(LIBSECP256K1): $(wildcard secp256k1/src/*) $(wildcard secp256k1/include/*)
@@ -66,11 +66,11 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += bonkcoind
+  bin_PROGRAMS += friccoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += bonkcoin-cli bonkcoin-tx
+  bin_PROGRAMS += friccoin-cli friccoin-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
@@ -100,10 +100,10 @@ BITCOIN_CORE_H = \
   core_io.h \
   core_memusage.h \
   cuckoocache.h \
-  bonkcoin.cpp \
-  bonkcoin.h \
-  bonkcoin-fees.cpp \
-  bonkcoin-fees.h \
+  friccoin.cpp \
+  friccoin.h \
+  friccoin-fees.cpp \
+  friccoin-fees.h \
   httprpc.h \
   httpserver.h \
   indirectmap.h \
@@ -181,12 +181,12 @@ obj/build.h: FORCE
 	@$(MKDIR_P) $(builddir)/obj
 	@$(top_srcdir)/share/genbuild.sh $(abs_top_builddir)/src/obj/build.h \
 	  $(abs_top_srcdir)
-libbonkcoin_util_a-clientversion.$(OBJEXT): obj/build.h
+libfriccoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
 # server: shared between bitcoind and bitcoin-qt
-libbonkcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
-libbonkcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libbonkcoin_server_a_SOURCES = \
+libfriccoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
+libfriccoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libfriccoin_server_a_SOURCES = \
   addrman.cpp \
   addrdb.cpp \
   bloom.cpp \
@@ -225,9 +225,9 @@ libbonkcoin_server_a_SOURCES = \
   $(BITCOIN_CORE_H)
 
 if ENABLE_ZMQ
-libbonkcoin_zmq_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(ZMQ_CFLAGS)
-libbonkcoin_zmq_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libbonkcoin_zmq_a_SOURCES = \
+libfriccoin_zmq_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(ZMQ_CFLAGS)
+libfriccoin_zmq_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libfriccoin_zmq_a_SOURCES = \
   zmq/zmqabstractnotifier.cpp \
   zmq/zmqnotificationinterface.cpp \
   zmq/zmqpublishnotifier.cpp
@@ -236,9 +236,9 @@ endif
 
 # wallet: shared between bitcoind and bitcoin-qt, but only linked
 # when wallet enabled
-libbonkcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-libbonkcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libbonkcoin_wallet_a_SOURCES = \
+libfriccoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+libfriccoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libfriccoin_wallet_a_SOURCES = \
   wallet/crypter.cpp \
   wallet/db.cpp \
   wallet/rpcdump.cpp \
@@ -250,9 +250,9 @@ libbonkcoin_wallet_a_SOURCES = \
   $(BITCOIN_CORE_H)
 
 # crypto primitives library
-crypto_libbonkcoin_crypto_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_CONFIG_INCLUDES)
-crypto_libbonkcoin_crypto_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-crypto_libbonkcoin_crypto_a_SOURCES = \
+crypto_libfriccoin_crypto_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_CONFIG_INCLUDES)
+crypto_libfriccoin_crypto_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+crypto_libfriccoin_crypto_a_SOURCES = \
   crypto/aes.cpp \
   crypto/aes.h \
   crypto/common.h \
@@ -273,13 +273,13 @@ crypto_libbonkcoin_crypto_a_SOURCES = \
 
 # only include SSE2 scrypt sources if USE_SCRYPT_SSE2 is defined
 if USE_SCRYPT_SSE2
-crypto_libbonkcoin_crypto_a_SOURCES += crypto/scrypt-sse2.cpp
+crypto_libfriccoin_crypto_a_SOURCES += crypto/scrypt-sse2.cpp
 endif
 
 # consensus: shared between all executables that validate any consensus rules.
-libbonkcoin_consensus_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-libbonkcoin_consensus_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libbonkcoin_consensus_a_SOURCES = \
+libfriccoin_consensus_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+libfriccoin_consensus_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libfriccoin_consensus_a_SOURCES = \
   amount.h \
   arith_uint256.cpp \
   arith_uint256.h \
@@ -314,9 +314,9 @@ libbonkcoin_consensus_a_SOURCES = \
   version.h
 
 # common: shared between bitcoind, and bitcoin-qt and non-server tools
-libbonkcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-libbonkcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libbonkcoin_common_a_SOURCES = \
+libfriccoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+libfriccoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libfriccoin_common_a_SOURCES = \
   amount.cpp \
   arith_uint256.cpp \
   auxpow.cpp \
@@ -343,9 +343,9 @@ libbonkcoin_common_a_SOURCES = \
 # util: shared between all executables.
 # This library *must* be included to make sure that the glibc
 # backward-compatibility objects and their sanity checks are linked.
-libbonkcoin_util_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-libbonkcoin_util_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libbonkcoin_util_a_SOURCES = \
+libfriccoin_util_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+libfriccoin_util_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libfriccoin_util_a_SOURCES = \
   support/lockedpool.cpp \
   chainparamsbase.cpp \
   clientversion.cpp \
@@ -365,32 +365,32 @@ libbonkcoin_util_a_SOURCES = \
 
 if GLIBC_BACK_COMPAT
 
-libbonkcoin_util_a_SOURCES += compat/glibc_compat.cpp
+libfriccoin_util_a_SOURCES += compat/glibc_compat.cpp
 AM_LDFLAGS += $(COMPAT_LDFLAGS)
 
 endif
 
 # cli: shared between bitcoin-cli and bitcoin-qt
-libbonkcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-libbonkcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libbonkcoin_cli_a_SOURCES = \
+libfriccoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+libfriccoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libfriccoin_cli_a_SOURCES = \
   rpc/client.cpp \
   $(BITCOIN_CORE_H)
 
-nodist_libbonkcoin_util_a_SOURCES = $(srcdir)/obj/build.h
+nodist_libfriccoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-bonkcoind_SOURCES = bitcoind.cpp
-bonkcoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-bonkcoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bonkcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+friccoind_SOURCES = bitcoind.cpp
+friccoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+friccoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+friccoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bonkcoind_SOURCES += bitcoind-res.rc
+friccoind_SOURCES += bitcoind-res.rc
 endif
 
-bonkcoind_LDADD = \
+friccoind_LDADD = \
   $(LIBBONKCOIN_SERVER) \
   $(LIBBONKCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -403,38 +403,38 @@ bonkcoind_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-bonkcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+friccoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # bitcoin-cli binary #
-bonkcoin_cli_SOURCES = bitcoin-cli.cpp
-bonkcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-bonkcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bonkcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+friccoin_cli_SOURCES = bitcoin-cli.cpp
+friccoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+friccoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+friccoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bonkcoin_cli_SOURCES += bitcoin-cli-res.rc
+friccoin_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-bonkcoin_cli_LDADD = \
+friccoin_cli_LDADD = \
   $(LIBBONKCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBONKCOIN_UTIL) \
   $(LIBBONKCOIN_CRYPTO)
 
-bonkcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+friccoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # bitcoin-tx binary #
-bonkcoin_tx_SOURCES = bitcoin-tx.cpp
-bonkcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-bonkcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bonkcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+friccoin_tx_SOURCES = bitcoin-tx.cpp
+friccoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+friccoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+friccoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bonkcoin_tx_SOURCES += bitcoin-tx-res.rc
+friccoin_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-bonkcoin_tx_LDADD = \
+friccoin_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBONKCOIN_COMMON) \
   $(LIBBONKCOIN_UTIL) \
@@ -442,22 +442,22 @@ bonkcoin_tx_LDADD = \
   $(LIBBONKCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-bonkcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+friccoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h
-libbonkcoinconsensus_la_SOURCES = $(crypto_libbonkcoin_crypto_a_SOURCES) $(libbonkcoin_consensus_a_SOURCES)
+libfriccoinconsensus_la_SOURCES = $(crypto_libfriccoin_crypto_a_SOURCES) $(libfriccoin_consensus_a_SOURCES)
 
 if GLIBC_BACK_COMPAT
-  libbonkcoinconsensus_la_SOURCES += compat/glibc_compat.cpp
+  libfriccoinconsensus_la_SOURCES += compat/glibc_compat.cpp
 endif
 
-libbonkcoinconsensus_la_LDFLAGS = $(AM_LDFLAGS) -no-undefined $(RELDFLAGS)
-libbonkcoinconsensus_la_LIBADD = $(LIBSECP256K1)
-libbonkcoinconsensus_la_CPPFLAGS = $(AM_CPPFLAGS) -I$(builddir)/obj -I$(srcdir)/secp256k1/include -DBUILD_BITCOIN_INTERNAL
-libbonkcoinconsensus_la_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libfriccoinconsensus_la_LDFLAGS = $(AM_LDFLAGS) -no-undefined $(RELDFLAGS)
+libfriccoinconsensus_la_LIBADD = $(LIBSECP256K1)
+libfriccoinconsensus_la_CPPFLAGS = $(AM_CPPFLAGS) -I$(builddir)/obj -I$(srcdir)/secp256k1/include -DBUILD_BITCOIN_INTERNAL
+libfriccoinconsensus_la_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 
 endif
 #

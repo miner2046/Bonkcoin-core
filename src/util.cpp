@@ -104,8 +104,8 @@ namespace boost {
 
 using namespace std;
 
-const char * const BITCOIN_CONF_FILENAME = "bonkcoin.conf";
-const char * const BITCOIN_PID_FILENAME = "bonkcoind.pid";
+const char * const BITCOIN_CONF_FILENAME = "friccoin.conf";
+const char * const BITCOIN_PID_FILENAME = "friccoind.pid";
 
 CCriticalSection cs_args;
 map<string, string> mapArgs;
@@ -463,7 +463,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "bonkcoin";
+    const char* pszModule = "friccoin";
 #endif
     if (pex)
         return strprintf(
@@ -502,7 +502,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "Library/Application Support/Bonkcoin";
 #else
     // Unix
-    return pathRet / ".bonkcoin";
+    return pathRet / ".friccoin";
 #endif
 #endif
 }

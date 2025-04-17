@@ -31,7 +31,7 @@ Thay đổi:
 
 Để bắt đầu hành trình của bạn với Nhân Tố Bonkcoin, hãy xem [hướng dẫn cài đặt](INSTALL.md) và hướng dẫn [bắt đầu](doc/getting-started.md).
 
-API JSON-RPC được cung cấp bởi Nhân Tố Bonkcoin cho phép tự mô tả và có thể được duyệt bằng `bonkcoin-cli help`, trong khi thông tin chi tiết cho mỗi lệnh có thể được xem bằng cách sử dụng `bonkcoin-cli help <lệnh>`. Hoặc, xem [tài liệu Bitcoin Core](https://developer.bitcoin.org/reference/rpc/) - mà thực hiện một giao thức tương tự - để có phiên bản có thể duyệt.
+API JSON-RPC được cung cấp bởi Nhân Tố Bonkcoin cho phép tự mô tả và có thể được duyệt bằng `friccoin-cli help`, trong khi thông tin chi tiết cho mỗi lệnh có thể được xem bằng cách sử dụng `friccoin-cli help <lệnh>`. Hoặc, xem [tài liệu Bitcoin Core](https://developer.bitcoin.org/reference/rpc/) - mà thực hiện một giao thức tương tự - để có phiên bản có thể duyệt.
 
 ### Cổng
 
@@ -79,7 +79,7 @@ Dưới đây là một số nơi bạn có thể thăm:
 
 * [Discord](https://discord.gg/rqtkgwsk6j)
 * [Telegram](https://t.me/bonkscoin)
-* [Twitter/X](https://x.com/bonkcoinpow)
+* [Twitter/X](https://x.com/friccoinpow)
 
 ## Câu Hỏi Thường Gặp ❓
 

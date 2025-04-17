@@ -18,7 +18,7 @@
 
 #include "base58.h"
 #include "chainparams.h"
-#include "bonkcoin-fees.h"
+#include "friccoin-fees.h"
 #include "wallet/coincontrol.h"
 #include "validation.h" // mempool and minRelayTxFeeRate
 #include "ui_interface.h"

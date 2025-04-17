@@ -42,7 +42,7 @@ Changes:
 
 To start your journey with Bonkcoin Core, see the [installation guide](INSTALL.md) and the [getting started](doc/getting-started.md) tutorial.
 
-The JSON-RPC API provided by Bonkcoin Core is self-documenting and can be browsed with `bonkcoin-cli help`, while detailed information for each command can be viewed with `bonkcoin-cli help <command>`. Alternatively, see the [Bitcoin Core documentation](https://developer.bitcoin.org/reference/rpc/) - which implement a similar protocol - to get a browsable version.
+The JSON-RPC API provided by Bonkcoin Core is self-documenting and can be browsed with `friccoin-cli help`, while detailed information for each command can be viewed with `friccoin-cli help <command>`. Alternatively, see the [Bitcoin Core documentation](https://developer.bitcoin.org/reference/rpc/) - which implement a similar protocol - to get a browsable version.
 
 
 
@@ -156,7 +156,7 @@ Here are some places to visit:
 
 * [Discord](https://discord.gg/rqtkgwsk6j)
 * [Telegram](https://t.me/bonkscoin)
-* [X](https://x.com/bonkcoinpow)
+* [X](https://x.com/friccoinpow)
 
 ## Future Plan
 

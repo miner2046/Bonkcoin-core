@@ -19,7 +19,7 @@ The Bonkcoin repo's [root README](/README.md) contains relevant information on t
 
 ### Resources
 * Discuss on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Bonkcoin thread](https://bitcointalk.org/index.php?topic=361813.0).
-* Development discussion on [r/BonkcoinDev](https://reddit.com/r/bonkcoindev)
+* Development discussion on [r/BonkcoinDev](https://reddit.com/r/friccoindev)
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

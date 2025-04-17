@@ -14,8 +14,8 @@
 #include "consensus/consensus.h"
 #include "consensus/merkle.h"
 #include "consensus/validation.h"
-#include "bonkcoin.h"
-#include "bonkcoin-fees.h"
+#include "friccoin.h"
+#include "friccoin-fees.h"
 #include "hash.h"
 #include "init.h"
 #include "policy/fees.h"
@@ -1724,7 +1724,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("bonkcoin-scriptch");
+    RenameThread("friccoin-scriptch");
     scriptcheckqueue.Thread();
 }
 

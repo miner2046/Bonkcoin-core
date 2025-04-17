@@ -143,7 +143,7 @@
     </message>
     <message>
         <source>Send coins to a Bonkcoin address</source>
-        <translation>Enviar monedas a una dirección bonkcoin</translation>
+        <translation>Enviar monedas a una dirección friccoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -206,8 +206,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bonkcoin: URIs)</source>
-        <translation>Pide pagos (genera codigos QR and bonkcoin: URls)</translation>
+        <source>Request payments (generates QR codes and friccoin: URIs)</source>
+        <translation>Pide pagos (genera codigos QR and friccoin: URls)</translation>
     </message>
     <message>
         <source>Error</source>
@@ -773,7 +773,7 @@
     </message>
     <message>
         <source>Bonkcoin Core</source>
-        <translation>bonkcoin core</translation>
+        <translation>friccoin core</translation>
     </message>
     <message>
         <source>Error loading block database</source>

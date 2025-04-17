@@ -29,7 +29,7 @@ Changements :
 
 Pour commencer votre voyage avec Bonkcoin Core, consultez le [guide d'installation](INSTALL.md) et l'[introduction](doc/getting-started.md).
 
-L'API JSON-RPC fournie par Bonkcoin Core est auto-documentée et peut être consultée avec `bonkcoin-cli help`, tandis que des informations détaillées pour chaque commande peuvent être consultées avec `bonkcoin-cli help <commande>`. Vous pouvez également consulter la [documentation Bitcoin Core](https://developer.bitcoin.org/reference/rpc/) - qui met en œuvre un protocole similaire - pour obtenir une version consultable.
+L'API JSON-RPC fournie par Bonkcoin Core est auto-documentée et peut être consultée avec `friccoin-cli help`, tandis que des informations détaillées pour chaque commande peuvent être consultées avec `friccoin-cli help <commande>`. Vous pouvez également consulter la [documentation Bitcoin Core](https://developer.bitcoin.org/reference/rpc/) - qui met en œuvre un protocole similaire - pour obtenir une version consultable.
 
 ### Ports
 
@@ -94,7 +94,7 @@ Voici quelques espaces à visiter :
 * [Discord](https://discord.gg/rqtkgwsk6j)
 * [Website](https://friccoin.org/)
 * [Telegram](https://t.me/bonkscoin)
-* [Twitter/X](https://x.com/bonkcoinpow)
+* [Twitter/X](https://x.com/friccoinpow)
 
 ## Foire aux question ❓
 

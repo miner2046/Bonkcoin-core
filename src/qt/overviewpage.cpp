@@ -163,7 +163,7 @@ void OverviewPage::UpdateTip()
         tr("Never share your private key with anyone"),
         tr("Who owns the private keys, owns the coins"),
         tr("To see ongoing development and contribute, check out the Bonkcoin Core repository on GitHub"),
-        tr("Services that claim to double your bonkcoins are always ponzi schemes")
+        tr("Services that claim to double your friccoins are always ponzi schemes")
     };
 
     int i = rand() % tips.length();

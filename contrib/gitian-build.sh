@@ -70,7 +70,7 @@ Options:
 -j proc             Number of processes to use. Default $proc
 -m n                Memory to allocate in MiB. Default $mem
 -c|--commit         Indicate that the version argument is for a commit or branch
--u|--url repo       Specify the URL of the repository. Default is https://github.com/Bonkcoin/bonkcoin
+-u|--url repo       Specify the URL of the repository. Default is https://github.com/Bonkcoin/friccoin
 --test              CI TEST. Uses Docker
 -h|--help           Print this help message
 EOF
@@ -201,7 +201,7 @@ function download_file () {
 }
 
 function move_build_files() {
-    find build/out -type f -exec mv '{}' $outputDir/bonkcoin-binaries/${VERSION}/ \;
+    find build/out -type f -exec mv '{}' $outputDir/friccoin-binaries/${VERSION}/ \;
 }
 
 function download_descriptor() {
@@ -259,7 +259,7 @@ fi
 
 if [[ $setup == true ]]; then
     git clone https://github.com/Bonkcoin/gitian.sigs.git
-    git clone https://github.com/Bonkcoin/bonkcoin-detached-sigs.git
+    git clone https://github.com/Bonkcoin/friccoin-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
 
     pushd ./gitian-builder
@@ -311,21 +311,21 @@ popd
 
 if [[ $build == true ]]; then
     # Make output folder
-    mkdir -p $outputDir/bonkcoin-binaries/"$VERSION"
+    mkdir -p $outputDir/friccoin-binaries/"$VERSION"
 
     pushd ./gitian-builder || exit 1
 
-    # Clean bonkcoin git directory because of old caching
-    if [ -d inputs/bonkcoin/ ]; then
+    # Clean friccoin git directory because of old caching
+    if [ -d inputs/friccoin/ ]; then
         echo "Cleaning Bonkcoin directory..."
-        rm -rf inputs/bonkcoin/
+        rm -rf inputs/friccoin/
     fi
 
     for descriptor in "${DESCRIPTORS[@]}"; do
         echo ""
         echo "Compiling ${VERSION} ${descriptor}"
         echo ""
-        ./bin/gbuild -j "$proc" -m "$mem" --commit bonkcoin="$COMMIT" --url bonkcoin="$url" ../gitian-descriptors/gitian-"$descriptor".yml  || exit 1
+        ./bin/gbuild -j "$proc" -m "$mem" --commit friccoin="$COMMIT" --url friccoin="$url" ../gitian-descriptors/gitian-"$descriptor".yml  || exit 1
 
         if [ -n "$SIGNER" ]; then
             ./bin/gsign --signer "$SIGNER" --release "$VERSION"-"$descriptor" \

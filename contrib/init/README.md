@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: bonkcoind.service
-Upstart: bonkcoind.conf
-OpenRC:  bonkcoind.openrc
-         bonkcoind.openrcconf
-CentOS:  bonkcoind.init
-OS X:    org.bonkcoin.bonkcoind.plist
+SystemD: friccoind.service
+Upstart: friccoind.conf
+OpenRC:  friccoind.openrc
+         friccoind.openrcconf
+CentOS:  friccoind.init
+OS X:    org.friccoin.friccoind.plist
 
 have been made available to assist packagers in creating node packages here.
 

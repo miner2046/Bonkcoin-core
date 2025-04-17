@@ -151,8 +151,8 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no bonkcoin: URI
-    if(!uri.isValid() || uri.scheme() != QString("bonkcoin"))
+    // return if URI is not valid or is no friccoin: URI
+    if(!uri.isValid() || uri.scheme() != QString("friccoin"))
         return false;
 
     SendCoinsRecipient rv;
@@ -212,13 +212,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert bonkcoin:// to bonkcoin:
+    // Convert friccoin:// to friccoin:
     //
-    //    Cannot handle this later, because bonkcoin:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because friccoin:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("bonkcoin://", Qt::CaseInsensitive))
+    if(uri.startsWith("friccoin://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 11, "bonkcoin:");
+        uri.replace(0, 11, "friccoin:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -226,7 +226,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("bonkcoin:%1").arg(info.address);
+    QString ret = QString("friccoin:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)

@@ -13,7 +13,7 @@ Construct a linear, no-fork, best version of the blockchain.
 
 ### [Qos](/contrib/qos) ###
 
-A Linux bash script that will set up traffic control (tc) to limit the outgoing bandwidth for connections to the Bonkcoin network. This means one can have an always-on bonkcoind instance running, and another local bonkcoind/bonkcoin-qt instance which connects to this node and receives blocks from it.
+A Linux bash script that will set up traffic control (tc) to limit the outgoing bandwidth for connections to the Bonkcoin network. This means one can have an always-on friccoind instance running, and another local friccoind/friccoin-qt instance which connects to this node and receives blocks from it.
 
 ### [Seeds](/contrib/seeds) ###
 Utility to generate the pnSeed[] array that is compiled into the client.
@@ -22,8 +22,8 @@ Build Tools and Keys
 ---------------------
 
 ### [Debian](/contrib/debian) ###
-Contains files used to package bonkcoind/bonkcoin-qt
-for Debian-based Linux systems. If you compile bonkcoind/bonkcoin-qt yourself, there are some useful files here.
+Contains files used to package friccoind/friccoin-qt
+for Debian-based Linux systems. If you compile friccoind/friccoin-qt yourself, there are some useful files here.
 
 ### [Gitian-descriptors](/contrib/gitian-descriptors) ###
 Notes on getting Gitian builds up and running using KVM.
@@ -35,13 +35,13 @@ PGP keys used for signing Bonkcoin Core [Gitian release](/doc/release-process.md
 Scripts and notes for Mac builds.
 
 ### [RPM](/contrib/rpm) ###
-RPM spec file for building bonkcoin-core on RPM based distributions
+RPM spec file for building friccoin-core on RPM based distributions
 
 ### [Gitian-build](/contrib/gitian-build.sh) ###
 Script for running full Gitian builds.
 
 ### [Snap](/contrib/snap) ###
-snapcraft.yaml file for building and distributing bonkcoin-core with Snapcraft.
+snapcraft.yaml file for building and distributing friccoin-core with Snapcraft.
 
 Test and Verify Tools
 ---------------------

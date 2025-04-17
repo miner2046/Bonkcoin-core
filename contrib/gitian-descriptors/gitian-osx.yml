@@ -1,5 +1,5 @@
 ---
-name: "bonkcoin-osx-1.4.0"
+name: "friccoin-osx-1.4.0"
 enable_cache: true
 suites:
 - "focal"
@@ -32,7 +32,7 @@ packages:
 - "xorriso"
 remotes:
 - "url": "https://github.com/Bonkcoin/Bonkcoin-core.git"
-  "dir": "bonkcoin"
+  "dir": "friccoin"
 files:
 - "MacOSX10.11.sdk.tar.gz"
 - "lief-0.12.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
@@ -87,7 +87,7 @@ script: |
   create_per-host_faketime_wrappers "2000-01-01 12:00:00"
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd bonkcoin
+  cd friccoin
   BASEPREFIX=`pwd`/depends
 
   mkdir -p ${BASEPREFIX}/SDKs
@@ -113,14 +113,14 @@ script: |
   make ${MAKEOPTS}
   make ${MAKEOPTS} -C src check-security
   make dist
-  SOURCEDIST=`echo bonkcoin-*.tar.gz`
+  SOURCEDIST=`echo friccoin-*.tar.gz`
   DISTNAME=`echo ${SOURCEDIST} | sed 's/.tar.*//'`
 
   # Correct tar file order
   mkdir -p temp
   pushd temp
   tar xf ../$SOURCEDIST
-  find bonkcoin-* | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ../$SOURCEDIST
+  find friccoin-* | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ../$SOURCEDIST
   popd
 
   ORIGPATH="$PATH"

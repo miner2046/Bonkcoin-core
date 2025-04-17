@@ -218,7 +218,7 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bonkcoin: URIs)</source>
+        <source>Request payments (generates QR codes and friccoin: URIs)</source>
         <translation>Solicitar pagos (genera codigo QR y URL's de Bonkcoin)</translation>
     </message>
     <message>
@@ -230,8 +230,8 @@
         <translation>Muestra la lista de direcciones de recepción y etiquetas</translation>
     </message>
     <message>
-        <source>Open a bonkcoin: URI or payment request</source>
-        <translation>Abrir un bonkcoin: URI o petición de pago</translation>
+        <source>Open a friccoin: URI or payment request</source>
+        <translation>Abrir un friccoin: URI o petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

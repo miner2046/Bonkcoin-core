@@ -17,21 +17,21 @@ snap install \*.snap --devmode
 ### To Upload to the Snap Store
 ```
 snapcraft login
-snapcraft register bonkcoin-core
+snapcraft register friccoin-core
 snapcraft upload \*.snap
-sudo snap install bonkcoin-core
+sudo snap install friccoin-core
 ```
 
 ### Usage
 ```
-bonkcoin-unofficial.cli # for bonkcoin-cli
-bonkcoin-unofficial.d # for bonkcoind
-bonkcoin-unofficial.qt # for bonkcoin-qt
-bonkcoin-unofficial.test # for test_bonkcoin
-bonkcoin-unofficial.tx # for bonkcoin-tx
+friccoin-unofficial.cli # for friccoin-cli
+friccoin-unofficial.d # for friccoind
+friccoin-unofficial.qt # for friccoin-qt
+friccoin-unofficial.test # for test_friccoin
+friccoin-unofficial.tx # for friccoin-tx
 ```
 
 ### Uninstalling
 ```
-sudo snap remove bonkcoin-unofficial
+sudo snap remove friccoin-unofficial
 ```

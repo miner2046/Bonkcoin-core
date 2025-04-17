@@ -66,7 +66,7 @@ build process.
 
 To build from source code, you'll need the source code. Either check it out via
 `git` or download a zip file. (Look at the green "<> Code" button on [the
-Bonkcoin GitHub repository](https://github.com/Bonkcoin/bonkcoin/)).
+Bonkcoin GitHub repository](https://github.com/Bonkcoin/friccoin/)).
 
 Make sure this code is available in your Ubuntu directory. If you've unzipped a single downloaded file, you may need to change
 the permissions of all extracted files with command like:
@@ -76,7 +76,7 @@ the permissions of all extracted files with command like:
 If you've downloaded via `git`, do not use `sudo`. Instead prefer something like:
 
     cd $HOME
-    git clone https://github.com/Bonkcoin/bonkcoin.git
+    git clone https://github.com/Bonkcoin/friccoin.git
     git checkout <branchname>
 
 ... where `<branchname>` is the name of the branch you want to build, such as
@@ -96,7 +96,7 @@ For Ubuntu 20.04, set the default mingw32 g++ compiler option to posix:
 ...Choose the "posix" (vs 'auto' or 'win32') option, and continue.
 
 Note that for WSL v1 the Bonkcoin Core source path MUST be somewhere in the default mount file system, for
-example /usr/src/bonkcoin, AND not under, for example, /mnt/d/bonkcoin. 
+example /usr/src/friccoin, AND not under, for example, /mnt/d/friccoin. 
 
 If this is not the case the dependency autoconf scripts will fail (silently.)
 This means you cannot use a directory that is located directly on the host Windows file system to perform the build.
@@ -163,6 +163,6 @@ Installation
 After building using the Windows subsystem it can be useful to copy the compiled
 executables to a directory on the windows drive in the same directory structure
 as they appear in the release `.zip` archive. This can be done in the following
-way. This will install to `c:\workspace\bonkcoin`, for example:
+way. This will install to `c:\workspace\friccoin`, for example:
 
-    make install DESTDIR=/mnt/c/workspace/bonkcoin
+    make install DESTDIR=/mnt/c/workspace/friccoin

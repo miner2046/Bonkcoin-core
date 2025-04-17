@@ -1,5 +1,5 @@
 ---
-name: "bonkcoin-dmg-signer"
+name: "friccoin-dmg-signer"
 suites:
 - "bionic"
 architectures:
@@ -7,10 +7,10 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/Bonkcoin/bonkcoin-detached-sigs.git"
+- "url": "https://github.com/Bonkcoin/friccoin-detached-sigs.git"
   "dir": "signature"
 files:
-- "bonkcoin-osx-unsigned.tar.gz"
+- "friccoin-osx-unsigned.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -27,8 +27,8 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=bonkcoin-osx-unsigned.tar.gz
-  SIGNED=bonkcoin-osx-signed.dmg
+  UNSIGNED=friccoin-osx-unsigned.tar.gz
+  SIGNED=friccoin-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"

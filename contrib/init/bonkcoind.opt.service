@@ -3,9 +3,9 @@
 #
 # The relevant paths are:
 #
-#/opt/bonkcoin/bonkcoind
-#/etc/opt/bonkcoin/
-#/var/opt/bonkcoin/
+#/opt/friccoin/friccoind
+#/etc/opt/friccoin/
+#/var/opt/friccoin/
 
 [Unit]
 Description=Bonkcoin's distributed currency daemon
@@ -13,7 +13,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/opt/bonkcoin/bin/bonkcoind -conf=/etc/opt/bonkcoin/bonkcoin.conf -datadir=/var/opt/bonkcoin
+ExecStart=/opt/friccoin/bin/friccoind -conf=/etc/opt/friccoin/friccoin.conf -datadir=/var/opt/friccoin
 
 KillSignal=SIGINT
 Restart=always
@@ -23,8 +23,8 @@ TimeoutStartSec=5
 StartLimitIntervalSec=120
 StartLimitBurst=5
 
-User=bonkcoin
-Group=bonkcoin
+User=friccoin
+Group=friccoin
 
 ### Restrict resource consumption
 MemoryAccounting=yes
@@ -41,8 +41,8 @@ TemporaryFileSystem=/:ro
 BindReadOnlyPaths=/etc/ /lib/ /lib64/
 
 # Add daemon paths
-BindReadOnlyPaths=/opt/bonkcoin/ /etc/opt/bonkcoin/
-BindPaths=/var/opt/bonkcoin/
+BindReadOnlyPaths=/opt/friccoin/ /etc/opt/friccoin/
+BindPaths=/var/opt/friccoin/
 
 ### Restrict access to system.
 

@@ -1,7 +1,7 @@
 The [pull-tester](/qa/pull-tester/) folder contains a script to call
 multiple tests from the [rpc-tests](/qa/rpc-tests/) folder.
 
-Every pull request to the bonkcoin repository is built and run through
+Every pull request to the friccoin repository is built and run through
 the regression test suite. You can also run all or only individual
 tests locally.
 
@@ -81,7 +81,7 @@ to recover with:
 
 ```bash
 rm -rf cache
-killall bonkcoind
+killall friccoind
 ```
 
 Writing tests

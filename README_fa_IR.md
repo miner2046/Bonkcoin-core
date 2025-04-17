@@ -31,7 +31,7 @@ Bonkcoin Core [FRC, B]
 
 برای شروع سفر خود با هسته پپکوین، راهنمای [نصب](INSTALL.md) و آموزش [شروع کار](doc/getting-started.md) را ببینید.
 
-رابط JSON-RPC API ارائه شده توسط هسته پپکوین خودش توضیح داده شده است و می‌توانید با استفاده از `bonkcoin-cli help` آن را مشاهده کنید، در حالی که اطلاعات دقیق برای هر دستور را می‌توانید با `bonkcoin-cli help <دستور>` مشاهده کنید. به علاوه، به [مستندات هسته بیت‌کوین](https://developer.bitcoin.org/reference/rpc/) - که یک پروتکل مشابه را اجرا می‌کند - مراجعه کنید تا نسخه‌ای جستجوپذیر را دریافت کنید.
+رابط JSON-RPC API ارائه شده توسط هسته پپکوین خودش توضیح داده شده است و می‌توانید با استفاده از `friccoin-cli help` آن را مشاهده کنید، در حالی که اطلاعات دقیق برای هر دستور را می‌توانید با `friccoin-cli help <دستور>` مشاهده کنید. به علاوه، به [مستندات هسته بیت‌کوین](https://developer.bitcoin.org/reference/rpc/) - که یک پروتکل مشابه را اجرا می‌کند - مراجعه کنید تا نسخه‌ای جستجوپذیر را دریافت کنید.
 
 ### درگاه‌ها
 
@@ -78,7 +78,7 @@ Bonkcoin Core [FRC, B]
 
 * [Discord](https://discord.gg/rqtkgwsk6j)
 * [Telegram](https://t.me/bonkscoin)
-* [Twitter/X](https://x.com/bonkcoinpow)
+* [Twitter/X](https://x.com/friccoinpow)
 
 ## سوالات متداول ❓
 

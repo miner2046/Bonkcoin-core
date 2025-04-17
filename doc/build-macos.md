@@ -1,11 +1,11 @@
-# Building bonkcoin 1.14 on MacOS #
+# Building friccoin 1.14 on MacOS #
 
 Tested on MacOs Ventura and Sonoma on Intel (x86_64) and Apple Silicon (arm64) macs.
 
-### Clone bonkcoin locally, or check it out, etc. ###
+### Clone friccoin locally, or check it out, etc. ###
 
 ```sh
-git clone https://github.com/Bonkcoin/bonkcoin.git
+git clone https://github.com/Bonkcoin/friccoin.git
 ```
 
 ### Set up OSX basic build dependencies. ##
@@ -43,7 +43,7 @@ brew link protobuf@21
 ### Go back to your Bonkcoin repo ###
 
 ```sh
-cd ~/bonkcoin
+cd ~/friccoin
 
 ./autogen.sh
 ./configure --with-gui=qt5 --with-boost=`brew --prefix boost`
@@ -61,5 +61,5 @@ Go have another beverage.
 Run it.
 
 ```sh
-/usr/local/bin/bonkcoin-qt
+/usr/local/bin/friccoin-qt
 ```
