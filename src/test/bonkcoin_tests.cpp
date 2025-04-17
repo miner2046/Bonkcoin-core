@@ -52,7 +52,7 @@ uint64_t expectedMaxSubsidy(int height) {
 uint64_t expectedMinSubsidy(int height) {
     if (height < 50000) {
         return 0;
-    } else if (height < 95000) {//BONC TODO Magic number
+    } else if (height < 95000) {//FRC TODO Magic number
         return 0;
     } else if (height < 100000) {
         return 250000 * COIN;
@@ -146,7 +146,7 @@ BOOST_AUTO_TEST_CASE(get_next_work_digishield)
     int64_t nLastRetargetTime = 1395094427;
 
     // First hard-fork at 145,000, which applies to block 145,001 onwards
-    pindexLast.nHeight = 145000;//BONC TODO Magic number
+    pindexLast.nHeight = 145000;//FRC TODO Magic number
     pindexLast.nTime = 1395094679;
     pindexLast.nBits = 0x1b499dfd;
     BOOST_CHECK_EQUAL(CalculateBonkcoinNextWorkRequired(&pindexLast, nLastRetargetTime, params), 0x1b671062);
@@ -155,7 +155,7 @@ BOOST_AUTO_TEST_CASE(get_next_work_digishield)
 BOOST_AUTO_TEST_CASE(get_next_work_digishield_modulated_upper)
 {
     SelectParams(CBaseChainParams::MAIN);
-    const Consensus::Params& params = Params().GetConsensus(1000);//BONC TODO Magic number
+    const Consensus::Params& params = Params().GetConsensus(1000);//FRC TODO Magic number
     
     CBlockIndex pindexLast;
     int64_t nLastRetargetTime = 1395100835;
@@ -170,7 +170,7 @@ BOOST_AUTO_TEST_CASE(get_next_work_digishield_modulated_upper)
 BOOST_AUTO_TEST_CASE(get_next_work_digishield_modulated_lower)
 {
     SelectParams(CBaseChainParams::MAIN);
-    const Consensus::Params& params = Params().GetConsensus(1000);//BONC TODO Magic number
+    const Consensus::Params& params = Params().GetConsensus(1000);//FRC TODO Magic number
     
     CBlockIndex pindexLast;
     int64_t nLastRetargetTime = 1395380517;
@@ -185,7 +185,7 @@ BOOST_AUTO_TEST_CASE(get_next_work_digishield_modulated_lower)
 BOOST_AUTO_TEST_CASE(get_next_work_digishield_rounding)
 {
     SelectParams(CBaseChainParams::MAIN);
-    const Consensus::Params& params = Params().GetConsensus(1000);//BONC TODO Magic number
+    const Consensus::Params& params = Params().GetConsensus(1000);//FRC TODO Magic number
     
     CBlockIndex pindexLast;
     int64_t nLastRetargetTime = 1395094679;
@@ -212,7 +212,7 @@ BOOST_AUTO_TEST_CASE(hardfork_parameters)
     BOOST_CHECK_EQUAL(initialParamsEnd.fAllowLegacyBlocks, true);
     BOOST_CHECK_EQUAL(initialParamsEnd.fDigishieldDifficultyCalculation, true);
 
-    const Consensus::Params& digishieldParams = Params().GetConsensus(1000);//BONC TODO Magic number
+    const Consensus::Params& digishieldParams = Params().GetConsensus(1000);//FRC TODO Magic number
     BOOST_CHECK_EQUAL(digishieldParams.nPowTargetTimespan, 60);
     BOOST_CHECK_EQUAL(digishieldParams.fAllowLegacyBlocks, true);
     BOOST_CHECK_EQUAL(digishieldParams.fDigishieldDifficultyCalculation, true);
@@ -222,8 +222,8 @@ BOOST_AUTO_TEST_CASE(hardfork_parameters)
     BOOST_CHECK_EQUAL(digishieldParamsEnd.fAllowLegacyBlocks, true);
     BOOST_CHECK_EQUAL(digishieldParamsEnd.fDigishieldDifficultyCalculation, true);
 
-    const Consensus::Params& auxpowParams = Params().GetConsensus(42000);//BONC TODO Magic number
-    BOOST_CHECK_EQUAL(auxpowParams.nHeightEffective, 42000);//BONC TODO Magic number
+    const Consensus::Params& auxpowParams = Params().GetConsensus(42000);//FRC TODO Magic number
+    BOOST_CHECK_EQUAL(auxpowParams.nHeightEffective, 42000);//FRC TODO Magic number
     BOOST_CHECK_EQUAL(auxpowParams.nPowTargetTimespan, 60);
     BOOST_CHECK_EQUAL(auxpowParams.fAllowLegacyBlocks, false);
     BOOST_CHECK_EQUAL(auxpowParams.fDigishieldDifficultyCalculation, true);

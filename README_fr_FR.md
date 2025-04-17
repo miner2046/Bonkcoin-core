@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://i.imgur.com/d9a8NfA.png" alt="Bonkcoin" width="300"/>
 <br/><br/>
-Bonkcoin Core [BONC, B]  
+Bonkcoin Core [FRC, B]  
 </h1>
 
 Choisir la langue : [EN](./README.md) | [CN](./README_zh_CN.md) | [PT](./README_pt_BR.md) | [FA](./README_fa_IR.md) | [VI](./README_vi_VN.md) | FR | [JA](./README_ja_JP.md) | [DE](./README_de_DE.md)
@@ -12,7 +12,7 @@ Le logiciel Bonkcoin Core permet à quiconque d'opérer un nœud au sein des ré
 
 Pour plus d'informations sur les frais par défaut utilisés sur le réseau Bonkcoin, veuillez vous référer à [recommandation de frais](doc/fee-recommendation.md).
 
-**Site web:** [bonkscoin.io](https://bonkscoin.io)
+**Site web:** [friccoin.org](https://friccoin.org)
 
 ## Différences avec le Dogecoin
 
@@ -56,7 +56,7 @@ Principales ressources de développement :
   suivre les travaux planifiés et en cours pour les prochaines versions.
 * [GitHub Discussion](https://github.com/Bonkcoin/Bonkcoin-core/discussions) est utilisé pour discuter des fonctionnalités, des projets et des projets en cours.
   pour discuter des fonctionnalités, planifiées et non planifiées, liées à la fois au développement du
-  développement du logiciel Bonkcoin Core, des protocoles sous-jacents et de l'actif BONC.  
+  développement du logiciel Bonkcoin Core, des protocoles sous-jacents et de l'actif FRC.  
 
 
 ### Stratégie de version
@@ -92,7 +92,7 @@ Voici quelques espaces à visiter :
 
 
 * [Discord](https://discord.gg/rqtkgwsk6j)
-* [Website](https://bonkscoin.io/)
+* [Website](https://friccoin.org/)
 * [Telegram](https://t.me/bonkscoin)
 * [Twitter/X](https://x.com/bonkcoinpow)
 

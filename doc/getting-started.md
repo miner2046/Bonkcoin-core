@@ -1,6 +1,6 @@
 ## Getting started
 
-This tutorial will help you to go through the basics to use Bonkcoin Core after you completed the [installation instructions](/INSTALL.md). You now have `bonkcoind` or `bonkcoin-qt` executables available to run a node, and `bonkcoin-cli`/`bonkcoin-tx` tools to help you transact BONC.
+This tutorial will help you to go through the basics to use Bonkcoin Core after you completed the [installation instructions](/INSTALL.md). You now have `bonkcoind` or `bonkcoin-qt` executables available to run a node, and `bonkcoin-cli`/`bonkcoin-tx` tools to help you transact FRC.
 
 > **Note:** For simplicity, this guide assumes that executables can be found under the `PATH` environment variable.
 If needed, you can specify their location by typing `PATH=$PATH:/path/to/executables`, or prepend the full path to the command like:
@@ -63,7 +63,7 @@ Some commands are different, but it's possible to use the [bitcoin RPC API docum
 
 ### Creating a wallet
 
-To receive BONC, you need an address that is securely derived from a private key through a series of automatic, cryptographic operations. The *address* can be shared with anyone to receive BONC, but the *private key* is sensitive information that allows anyone that knows it to spend the BONC on the associated address.
+To receive FRC, you need an address that is securely derived from a private key through a series of automatic, cryptographic operations. The *address* can be shared with anyone to receive FRC, but the *private key* is sensitive information that allows anyone that knows it to spend the FRC on the associated address.
 
 By default, the Bonkcoin Core software will automatically create an address for you and securely store the private key in the wallet file.
 
@@ -90,7 +90,7 @@ satoshi:~$ bonkcoin-cli backupwallet /path/of/wallet/backup
 
 **Tip:** Bonkcoin addresses start with the letter `B`.
 
-You now have two wallet addresses to share with other people to receive BONC! Consider avoiding [address reuse](https://en.bitcoin.it/wiki/Address_reuse) for anonymity and security reasons.
+You now have two wallet addresses to share with other people to receive FRC! Consider avoiding [address reuse](https://en.bitcoin.it/wiki/Address_reuse) for anonymity and security reasons.
 
 ### Verifying your balance
 
@@ -111,7 +111,7 @@ satoshi:~$ bonkcoin-cli getbalance "*" 5
 
 ### Sending transactions
 
-Bonkcoin implements the [Unspent Transaction Output (UTXO)](https://en.wikipedia.org/wiki/Unspent_transaction_output) model to track which amounts of coin belong to an address. Owning BONC means that you know the private key(s) to addresses that are associated with unspent outputs. To spend them, you have to compose a new transaction that spends the value from currently unspent outputs to new outputs.
+Bonkcoin implements the [Unspent Transaction Output (UTXO)](https://en.wikipedia.org/wiki/Unspent_transaction_output) model to track which amounts of coin belong to an address. Owning FRC means that you know the private key(s) to addresses that are associated with unspent outputs. To spend them, you have to compose a new transaction that spends the value from currently unspent outputs to new outputs.
 
 ##### sendtoaddress
 

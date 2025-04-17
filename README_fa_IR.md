@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://i.imgur.com/d9a8NfA.png" alt="Bonkcoin" width="300"/>
 <br/><br/>
-Bonkcoin Core [BONC, B]
+Bonkcoin Core [FRC, B]
 </h1>
 
 انتخاب زبان: [EN](./README.md) | [CN](./README_zh_CN.md) | [PT](./README_pt_BR.md) | FA | [VI](./README_vi_VN.md) | [FR](./README_fr_FR.md) | [JA](./README_ja_JP.md) | [DE](./README_de_DE.md)
@@ -14,7 +14,7 @@ Bonkcoin Core [BONC, B]
 
 برای اطلاعات در مورد کارمزد‌های پیشفرض استفاده شده در شبکه پپکوین، لطفاً به [توصیه کارمزد](doc/fee-recommendation.md) مراجعه کنید.
 
-**وب‌سایت:** [bonkscoin.io](https://bonkscoin.io)
+**وب‌سایت:** [friccoin.org](https://friccoin.org)
 
 ## تفاوت‌های دوجکوین
 
@@ -49,7 +49,7 @@ Bonkcoin Core [BONC, B]
 منابع اصلی توسعه:
 
 * از [پروژه‌های GitHub](https://github.com/Bonkcoin/Bonkcoin-core/projects) برای پیگیری کارهای برنامه‌ریزی شده و در دست اجرا برای انتشارهای آتی استفاده می‌شود.
-* از [بحث در GitHub](https://github.com/Bonkcoin/Bonkcoin-core/discussions) برای بحث در مورد ویژگی‌ها، برنامه‌های برنامه‌ریزی و غیر برنامه‌ریزی مرتبط با توسعه هسته پپکوین، پروتکل‌های مبنایی و دارایی BONC استفاده می‌شود.
+* از [بحث در GitHub](https://github.com/Bonkcoin/Bonkcoin-core/discussions) برای بحث در مورد ویژگی‌ها، برنامه‌های برنامه‌ریزی و غیر برنامه‌ریزی مرتبط با توسعه هسته پپکوین، پروتکل‌های مبنایی و دارایی FRC استفاده می‌شود.
 
 ### استراتژی نسخه
 شماره‌های نسخه به صورت `major.minor.patch` پیروی می‌شوند.

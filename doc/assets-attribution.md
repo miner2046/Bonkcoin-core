@@ -48,8 +48,8 @@ Other
     src/qt/res/icons/about.png
     src/qt/res/icons/about_qt.png,
     src/qt/res/icons/bonkcoin.icns
-    src/qt/res/icons/bonkcoin.ico,
-    src/qt/res/icons/bonkcoin.png
+    src/qt/res/icons/friccoin.ico,
+    src/qt/res/icons/friccoin.png
     src/qt/res/icons/clock*.png,
     src/qt/res/icons/connect*.png
     src/qt/res/icons/eye_minus.png,

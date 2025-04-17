@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://i.imgur.com/d9a8NfA.png" alt="Bonkcoin" width="300"/>
 <br/><br/>
-Bonkcoin Core [BONC, B]  
+Bonkcoin Core [FRC, B]  
 </h1>
 
 
@@ -20,7 +20,7 @@ Sie wurde aus den Programmen Dogecoin Core, Bitcoin Core und anderen Kryptowähr
 
 Für Informationen zu den Standardgebühren im Bonkcoin-Netzwerk lesen Sie die [Gebührenempfehlungen](doc/fee-recommendation_DE.md).
 
-**Website:** [bonkscoin.io](https://bonkscoin.io)
+**Website:** [friccoin.org](https://friccoin.org)
 
 ## Unterschiede zu Dogecoin
 
@@ -66,7 +66,7 @@ Hauptentwicklungsressourcen:
  um geplante und laufende Arbeiten für bevorstehende Veröffentlichungen zu verfolgen.
 
 * [GitHub Discussion](https://github.com/Bonkcoin/Bonkcoin-core/discussions) wird genutzt, 
-  um Features (geplante und ungeplante) zu diskutieren die mit der Entwicklung der Bonkcoin Core-Software, den zugrunde liegenden Protokollen und dem BONC-Vermögenswert zusammenhängen.
+  um Features (geplante und ungeplante) zu diskutieren die mit der Entwicklung der Bonkcoin Core-Software, den zugrunde liegenden Protokollen und dem FRC-Vermögenswert zusammenhängen.
 
 
 

@@ -1554,7 +1554,7 @@
         <translation>Muat Dompet Kertas</translation>
     </message>
     <message>
-        <source>The paper wallet printing process has begun.&lt;br/&gt;Please wait for the wallets to print completely and verify that everything printed correctly.&lt;br/&gt;Check for misalignments, ink bleeding, smears, or anything else that could make the private keys unreadable.&lt;br/&gt;Now, enter the number of BONC you wish to send to each wallet:</source>
+        <source>The paper wallet printing process has begun.&lt;br/&gt;Please wait for the wallets to print completely and verify that everything printed correctly.&lt;br/&gt;Check for misalignments, ink bleeding, smears, or anything else that could make the private keys unreadable.&lt;br/&gt;Now, enter the number of FRC you wish to send to each wallet:</source>
         <translation>Proses pencetakan dompet kertas telah dimulai.&lt;br/&gt;Harap tunggu sampai dompet sepenuhnya telah dicetak dan pastikan semua bagian sudah tercetak dengan benar.&lt;br/&gt;Periksa juga barangkali ada ketidak sejajaran, tinta bercampur, bercak, atau apapun yang membuat kunci privat tidak terbaca.&lt;br/&gt;Sekarang, masukan berapa banyak DOGE yang mau dikirim kesetiap dompet:</translation>
     </message>
     <message>

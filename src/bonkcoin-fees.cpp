@@ -24,7 +24,7 @@ CFeeRate GetBonkcoinFeeRate(int priority)
     switch(priority)
     {
     case MAXIMUM:
-        return CFeeRate(COIN / 100 * 521); // 5.21 BONC, but very carefully avoiding floating point maths
+        return CFeeRate(COIN / 100 * 521); // 5.21 FRC, but very carefully avoiding floating point maths
     case VERY_HIGH:
         return CFeeRate(CWallet::minTxFee.GetFeePerK() * 100);
     case HIGH:

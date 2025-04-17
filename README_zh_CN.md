@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://i.imgur.com/d9a8NfA.png" alt="Bonkcoin" width="300"/>
 <br/><br/>
-Bonkcoin Core [BONC, B]
+Bonkcoin Core [FRC, B]
 </h1>
 
 选择语言: [EN](./README.md) | CN | [PT](./README_pt_BR.md) | [FA](./README_fa_IR.md) | [VI](./README_vi_VN.md) | [FR](./README_fr_FR.md) | [JA](./README_ja_JP.md) | [DE](./README_ger_DE.md)
@@ -14,7 +14,7 @@ Bonkcoin 是一个以社区为核心的加密货币。它的诞生只有一个�
 
 有关Bonkcoin网络上使用的默认费用的信息，请参阅[费用建议](doc/fee-recommendation.md)。
 
-**网站:** [bonkscoin.io](https://bonkscoin.io)
+**网站:** [friccoin.org](https://friccoin.org)
 
 ## Dogecoin 差异
 
@@ -49,7 +49,7 @@ Bonkcoin Core是一个开源的、社区驱动的软件。开发过程是公开�
 主要的开发资源:
 
 * [GitHub项目](https://github.com/Bonkcoin/Bonkcoin-core/projects) 用于跟踪即将发布的版本的计划和正在进行中的工作。
-* [GitHub讨论](https://github.com/Bonkcoin/Bonkcoin-core/discussions) 用于讨论与Bonkcoin Core软件的开发、基础协议和BONC资产相关的计划和非计划功能。
+* [GitHub讨论](https://github.com/Bonkcoin/Bonkcoin-core/discussions) 用于讨论与Bonkcoin Core软件的开发、基础协议和FRC资产相关的计划和非计划功能。
 
 
 ### 版本策略

@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://i.imgur.com/d9a8NfA.png" alt="Bonkcoin" width="300"/>
 <br/><br/>
-Bonkcoin Core [BONC, B]
+Bonkcoin Core [FRC, B]
 </h1>
 
 Select language: EN | [CN](./README_zh_CN.md) | [PT](./README_pt_BR.md) | [FA](./README_fa_IR.md) | [VI](./README_vi_VN.md) | [FR](./README_fr_FR.md) | [JA](./README_ja_JP.md) | [DE](./README_de_DE.md)
@@ -15,7 +15,7 @@ The Bonkcoin Core software allows anyone to operate a node in the Bonkcoin block
 For information about the default fees used on the Bonkcoin network, please
 refer to the [fee recommendation](doc/fee-recommendation.md).
 
-**Website:** [bonkscoin.io](https://bonkscoin.io/)
+**Website:** [friccoin.org](https://friccoin.org/)
 
 ## Dogecoin Differences
 
@@ -29,10 +29,10 @@ Changes:
 * GUI themed for Bonkcoin
 
 * Coin Name    : BonkCoin
-* Coin ticker  : BONC
+* Coin ticker  : FRC
 * Algorithm    : Scrypt
 * Block Time   : 60 seconds
-* Explorer 1   : https://explorer.bonkscoin.io
+* Explorer 1   : https://explorer.friccoin.org
 * Explorer 2   : https://bonkscan.net
 * github       : https://github.com/Bonkcoin/Bonkcoin-core
 * Wallet       : https://github.com/Bonkcoin/Bonkcoin-core/releases
@@ -117,7 +117,7 @@ Main development resources:
   follow planned and in-progress work for upcoming releases.
 * [GitHub Discussion](https://github.com/Bonkcoin/Bonkcoin-core/discussions) is used
   to discuss features, planned and unplanned, related to both the development of
-  the Bonkcoin Core software, the underlying protocols and the BONC asset.
+  the Bonkcoin Core software, the underlying protocols and the FRC asset.
 
 
 ### Version strategy

@@ -243,7 +243,7 @@ done
 
 %if %{_buildqt}
 # qt icons
-install -D -p share/pixmaps/bonkcoin.ico %{buildroot}%{_datadir}/pixmaps/bonkcoin.ico
+install -D -p share/pixmaps/friccoin.ico %{buildroot}%{_datadir}/pixmaps/friccoin.ico
 install -p share/pixmaps/nsis-header.bmp %{buildroot}%{_datadir}/pixmaps/
 install -p share/pixmaps/nsis-wizard.bmp %{buildroot}%{_datadir}/pixmaps/
 install -p %{SOURCE100} %{buildroot}%{_datadir}/pixmaps/bitcoin.svg

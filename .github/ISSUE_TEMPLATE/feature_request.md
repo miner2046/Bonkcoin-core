@@ -7,7 +7,7 @@ title: '[feat] '
 <!-- Please make sure you are posting an technical issue related to Bonkcoin Core. --> 
 
 <!-- For general questions about Bonkcoin or wallet recovery please use one of the various communities:
-* [Discord](https://bonkscoin.io/discord) -->
+* [Discord](https://friccoin.org/discord) -->
 
 <!-- ISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION. -->
 

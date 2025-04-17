@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://i.imgur.com/d9a8NfA.png" alt="Bonkcoin" width="300"/>
 <br/><br/>
-Nhân Tố Bonkcoin [BONC, B]
+Nhân Tố Bonkcoin [FRC, B]
 </h1>
 
 Chọn ngôn ngữ: [EN](./README.md)| [CN](./README_zh_CN.md) | [PT](./README_pt_BR.md) | [FA](./README_fa_IR.md) | VI | [FR](./README_fr_FR.md) | [JA](./README_ja_JP.md) | [DE](./README_de_DE.md)
@@ -14,7 +14,7 @@ Giống như Dogecoin, phần mềm Nhân Tố Bonkcoin cho phép bất kỳ ai 
 
 Để biết thông tin về các mức phí mặc định được sử dụng trên mạng lưới Bonkcoin, vui lòng tham khảo [đề xuất phí](doc/fee-recommendation.md).
 
-**Trang web:** [bonkscoin.io](https://bonkscoin.io)
+**Trang web:** [friccoin.org](https://friccoin.org)
 
 ## Sự Khác Biệt với Dogecoin
 
@@ -49,7 +49,7 @@ Nhân Tố Bonkcoin là một phần mềm mã nguồn mở và do cộng đồn
 Các tài nguyên phát triển chính:
 
 * [Dự Án GitHub](https://github.com/Bonkcoin/Bonkcoin-core/projects) được sử dụng để theo dõi công việc đã được lên kế hoạch và đang tiến hành cho các bản phát hành sắp tới.
-* [Thảo Luận GitHub](https://github.com/Bonkcoin/Bonkcoin-core/discussions) được sử dụng để thảo luận về các tính năng, cả về những tính năng đã được lên kế hoạch và chưa được lên kế hoạch, liên quan đến cả phát triển phần mềm Nhân Tố Bonkcoin, các giao thức cơ bản và tài sản BONC.
+* [Thảo Luận GitHub](https://github.com/Bonkcoin/Bonkcoin-core/discussions) được sử dụng để thảo luận về các tính năng, cả về những tính năng đã được lên kế hoạch và chưa được lên kế hoạch, liên quan đến cả phát triển phần mềm Nhân Tố Bonkcoin, các giao thức cơ bản và tài sản FRC.
 
 ### Chiến Lược Phiên Bản
 Các số phiên bản tuân thủ cú pháp ```major.minor.patch```.

@@ -14,20 +14,20 @@ release represent the developers best estimate of how these limits should be
 parametrized. The recommended defaults, as implemented in the Bonkcoin Core
 wallet, are:
 
-- **0.01 BONC per kilobyte** transaction fee
-- **0.01 BONC** dust limit (discard threshold)
-- **0.001 BONC** replace-by-fee increments
+- **0.01 FRC per kilobyte** transaction fee
+- **0.01 FRC** dust limit (discard threshold)
+- **0.001 FRC** replace-by-fee increments
 
 The wallet rejects transactions that have outputs under the dust limit, and
 discards change to fee if it falls under this limit.
 
 Fees are calculated over the exact size of a transaction. For example, a 192 byte
-transaction only has to pay `0.01 / 1000 * 192 = 0.00192` BONC fee.
+transaction only has to pay `0.01 / 1000 * 192 = 0.00192` FRC fee.
 
 ## Miner default inclusion policies
 
 The default values for miners to include a transaction in a block has been set
-to exactly the recommended fee of **0.01 BONC/kB.** Dust limits are defined by
+to exactly the recommended fee of **0.01 FRC/kB.** Dust limits are defined by
 the miner's mempool policy, see below.
 
 ## Relay and mempool policies
@@ -41,7 +41,7 @@ absolute mininum
 
 ### Transaction fee
 
-The default minimum transaction fee for relay is set at **0.001 BONC/kB**,
+The default minimum transaction fee for relay is set at **0.001 FRC/kB**,
 exactly one-tenth of the recommended fee. This gives miners and relay operators
 a 10x downward margin to operate within from a spam management perspective.
 
@@ -52,14 +52,14 @@ transactions is considered non-standard and rejected, and a soft dust limit
 that requires the limit itself to be added to the transaction fee, making the
 output economically unviable.
 
-- The hard dust limit is set at **0.001 BONC** - outputs under this value are
+- The hard dust limit is set at **0.001 FRC** - outputs under this value are
   invalid and rejected.
-- The soft dust limit is set at **0.01 BONC** - sending a transaction with outputs
-  under this value, are required to add 0.01 BONC for each such output, or else
+- The soft dust limit is set at **0.01 FRC** - sending a transaction with outputs
+  under this value, are required to add 0.01 FRC for each such output, or else
   will be considered to have too low fee and be rejected.
 
 ### Replace-by-fee and mempool limiting increments
 
 The increments used for replace-by-fee and limiting the mempool once it has
 reached its locally defined maximum size, is by default set at one-tenth of
-the relay fee, or **0.0001 BONC**.
+the relay fee, or **0.0001 FRC**.

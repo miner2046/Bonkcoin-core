@@ -34,7 +34,7 @@
 ####Design
 
 * Add new Bonkcoin vector logos.
-* Add newer and nicer `bonkcoin.png` logo to splash screen.
+* Add newer and nicer `friccoin.png` logo to splash screen.
 * Remove Dogecoin logos `qt/res/icons` folder
 * Update the `wallet_bgcoin.png` file to the new Bonkcoin logo
 * Remove Comic Sans. Add `RobotoMono` and set GUI to use `Monospace` font
@@ -46,14 +46,14 @@
 * Create new `about.png` with a Bonkcoin logo
 * Add new design for `paper_wallet.png`
 * Remove Dogecoin explorer urls
-* Update tx urls in gui to point to the Bonkcoin blockchain explorer explorer.bonkscoin.io
+* Update tx urls in gui to point to the Bonkcoin blockchain explorer explorer.friccoin.org
 
 ####Documentation
 
 * Generate Bonkcoin man pages
 * Add `--with-gui` to `build-windows.md` instructions
-* Change website url to bonkscoin.io
-* Change ticker symbol from `PPC` to `BONC` in `readme.md`, man pages, and `amount.cpp`
+* Change website url to friccoin.org
+* Change ticker symbol from `PPC` to `FRC` in `readme.md`, man pages, and `amount.cpp`
 * Update `assets-attribution.md`
 * Update `gen-manpages.sh` to target the bash shell
 * Update readme files to correct urls and Bonc icon/text. Remove references to Bonkcoin in the Dogecoin release notes. Move Dogecoin release notes to new `release-notes/dogecoin` folder.

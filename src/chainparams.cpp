@@ -91,7 +91,7 @@ public:
         consensus.nPowTargetTimespan = 60; // 1 minute
         consensus.nPowTargetSpacing = 60; // 1 minute
         consensus.fDigishieldDifficultyCalculation = true;
-        consensus.nCoinbaseMaturity = 100;
+        consensus.nCoinbaseMaturity = 10;
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowAllowDigishieldMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
@@ -161,7 +161,7 @@ public:
         pchMessageStart[1] = 0x4F;
         pchMessageStart[2] = 0x4E;
         pchMessageStart[3] = 0x43;
-        nDefaultPort = 14327;
+        nDefaultPort = 4327;
         nPruneAfterHeight = 100000;
 
         genesis = CreateGenesisBlock(1735578892, 351899, 0x1e0ffff0, 1, 50 * COIN);
@@ -172,9 +172,9 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x3ea754d80173ccb0f19377e9a98d41e7d597dd77ce827b121f655a421216592b")); // markle hash of the network genesis block mainnet
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.push_back(CDNSSeedData("bonkscoin.io", "dnsseed.bonkscoin.io"));
+        vSeeds.push_back(CDNSSeedData("seed.friccoin.org", "seed.friccoin.org"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,25); // Addresses start with B
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,35); // Addresses start with B
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,28);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,151);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0xfa)(0xda)(0xfe).convert_to_container<std::vector<unsigned char> >();
@@ -332,7 +332,7 @@ public:
 
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        // vSeeds.push_back(CDNSSeedData("bonkscoin.io", "seeds-testnet.bonkscoin.io"));
+        // vSeeds.push_back(CDNSSeedData("friccoin.org", "seeds-testnet.friccoin.org"));
         // vSeeds.push_back(CDNSSeedData("bonkblocks.com", "seeds-testnet.bonkblocks.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,113); // 0x71

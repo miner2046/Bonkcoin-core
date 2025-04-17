@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://i.imgur.com/d9a8NfA.png" alt="Bonkcoin" width="300"/>
 <br/><br/>
-Bonkcoin Core [BONC, B]  
+Bonkcoin Core [FRC, B]  
 </h1>
 
 言語を選択: [EN](./README.md) | [CN](./README_zh_CN.md) | [PT](./README_pt_BR.md) | [FA](./README_fa_IR.md) | [VI](./README_vi_VN.md) | [FR](./README_fr_FR.md) | JA | [DE](./README_de_DE.md)
@@ -14,7 +14,7 @@ Dogecoinと同様に、Bonkcoin Coreソフトウェアを使用すると、誰�
 
 Bonkcoinネットワークで使用されるデフォルトの料金に関する情報については、[料金の推奨事項](doc/fee-recommendation.md)を参照してください。
 
-**ウェブサイト:** [bonkscoin.io](https://bonkscoin.io)
+**ウェブサイト:** [friccoin.org](https://friccoin.org)
 
 ## Dogecoinの違い
 
@@ -49,7 +49,7 @@ Bonkcoin Coreはオープンソースでコミュニティ主導のソフトウ�
 主な開発リソース：
 
 * [GitHubプロジェクト](https://github.com/Bonkcoin/Bonkcoin-core/projects)は、今後のリリースのために計画されている作業と進行中の作業を追跡するために使用されます。
-* [GitHubディスカッション](https://github.com/Bonkcoin/Bonkcoin-core/discussions)は、Bonkcoin Coreソフトウェアの開発、基礎となるプロトコル、およびBONC資産に関連する計画されたおよび計画されていない機能について議論するために使用されます。
+* [GitHubディスカッション](https://github.com/Bonkcoin/Bonkcoin-core/discussions)は、Bonkcoin Coreソフトウェアの開発、基礎となるプロトコル、およびFRC資産に関連する計画されたおよび計画されていない機能について議論するために使用されます。
 
 
 ### バージョン戦略
