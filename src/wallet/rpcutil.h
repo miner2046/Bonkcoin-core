@@ -5,11 +5,11 @@
 /**
  * Utility functions for RPC commands
  */
-#ifndef BONKCOIN_WALLET_UTIL_H
-#define BONKCOIN_WALLET_UTIL_H
+#ifndef FRICCOIN_WALLET_UTIL_H
+#define FRICCOIN_WALLET_UTIL_H
 #include <boost/filesystem/path.hpp>
 #include "util.h"
 
 boost::filesystem::path GetBackupDirFromInput(std::string strUserFilename);
 
-#endif // BONKCOIN_WALLET_UTIL_H
+#endif // FRICCOIN_WALLET_UTIL_H

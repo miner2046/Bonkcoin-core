@@ -24,23 +24,23 @@ BITCOIN_INCLUDES=-I$(builddir) -I$(builddir)/obj $(BDB_CPPFLAGS) $(BOOST_CPPFLAG
 BITCOIN_INCLUDES += -I$(srcdir)/secp256k1/include
 BITCOIN_INCLUDES += $(UNIVALUE_CFLAGS)
 
-LIBBONKCOIN_SERVER=libfriccoin_server.a
-LIBBONKCOIN_COMMON=libfriccoin_common.a
-LIBBONKCOIN_CONSENSUS=libfriccoin_consensus.a
-LIBBONKCOIN_CLI=libfriccoin_cli.a
-LIBBONKCOIN_UTIL=libfriccoin_util.a
-LIBBONKCOIN_CRYPTO=crypto/libfriccoin_crypto.a
-LIBBONKCOINQT=qt/libfriccoinqt.a
+LIBFRICCOIN_SERVER=libfriccoin_server.a
+LIBFRICCOIN_COMMON=libfriccoin_common.a
+LIBFRICCOIN_CONSENSUS=libfriccoin_consensus.a
+LIBFRICCOIN_CLI=libfriccoin_cli.a
+LIBFRICCOIN_UTIL=libfriccoin_util.a
+LIBFRICCOIN_CRYPTO=crypto/libfriccoin_crypto.a
+LIBFRICCOINQT=qt/libfriccoinqt.a
 LIBSECP256K1=secp256k1/libsecp256k1.la
 
 if ENABLE_ZMQ
-LIBBONKCOIN_ZMQ=libfriccoin_zmq.a
+LIBFRICCOIN_ZMQ=libfriccoin_zmq.a
 endif
 if BUILD_BITCOIN_LIBS
-LIBBONKCOINCONSENSUS=libfriccoinconsensus.la
+LIBFRICCOINCONSENSUS=libfriccoinconsensus.la
 endif
 if ENABLE_WALLET
-LIBBONKCOIN_WALLET=libfriccoin_wallet.a
+LIBFRICCOIN_WALLET=libfriccoin_wallet.a
 endif
 
 $(LIBSECP256K1): $(wildcard secp256k1/src/*) $(wildcard secp256k1/include/*)
@@ -49,16 +49,16 @@ $(LIBSECP256K1): $(wildcard secp256k1/src/*) $(wildcard secp256k1/include/*)
 # Make is not made aware of per-object dependencies to avoid limiting building parallelization
 # But to build the less dependent modules first, we manually select their order here:
 EXTRA_LIBRARIES += \
-  $(LIBBONKCOIN_CRYPTO) \
-  $(LIBBONKCOIN_UTIL) \
-  $(LIBBONKCOIN_COMMON) \
-  $(LIBBONKCOIN_CONSENSUS) \
-  $(LIBBONKCOIN_SERVER) \
-  $(LIBBONKCOIN_CLI) \
-  $(LIBBONKCOIN_WALLET) \
-  $(LIBBONKCOIN_ZMQ)
+  $(LIBFRICCOIN_CRYPTO) \
+  $(LIBFRICCOIN_UTIL) \
+  $(LIBFRICCOIN_COMMON) \
+  $(LIBFRICCOIN_CONSENSUS) \
+  $(LIBFRICCOIN_SERVER) \
+  $(LIBFRICCOIN_CLI) \
+  $(LIBFRICCOIN_WALLET) \
+  $(LIBFRICCOIN_ZMQ)
 
-lib_LTLIBRARIES = $(LIBBONKCOINCONSENSUS)
+lib_LTLIBRARIES = $(LIBFRICCOINCONSENSUS)
 
 bin_PROGRAMS =
 noinst_PROGRAMS =
@@ -391,14 +391,14 @@ friccoind_SOURCES += bitcoind-res.rc
 endif
 
 friccoind_LDADD = \
-  $(LIBBONKCOIN_SERVER) \
-  $(LIBBONKCOIN_COMMON) \
+  $(LIBFRICCOIN_SERVER) \
+  $(LIBFRICCOIN_COMMON) \
   $(LIBUNIVALUE) \
-  $(LIBBONKCOIN_UTIL) \
-  $(LIBBONKCOIN_WALLET) \
-  $(LIBBONKCOIN_ZMQ) \
-  $(LIBBONKCOIN_CONSENSUS) \
-  $(LIBBONKCOIN_CRYPTO) \
+  $(LIBFRICCOIN_UTIL) \
+  $(LIBFRICCOIN_WALLET) \
+  $(LIBFRICCOIN_ZMQ) \
+  $(LIBFRICCOIN_CONSENSUS) \
+  $(LIBFRICCOIN_CRYPTO) \
   $(LIBLEVELDB) \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
@@ -416,10 +416,10 @@ friccoin_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
 friccoin_cli_LDADD = \
-  $(LIBBONKCOIN_CLI) \
+  $(LIBFRICCOIN_CLI) \
   $(LIBUNIVALUE) \
-  $(LIBBONKCOIN_UTIL) \
-  $(LIBBONKCOIN_CRYPTO)
+  $(LIBFRICCOIN_UTIL) \
+  $(LIBFRICCOIN_CRYPTO)
 
 friccoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
@@ -436,10 +436,10 @@ endif
 
 friccoin_tx_LDADD = \
   $(LIBUNIVALUE) \
-  $(LIBBONKCOIN_COMMON) \
-  $(LIBBONKCOIN_UTIL) \
-  $(LIBBONKCOIN_CONSENSUS) \
-  $(LIBBONKCOIN_CRYPTO) \
+  $(LIBFRICCOIN_COMMON) \
+  $(LIBFRICCOIN_UTIL) \
+  $(LIBFRICCOIN_CONSENSUS) \
+  $(LIBFRICCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
 friccoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)

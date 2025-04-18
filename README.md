@@ -28,12 +28,12 @@ Changes:
 * AuxPow starts at block 42,000 (Chain ID: 63)
 * GUI themed for Friccoin
 
-* Coin Name    : BonkCoin
+* Coin Name    : FricCoin
 * Coin ticker  : FRC
 * Algorithm    : Scrypt
 * Block Time   : 60 seconds
 * Explorer 1   : https://explorer.friccoin.org
-* Explorer 2   : https://bonkscan.net
+* Explorer 2   : https://fricscan.net
 * github       : https://github.com/Friccoin/Friccoin-core
 * Wallet       : https://github.com/Friccoin/Friccoin-core/releases
 
@@ -155,14 +155,14 @@ Here are some places to visit:
 
 
 * [Discord](https://discord.gg/rqtkgwsk6j)
-* [Telegram](https://t.me/bonkscoin)
+* [Telegram](https://t.me/fricscoin)
 * [X](https://x.com/friccoinpow)
 
 ## Future Plan
 
 - More marketing
 - More development
-- Everything need to make BonkCoin to the moon
+- Everything need to make FricCoin to the moon
 
 
 ## Frequently Asked Questions ❓

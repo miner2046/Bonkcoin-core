@@ -4,8 +4,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_BONKCOIN_FEES_H
-#define BITCOIN_BONKCOIN_FEES_H
+#ifndef BITCOIN_FRICCOIN_FEES_H
+#define BITCOIN_FRICCOIN_FEES_H
 
 #include "amount.h"
 #include "chain.h"
@@ -30,4 +30,4 @@ const std::string GetFriccoinPriorityLabel(int priority);
 CAmount GetFriccoinMinRelayFee(const CTransaction& tx, unsigned int nBytes, bool fAllowFree);
 CAmount GetFriccoinDustFee(const std::vector<CTxOut> &vout, const CAmount dustLimit);
 
-#endif // BITCOIN_BONKCOIN_FEES_H
+#endif // BITCOIN_FRICCOIN_FEES_H

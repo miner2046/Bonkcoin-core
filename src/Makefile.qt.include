@@ -418,14 +418,14 @@ endif
 if TARGET_WINDOWS
   qt_friccoin_qt_SOURCES += $(BITCOIN_RC)
 endif
-qt_friccoin_qt_LDADD = qt/libfriccoinqt.a $(LIBBONKCOIN_SERVER)
+qt_friccoin_qt_LDADD = qt/libfriccoinqt.a $(LIBFRICCOIN_SERVER)
 if ENABLE_WALLET
-qt_friccoin_qt_LDADD += $(LIBBONKCOIN_WALLET)
+qt_friccoin_qt_LDADD += $(LIBFRICCOIN_WALLET)
 endif
 if ENABLE_ZMQ
-qt_friccoin_qt_LDADD += $(LIBBONKCOIN_ZMQ) $(ZMQ_LIBS)
+qt_friccoin_qt_LDADD += $(LIBFRICCOIN_ZMQ) $(ZMQ_LIBS)
 endif
-qt_friccoin_qt_LDADD += $(LIBBONKCOIN_CLI) $(LIBBONKCOIN_COMMON) $(LIBBONKCOIN_UTIL) $(LIBBONKCOIN_CONSENSUS) $(LIBBONKCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
+qt_friccoin_qt_LDADD += $(LIBFRICCOIN_CLI) $(LIBFRICCOIN_COMMON) $(LIBFRICCOIN_UTIL) $(LIBFRICCOIN_CONSENSUS) $(LIBFRICCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(LIBSECP256K1) \
   $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
 qt_friccoin_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
@@ -467,7 +467,7 @@ CLEAN_QT = $(nodist_qt_libfriccoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda
 CLEANFILES += $(CLEAN_QT)
 
 friccoin_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libfriccoinqt_a_OBJECTS) $(qt_friccoin_qt_OBJECTS) qt/friccoin-qt$(EXEEXT) $(LIBBONKCOINQT)
+	rm -f $(CLEAN_QT) $(qt_libfriccoinqt_a_OBJECTS) $(qt_friccoin_qt_OBJECTS) qt/friccoin-qt$(EXEEXT) $(LIBFRICCOINQT)
 
 friccoin_qt : qt/friccoin-qt$(EXEEXT)
 

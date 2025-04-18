@@ -218,7 +218,7 @@ std::unique_ptr<CBlockTemplate> BlockAssembler::CreateNewBlock(const CScript& sc
         CTxDestination destDeveloperFeeAddress = DecodeDestination(GetDeveloperFeeAddress);
 
         if (!IsValidDestination(destDeveloperFeeAddress)) {
-            LogPrintf("IsValidDestination: Invalid Bonc address %s \n", GetDeveloperFeeAddress);
+            LogPrintf("IsValidDestination: Invalid Fric address %s \n", GetDeveloperFeeAddress);
         }
 
         // Ensure scriptPubKey is correctly assigned

@@ -104,7 +104,7 @@ use old versions of Upstart and do not supply the start-stop-daemon utility.
 Copy friccoind.init to /etc/init.d/friccoind. Test by running `service friccoind start`.
 
 Using this script, you can adjust the path and flags to the friccoind program by
-setting the BONKCOIND and FLAGS environment variables in the file
+setting the FRICCOIND and FLAGS environment variables in the file
 /etc/sysconfig/friccoind. You can also use the DAEMONOPTS environment variable here.
 
 4e) Mac OS X

@@ -77,7 +77,7 @@ Friccoin Core [FRC, B]
 
 
 * [Discord](https://discord.gg/rqtkgwsk6j)
-* [Telegram](https://t.me/bonkscoin)
+* [Telegram](https://t.me/fricscoin)
 * [Twitter/X](https://x.com/friccoinpow)
 
 ## سوالات متداول ❓

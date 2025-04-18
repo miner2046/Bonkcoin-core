@@ -2004,7 +2004,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     std::string GetDeveloperFeeAddress = Params().DeveloperFeeAddress();
     CTxDestination destDeveloperFeeAddress = DecodeDestination(GetDeveloperFeeAddress);
     if (!IsValidDestination(destDeveloperFeeAddress)) {
-        LogPrintf("IsValidDestination: Invalid Bonc address %s \n", GetDeveloperFeeAddress);
+        LogPrintf("IsValidDestination: Invalid Fric address %s \n", GetDeveloperFeeAddress);
     }
     CAmount nDeveloperFeeStart = Params().DeveloperFeeStart();
     CScript scriptPubKeyDeveloperFeeAddress = GetScriptForDestination(destDeveloperFeeAddress);

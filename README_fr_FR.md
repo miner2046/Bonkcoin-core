@@ -93,7 +93,7 @@ Voici quelques espaces à visiter :
 
 * [Discord](https://discord.gg/rqtkgwsk6j)
 * [Website](https://friccoin.org/)
-* [Telegram](https://t.me/bonkscoin)
+* [Telegram](https://t.me/fricscoin)
 * [Twitter/X](https://x.com/friccoinpow)
 
 ## Foire aux question ❓

@@ -31,7 +31,7 @@ Friccoin ist eine Abspaltung von Dogecoin. Um die Vertrautheit zu wahren, werden
 * Adressen beginnen mit `B` statt `D`
 * BIPS-Funktionen übernommen
 * AuxPow Chain ID 63 (Merged Mining aktiviert)
-* UI im Bonc-Style
+* UI im Fric-Style
 
 
 
@@ -97,12 +97,12 @@ Oft gibt es [Themen, bei denen Hilfe benötigt wird](https://github.com/Friccoin
 ## Communities 🐸
 
 Sie können sich der Community in verschiedenen sozialen Medien anschließen, um Leute zu treffen, zu diskutieren, 
-die neuesten Bonc-Memes zu finden, etwas über Friccoin zu lernen oder um Ideen zu teilen.
+die neuesten Fric-Memes zu finden, etwas über Friccoin zu lernen oder um Ideen zu teilen.
 
 Hier sind einige Links:
 
 * [Discord](https://discord.gg/rqtkgwsk6j) Offizieller Friccoin Discord Server
-* [Telegram](https://t.me/bonkscoin)
+* [Telegram](https://t.me/fricscoin)
 * [Twitter/X](https://x.com/friccoinpow)
 
 ## Häufig gestellte Fragen ❓

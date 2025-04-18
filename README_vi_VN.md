@@ -78,7 +78,7 @@ Dưới đây là một số nơi bạn có thể thăm:
 
 
 * [Discord](https://discord.gg/rqtkgwsk6j)
-* [Telegram](https://t.me/bonkscoin)
+* [Telegram](https://t.me/fricscoin)
 * [Twitter/X](https://x.com/friccoinpow)
 
 ## Câu Hỏi Thường Gặp ❓

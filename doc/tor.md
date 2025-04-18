@@ -1,4 +1,4 @@
-TOR SUPPORT IN BONKCOIN
+TOR SUPPORT IN FRICCOIN
 =======================
 
 It is possible to run Friccoin as a Tor hidden service, and connect to such services.

@@ -80,7 +80,7 @@ Friccoin Coreの開発に参加する方法については、[貢献ガイド](C
 
 
 * [Discord](https://discord.gg/rqtkgwsk6j)
-* [Telegram](https://t.me/bonkscoin)
+* [Telegram](https://t.me/fricscoin)
 * [Twitter/X](https://x.com/friccoinpow)
 
 ## よくある質問 ❓

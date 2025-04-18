@@ -79,7 +79,7 @@ Friccoin Core是一个开源的、社区驱动的软件。开发过程是公开�
 
 
 * [Discord](https://discord.gg/rqtkgwsk6j)
-* [Telegram](https://t.me/bonkscoin)
+* [Telegram](https://t.me/fricscoin)
 * [Twitter/X](https://x.com/friccoinpow)
 
 ## 常见问题解答 ❓

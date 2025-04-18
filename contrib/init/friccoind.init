@@ -19,14 +19,14 @@ fi
 RETVAL=0
 
 prog=friccoind
-# you can override the lockfile via BONKCOIND_LOCKFILE in /etc/sysconfig/friccoind
-lockfile=${BONKCOIND_LOCKFILE-/var/lock/subsys/friccoind}
+# you can override the lockfile via FRICCOIND_LOCKFILE in /etc/sysconfig/friccoind
+lockfile=${FRICCOIND_LOCKFILE-/var/lock/subsys/friccoind}
 
-# friccoind defaults to /usr/bin/friccoind, override with BONKCOIND_BIN
-friccoind=${BONKCOIND_BIN-/usr/bin/friccoind}
+# friccoind defaults to /usr/bin/friccoind, override with FRICCOIND_BIN
+friccoind=${FRICCOIND_BIN-/usr/bin/friccoind}
 
-# friccoind opts default to -disablewallet, override with BONKCOIND_OPTS
-friccoind_opts=${BONKCOIND_OPTS--disablewallet}
+# friccoind opts default to -disablewallet, override with FRICCOIND_OPTS
+friccoind_opts=${FRICCOIND_OPTS--disablewallet}
 
 start() {
     echo -n $"Starting $prog: "
