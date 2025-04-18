@@ -10,7 +10,7 @@
 
 #include <assert.h>
 
-const std::string CBaseChainParams::MAIN = "fricmain";
+const std::string CBaseChainParams::MAIN = "main";
 const std::string CBaseChainParams::TESTNET = "test";
 const std::string CBaseChainParams::REGTEST = "regtest";
 
@@ -32,7 +32,7 @@ class CBaseMainParams : public CBaseChainParams
 public:
     CBaseMainParams()
     {
-        nRPCPort = 4326;
+        nRPCPort = 3332;
     }
 };
 static CBaseMainParams mainParams;

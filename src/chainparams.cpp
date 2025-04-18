@@ -76,7 +76,7 @@ private:
     Consensus::Params auxpowConsensus;
 public:
     CMainParams() {
-        strNetworkID = "fricmain";
+        strNetworkID = "main";
 
         consensus.nSubsidyHalvingInterval = 50000;
         consensus.nMajorityEnforceBlockUpgrade = 1500;
@@ -89,7 +89,7 @@ public:
         consensus.BIP66Height = 1000;
         consensus.powLimit = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
         consensus.nPowTargetTimespan = 600; // 1 minute
-        consensus.nPowTargetSpacing = 5; // 1 minute
+        consensus.nPowTargetSpacing = 10; // 1 minute
         consensus.fDigishieldDifficultyCalculation = true;
         consensus.nCoinbaseMaturity = 10;
         consensus.fPowAllowMinDifficultyBlocks = false;
@@ -161,7 +161,7 @@ public:
         pchMessageStart[1] = 0x4F;
         pchMessageStart[2] = 0x4E;
         pchMessageStart[3] = 0x43;
-        nDefaultPort = 4327;
+        nDefaultPort = 3334;
         nPruneAfterHeight = 100000;
 
         genesis = CreateGenesisBlock(1386325540, 99943, 0x1e0ffff0, 1, 88 * COIN);
