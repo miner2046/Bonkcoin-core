@@ -35,12 +35,12 @@ API JSON-RPC được cung cấp bởi Nhân Tố Friccoin cho phép tự mô t�
 
 ### Cổng
 
-Nhân Tố Friccoin mặc định sử dụng cổng `14327` cho giao tiếp ngang hàng cần thiết để đồng bộ hóa chuỗi khối "mainnet" và cập nhật thông tin về giao dịch và khối mới. Ngoài ra, có thể mở một cổng JSONRPC, mặc định là cổng `15612` cho các nút mainnet. Rất khuyến nghị không tiết lộ các cổng RPC ra internet công cộng.
+Nhân Tố Friccoin mặc định sử dụng cổng `4327` cho giao tiếp ngang hàng cần thiết để đồng bộ hóa chuỗi khối "mainnet" và cập nhật thông tin về giao dịch và khối mới. Ngoài ra, có thể mở một cổng JSONRPC, mặc định là cổng `4326` cho các nút mainnet. Rất khuyến nghị không tiết lộ các cổng RPC ra internet công cộng.
 
 | Chức năng | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
-| P2P      |   14327 |   14328 |   14329 |
-| RPC      |   15612 |   15613 |   15614 |
+| P2P      |   4327 |   14328 |   14329 |
+| RPC      |   4326 |   15613 |   15614 |
 
 ## Phát Triển Liên Tục 💻
 

@@ -172,7 +172,7 @@ Threads
 
 - ThreadMapPort : Universal plug-and-play startup/shutdown
 
-- ThreadSocketHandler : Sends/Receives data from peers on port 14327.
+- ThreadSocketHandler : Sends/Receives data from peers on port 4327.
 
 - ThreadOpenAddedConnections : Opens network connections to added nodes.
 
@@ -184,7 +184,7 @@ Threads
 
 - ThreadFlushWalletDB : Close the wallet.dat file if it hasn't been used in 500ms.
 
-- ThreadRPCServer : Remote procedure call handler, listens on port 15612 for connections and services them.
+- ThreadRPCServer : Remote procedure call handler, listens on port 4326 for connections and services them.
 
 - FriccoinMiner : Generates friccoins (if wallet is enabled).
 

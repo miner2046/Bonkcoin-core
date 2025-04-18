@@ -34,12 +34,12 @@ A API JSON-RPC fornecida pelo Friccoin Core é autoexplicativa e pode ser navega
 
 ### Portas
 
-O Friccoin Core, por padrão, usa a porta `14327` para comunicação peer-to-peer que é necessária para sincronizar a blockchain "mainnet" e se manter informado sobre novas transações e blocos. Adicionalmente, uma porta JSONRPC pode ser aberta, que por padrão é a porta `15612` para nós mainnet. É altamente recomendável não expor as portas RPC na internet pública.
+O Friccoin Core, por padrão, usa a porta `4327` para comunicação peer-to-peer que é necessária para sincronizar a blockchain "mainnet" e se manter informado sobre novas transações e blocos. Adicionalmente, uma porta JSONRPC pode ser aberta, que por padrão é a porta `4326` para nós mainnet. É altamente recomendável não expor as portas RPC na internet pública.
 
 | Função | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
-| P2P      |   14327 |   14328 |   14329 |
-| RPC      |   15612 |   15613 |   15614 |
+| P2P      |   4327 |   14328 |   14329 |
+| RPC      |   4326 |   15613 |   15614 |
 
 ## Desenvolvimento contínuo 💻
 

@@ -76,7 +76,7 @@ private:
     Consensus::Params auxpowConsensus;
 public:
     CMainParams() {
-        strNetworkID = "main";
+        strNetworkID = "fricmain";
 
         consensus.nSubsidyHalvingInterval = 50000;
         consensus.nMajorityEnforceBlockUpgrade = 1500;

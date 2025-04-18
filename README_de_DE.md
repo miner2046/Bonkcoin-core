@@ -44,15 +44,15 @@ Alternativ lesen Sie die [Bitcoin Core Dokumentation](https://developer.bitcoin.
 
 ### Ports
 
-Friccoin Core verwendet standardmäßig den Port `14327` für die Peer-to-Peer-Kommunikation, 
+Friccoin Core verwendet standardmäßig den Port `4327` für die Peer-to-Peer-Kommunikation, 
 die zum Synchronisieren der "mainnet"-Blockchain und zum Informieren über neue Transaktionen und Blöcke benötigt wird. 
-Zusätzlich kann ein JSONRPC-Port geöffnet werden, der standardmäßig für Mainnet-Knoten auf Port `15612` eingestellt ist. 
+Zusätzlich kann ein JSONRPC-Port geöffnet werden, der standardmäßig für Mainnet-Knoten auf Port `4326` eingestellt ist. 
 Es wird dringend empfohlen, RPC-Ports nicht dem öffentlichen Internet preiszugeben.
 
 | Function | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
-| P2P      |   14327 |   14328 |   14329 |
-| RPC      |   15612 |   15613 |   15614 |
+| P2P      |   4327 |   14328 |   14329 |
+| RPC      |   4326 |   15613 |   15614 |
 
 ## Fortlaufende Entwicklung 💻
 

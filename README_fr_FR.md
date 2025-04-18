@@ -33,16 +33,16 @@ L'API JSON-RPC fournie par Friccoin Core est auto-documentée et peut être cons
 
 ### Ports
 
-Friccoin Core utilise par défaut le port `14327` pour la communication peer-to-peer 
+Friccoin Core utilise par défaut le port `4327` pour la communication peer-to-peer 
 qui est nécessaire pour synchroniser la blockchain du « mainnet » et rester informé 
 des nouvelles transactions et des nouveaux blocs. De plus, un port JSONRPC peut être ouvert, 
-qui est par défaut le port `15612` pour les nœuds du réseau principal. 
+qui est par défaut le port `4326` pour les nœuds du réseau principal. 
 Il est fortement recommandé de ne pas exposer les ports RPC à l'internet public.
 
 | Fonction | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
-| P2P      |   14327 |   14328 |   14329 |
-| RPC      |   15612 |   15613 |   15614 |
+| P2P      |   4327 |   14328 |   14329 |
+| RPC      |   4326 |   15613 |   15614 |
 
 ## Développement en cours 💻
 
