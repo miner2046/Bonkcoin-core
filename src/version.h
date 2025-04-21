@@ -54,7 +54,7 @@ static const int MIN_PEER_PROTO_VERSION = 70017;
 static const int HALVING_CHANGES_VERSION = 70017;
 
 //! add dev fee starts with this version
-static const int ADD_DEVELOPER_FEE_VERSION = 70018;
+static const int ADD_DEVELOPER_FEE_VERSION = 70019;
 
 //! current protocol version
 //! roll back to 70016 if somethings goes wrong

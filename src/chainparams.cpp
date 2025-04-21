@@ -87,9 +87,9 @@ public:
         consensus.BIP34Hash = uint256S("0xd6c923ba1b096044c36b4510167f3be116c2c92cdf1200020568eb69521f4364"); // block 1000
         consensus.BIP65Height = 1000;
         consensus.BIP66Height = 1000;
-        consensus.powLimit = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
+        consensus.powLimit = uint256S("0x000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
         consensus.nPowTargetTimespan = 600; // 1 minute
-        consensus.nPowTargetSpacing = 10; // 1 minute
+        consensus.nPowTargetSpacing = 60; // 1 minute
         consensus.fDigishieldDifficultyCalculation = true;
         consensus.nCoinbaseMaturity = 10;
         consensus.fPowAllowMinDifficultyBlocks = false;
@@ -227,11 +227,11 @@ public:
         consensus.BIP34Hash = uint256S("0x00");
         consensus.BIP65Height = 1000; // 
         consensus.BIP66Height = 1000; // - this is the last block that could be v2, 1900 blocks past the last v2 block
-        consensus.powLimit = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
+        consensus.powLimit = uint256S("0x0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
         consensus.nPowTargetTimespan = 60; // 1 minute
         consensus.nPowTargetSpacing = 60; // 1 minute
         consensus.fDigishieldDifficultyCalculation = true;
-        consensus.nCoinbaseMaturity = 30;
+        consensus.nCoinbaseMaturity = 10;
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowAllowDigishieldMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
@@ -296,7 +296,7 @@ public:
         pchMessageStart[1] = 0x12;
         pchMessageStart[2] = 0x34;
         pchMessageStart[3] = 0x56;        
-        nDefaultPort = 14328;
+        nDefaultPort = 4328;
         nPruneAfterHeight = 10000;
 
         genesis = CreateGenesisBlock(1386325540, 99943, 0x1e0ffff0, 1, 88 * COIN);
@@ -336,7 +336,7 @@ public:
         // vSeeds.push_back(CDNSSeedData("friccoin.org", "seeds-testnet.friccoin.org"));
         // vSeeds.push_back(CDNSSeedData("fricblocks.com", "seeds-testnet.fricblocks.com"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,113); // 0x71
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,35); // 0x71
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196); // 0xc4
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,241); // 0xf1
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xcf).convert_to_container<std::vector<unsigned char> >();
@@ -428,7 +428,7 @@ public:
         pchMessageStart[1] = 0xbf;
         pchMessageStart[2] = 0xb5;
         pchMessageStart[3] = 0xda;
-        nDefaultPort = 14329;
+        nDefaultPort = 4329;
         nPruneAfterHeight = 1000;
 
         genesis = CreateGenesisBlock(1296688602, 2, 0x207fffff, 1, 88 * COIN);
